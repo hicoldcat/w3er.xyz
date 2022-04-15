@@ -131,7 +131,7 @@ other = "分享到"
 other = "目录"
 
 [publishedOnDate]
-other = "发布于 {{ .Date }}"
+other = "{{ .Date }}"
 
 [includedIn]
 other = "收录于 "

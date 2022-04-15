@@ -1,24 +1,24 @@
 code {
-  display:inline-block;
+  display: inline-block;
   max-width: 100%;
-  padding: 0 .4rem;
+  padding: 0 0.4rem;
   @include overflow-wrap(break-word);
   @include line-break(anywhere);
   font-size: $code-font-size;
   font-family: $code-font-family;
-  color: $code-color;
+  color: $code-color-dark;
 
-  [theme=dark] & {
+  [theme="dark"] & {
     color: $code-color-dark;
   }
-  [theme=black] & {
+  [theme="black"] & {
     color: $code-color-black;
   }
 }
 
 pre {
-  padding: 0;
-  margin: .25rem .5rem .25rem .5rem;
+  padding: 8px;
+  margin: 0.25rem 0.5rem 0.25rem 0.5rem;
   @include tab-size(4);
 
   code {
@@ -33,18 +33,23 @@ pre {
   }
 }
 
-code, pre, .highlight table, .highlight tr, .highlight td {
-  background: $code-background-color;
+code,
+pre,
+.highlight table,
+.highlight tr,
+.highlight td {
+  background: $code-background-color-dark;
 
-  [theme=dark] & {
+  [theme="dark"] & {
     background: $code-background-color-dark;
   }
-  [theme=black] & {
+  [theme="black"] & {
     background: $code-background-color-black;
   }
 }
 
-.highlight, .gist {
+.highlight,
+.gist {
   font-family: $code-font-family;
   font-size: $code-font-size;
 
@@ -62,8 +67,9 @@ code, pre, .highlight table, .highlight tr, .highlight td {
 
 .highlight {
   line-height: 1.4em;
-  margin: .5rem 0;
-
+  margin: 1rem 0;
+  border-radius: 8px;
+  overflow: hidden;
   > .chroma {
     position: relative;
 
@@ -76,13 +82,13 @@ code, pre, .highlight table, .highlight tr, .highlight td {
       font-family: $global-font-family;
       font-weight: bold;
       color: $code-info-color;
-      background: darken($code-background-color, 8%);
+      background: darken($code-background-color-dark, 100%);
 
-      [theme=dark] & {
+      [theme="dark"] & {
         color: $code-info-color-dark;
         background: darken($code-background-color-dark, 6%);
       }
-      [theme=black] & {
+      [theme="black"] & {
         color: $code-info-color-black;
         background: darken($code-background-color-black, 6%);
       }
@@ -93,12 +99,12 @@ code, pre, .highlight table, .highlight tr, .highlight td {
 
       .code-title {
         width: 100%;
-        padding: .4rem;
+        padding: 0.4rem;
       }
 
       .code-title::after {
-        padding-left: .2rem;
-        content: 'Code';
+        padding-left: 0.2rem;
+        content: "Code";
       }
 
       @each $type, $text in $code-type-map {
@@ -122,53 +128,54 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     }
 
     .ln {
-      padding-right: .75rem;
+      padding-right: 0.75rem;
     }
 
     .hl {
       display: block;
-      background-color: darken($code-background-color, 10%);
+      background-color: darken($code-background-color-dark, 10%);
 
-      [theme=dark] & {
+      [theme="dark"] & {
         background-color: darken($code-background-color-dark, 5%);
       }
-      [theme=black] & {
+      [theme="black"] & {
         background-color: darken($code-background-color-black, 5%);
       }
     }
 
-    .ln, .lnt {
-      color: $global-font-secondary-color;
+    .ln,
+    .lnt {
+      color: $global-font-secondary-color-dark;
 
-      [theme=dark] & {
+      [theme="dark"] & {
         color: $global-font-secondary-color-dark;
       }
-      [theme=black] & {
+      [theme="black"] & {
         color: $global-font-secondary-color-black;
       }
     }
 
     .arrow {
-      padding: 0 .2rem;
+      padding: 0 0.2rem;
       @include transition(transform 0.2s ease);
     }
 
     .ellipses {
-      padding: .4rem;
+      padding: 0.4rem;
     }
 
     .copy {
       display: none;
-      padding: .4rem;
+      padding: 0.4rem;
 
       &:hover {
         cursor: pointer;
-        color: $global-link-hover-color;
+        color: $global-link-hover-color-dark;
 
-        [theme=dark] & {
+        [theme="dark"] & {
           color: $global-link-hover-color-dark;
         }
-        [theme=black] & {
+        [theme="black"] & {
           color: $global-link-hover-color-black;
         }
       }
@@ -182,12 +189,12 @@ code, pre, .highlight table, .highlight tr, .highlight td {
 
     &.open {
       .code-header {
-        background: darken($code-background-color, 3%);
+        background: darken($code-background-color-dark, 3%);
 
-        [theme=dark] & {
+        [theme="dark"] & {
           background: darken($code-background-color-dark, 3%);
         }
-        [theme=black] & {
+        [theme="black"] & {
           background: darken($code-background-color-black, 3%);
         }
       }
@@ -211,51 +218,66 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     }
   }
 
-  /* Comment */  .c,
+  /* Comment */
+  .c,
   /* CommentHashbang */  .ch,
   /* CommentMultiline */  .cm,
   /* CommentSingle */  .c1,
   /* CommentSpecial */  .cs,
   /* CommentPreproc */  .cp,
-  /* CommentPreprocFile */  .cpf { font-style: italic }
-  /* GenericUnderline */  .gl { text-decoration: underline }
-
-  @each $class, $color in $code-highlight-color-map {
-    .#{$class} { color: $color; }
+  /* CommentPreprocFile */  .cpf {
+    font-style: italic;
+  }
+  /* GenericUnderline */
+  .gl {
+    text-decoration: underline;
   }
 
-  [theme=dark] & {
-    @each $class, $color in $code-highlight-color-map-dark {
-      .#{$class} { color: $color; }
+  @each $class, $color in $code-highlight-color-map-dark {
+    .#{$class} {
+      color: $color;
     }
   }
-  [theme=black] & {
+
+  [theme="dark"] & {
+    @each $class, $color in $code-highlight-color-map-dark {
+      .#{$class} {
+        color: $color;
+      }
+    }
+  }
+  [theme="black"] & {
     @each $class, $color in $code-highlight-color-map-black {
-      .#{$class} { color: $color; }
+      .#{$class} {
+        color: $color;
+      }
     }
   }
 }
 
 .gist {
-  .gist-file, .gist-data, .gist-meta {
+  .gist-file,
+  .gist-data,
+  .gist-meta {
     border: none;
   }
 
   .gist-meta {
-    padding: .4rem .8rem;
+    padding: 0.4rem 0.8rem;
     background-color: darken($code-background-color, 5%);
 
     @include link(false, false);
 
-    [theme=dark] & {
+    [theme="dark"] & {
       background-color: darken($code-background-color-dark, 5%);
     }
-    [theme=black] & {
+    [theme="black"] & {
       background-color: darken($code-background-color-dark, 5%);
     }
   }
 
-  [theme=dark] & {
+  [theme="dark"],
+  [theme="light"] {
     // imported from https://github.com/lonekorean/gist-syntax-themes/blob/master/stylesheets/one-dark.css
     .highlight {
       background: #141414;
@@ -276,21 +298,21 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     .pl-vpf,
     .pl-vpu,
     .pl-mdr {
-        color: #aab1bf;
+      color: #aab1bf;
     }
     .pl-mb,
     .pl-pdb {
-        font-weight: 700;
+      font-weight: 700;
     }
     .pl-c,
     .pl-c span,
     .pl-pdc {
-        color: #5b6270;
-        font-style: italic;
+      color: #5b6270;
+      font-style: italic;
     }
     .pl-sr .pl-cce {
-        color: #56b5c2;
-        font-weight: 400;
+      color: #56b5c2;
+      font-weight: 400;
     }
     .pl-ef,
     .pl-en,
@@ -299,11 +321,11 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     .pl-kos,
     .pl-mh .pl-pdh,
     .pl-mr {
-        color: #61afef;
+      color: #61afef;
     }
     .pl-ens,
     .pl-vi {
-        color: #be5046;
+      color: #be5046;
     }
     .pl-enti,
     .pl-mai .pl-sf,
@@ -314,7 +336,7 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     .pl-src,
     .pl-st,
     .pl-vo {
-        color: #56b5c2;
+      color: #56b5c2;
     }
     .pl-eoi,
     .pl-mri,
@@ -322,55 +344,55 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     .pl-pse .pl-s1,
     .pl-s,
     .pl-s1 {
-        color: #97c279;
+      color: #97c279;
     }
     .pl-k,
     .pl-kolp,
     .pl-mc,
     .pl-pde {
-        color: #c578dd;
+      color: #c578dd;
     }
     .pl-mi,
     .pl-pdi {
-        color: #c578dd;
-        font-style: italic;
+      color: #c578dd;
+      font-style: italic;
     }
     .pl-mp,
     .pl-stp {
-        color: #818896;
+      color: #818896;
     }
     .pl-mdh,
     .pl-mdi,
     .pl-mdr {
-        font-weight: 400;
+      font-weight: 400;
     }
     .pl-mdht,
     .pl-mi1 {
-        color: #97c279;
-        background: #020;
+      color: #97c279;
+      background: #020;
     }
     .pl-md,
     .pl-mdhf {
-        color: #df6b75;
-        background: #200;
+      color: #df6b75;
+      background: #200;
     }
     .pl-corl {
-        color: #df6b75;
-        text-decoration: underline;
+      color: #df6b75;
+      text-decoration: underline;
     }
     .pl-ib {
-        background: #df6b75;
+      background: #df6b75;
     }
     .pl-ii {
-        background: #e0c184;
-        color: #fff;
+      background: #e0c184;
+      color: #fff;
     }
     .pl-iu {
-        background: #e05151;
+      background: #e05151;
     }
     .pl-ms1 {
-        color: #aab1bf;
-        background: #373b41;
+      color: #aab1bf;
+      background: #373b41;
     }
     .pl-c1,
     .pl-cn,
@@ -386,7 +408,7 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     .pl-sok,
     .pl-sv,
     .pl-mb {
-        color: #d19965;
+      color: #d19965;
     }
     .pl-enc,
     .pl-entc,
@@ -398,7 +420,7 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     .pl-stj,
     .pl-v,
     .pl-pdb {
-        color: #e4bf7a;
+      color: #e4bf7a;
     }
     .pl-ent,
     .pl-entl,
@@ -409,10 +431,10 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     .pl-sol,
     .pl-mdh,
     .pl-mdi {
-        color: #df6b75;
+      color: #df6b75;
     }
   }
-  [theme=black] & {
+  [theme="black"] & {
     // imported from https://github.com/lonekorean/gist-syntax-themes/blob/master/stylesheets/one-dark.css
     .highlight {
       background: #141414;
@@ -433,21 +455,21 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     .pl-vpf,
     .pl-vpu,
     .pl-mdr {
-        color: #aab1bf;
+      color: #aab1bf;
     }
     .pl-mb,
     .pl-pdb {
-        font-weight: 700;
+      font-weight: 700;
     }
     .pl-c,
     .pl-c span,
     .pl-pdc {
-        color: #5b6270;
-        font-style: italic;
+      color: #5b6270;
+      font-style: italic;
     }
     .pl-sr .pl-cce {
-        color: #56b5c2;
-        font-weight: 400;
+      color: #56b5c2;
+      font-weight: 400;
     }
     .pl-ef,
     .pl-en,
@@ -456,11 +478,11 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     .pl-kos,
     .pl-mh .pl-pdh,
     .pl-mr {
-        color: #61afef;
+      color: #61afef;
     }
     .pl-ens,
     .pl-vi {
-        color: #be5046;
+      color: #be5046;
     }
     .pl-enti,
     .pl-mai .pl-sf,
@@ -471,7 +493,7 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     .pl-src,
     .pl-st,
     .pl-vo {
-        color: #56b5c2;
+      color: #56b5c2;
     }
     .pl-eoi,
     .pl-mri,
@@ -479,55 +501,55 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     .pl-pse .pl-s1,
     .pl-s,
     .pl-s1 {
-        color: #97c279;
+      color: #97c279;
     }
     .pl-k,
     .pl-kolp,
     .pl-mc,
     .pl-pde {
-        color: #c578dd;
+      color: #c578dd;
     }
     .pl-mi,
     .pl-pdi {
-        color: #c578dd;
-        font-style: italic;
+      color: #c578dd;
+      font-style: italic;
     }
     .pl-mp,
     .pl-stp {
-        color: #818896;
+      color: #818896;
     }
     .pl-mdh,
     .pl-mdi,
     .pl-mdr {
-        font-weight: 400;
+      font-weight: 400;
     }
     .pl-mdht,
     .pl-mi1 {
-        color: #97c279;
-        background: #020;
+      color: #97c279;
+      background: #020;
     }
     .pl-md,
     .pl-mdhf {
-        color: #df6b75;
-        background: #200;
+      color: #df6b75;
+      background: #200;
     }
     .pl-corl {
-        color: #df6b75;
-        text-decoration: underline;
+      color: #df6b75;
+      text-decoration: underline;
     }
     .pl-ib {
-        background: #df6b75;
+      background: #df6b75;
     }
     .pl-ii {
-        background: #e0c184;
-        color: #fff;
+      background: #e0c184;
+      color: #fff;
     }
     .pl-iu {
-        background: #e05151;
+      background: #e05151;
     }
     .pl-ms1 {
-        color: #aab1bf;
-        background: #373b41;
+      color: #aab1bf;
+      background: #373b41;
     }
     .pl-c1,
     .pl-cn,
@@ -543,7 +565,7 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     .pl-sok,
     .pl-sv,
     .pl-mb {
-        color: #d19965;
+      color: #d19965;
     }
     .pl-enc,
     .pl-entc,
@@ -555,7 +577,7 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     .pl-stj,
     .pl-v,
     .pl-pdb {
-        color: #e4bf7a;
+      color: #e4bf7a;
     }
     .pl-ent,
     .pl-entl,
@@ -566,7 +588,7 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     .pl-sol,
     .pl-mdh,
     .pl-mdi {
-        color: #df6b75;
+      color: #df6b75;
     }
   }
 }

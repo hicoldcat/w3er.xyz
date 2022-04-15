@@ -18,6 +18,7 @@
             </div>
         {{- end -}}
 
+        <div class="summarys">
         {{- /* Posts */ -}}
         {{- if ne $posts.enable false | and .Site.RegularPages -}}
             {{- /* Paginate */ -}}
@@ -37,5 +38,6 @@
             {{- end -}}
             {{- partial "paginator.html" . -}}
         {{- end -}}
+        </div>
     </div>
 {{- end -}}

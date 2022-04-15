@@ -1,11 +1,11 @@
 .home {
   .home-profile {
-    @include transform(translateY( 16vh));
-    padding: 0 0 .5rem;
+    @include transform(translateY(16vh));
+    padding: 0 0 0.5rem;
     text-align: center;
 
     .home-avatar {
-      padding: .5rem;
+      padding: 0.5rem;
 
       img {
         display: inline-block;
@@ -13,12 +13,12 @@
         height: auto;
         margin: 0 auto;
         @include border-radius(100%);
-        @include box-shadow(0 0 0 .3618em rgba(0, 0, 0, .05));
+        @include box-shadow(0 0 0 0.3618em rgba(0, 0, 0, 0.05));
         @include transition(all 0.4s ease);
 
         &:hover {
           position: relative;
-          @include transform(translateY(-.75rem));
+          @include transform(translateY(-0.75rem));
         }
       }
     }
@@ -27,18 +27,18 @@
       font-size: 1.25rem;
       font-weight: bold;
       margin: 0;
-      padding: .5rem;
+      padding: 0.5rem;
     }
 
     .home-subtitle {
       font-size: 1rem;
       font-weight: normal;
       margin: 0;
-      padding: .5rem;
+      padding: 0.5rem;
     }
 
     .links {
-      padding: .5rem;
+      padding: 0.5rem;
       font-size: 1.5rem;
 
       a * {
@@ -47,7 +47,7 @@
 
       img {
         height: 1.5rem;
-        padding: 0 .25rem;
+        padding: 0 0.25rem;
       }
     }
 
@@ -56,13 +56,13 @@
       line-height: 1.5rem;
       font-weight: normal;
       margin: 0;
-      padding: .5rem;
+      padding: 0.5rem;
       color: $global-font-secondary-color;
 
-      [theme=dark] & {
+      [theme="dark"] & {
         color: $global-font-secondary-color-dark;
       }
-      [theme=black] & {
+      [theme="black"] & {
         color: $global-font-secondary-color-black;
       }
     }
@@ -78,27 +78,90 @@
   .home-avatar img {
     width: 6rem;
   }
-
+  .summarys {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   .summary {
-    padding-top: 1rem;
-    padding-bottom: .8rem;
-    color: $global-font-color;
-    border-bottom: 3px dashed $global-border-color;
+    .post-meta{
+      margin-bottom:0;
+      animation: none;text-align: left;
 
-    [theme=dark] & {
+    }
+    .single-title{
+      text-align: left;
+
+      a{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        .title-content{
+          display: block;
+          text-overflow: ellipsis;
+          height:30px;white-space:nowrap;
+          overflow:hidden;
+        }
+      }
+    }
+    margin-bottom: 2rem;
+    padding-bottom: 0rem;
+    width: 49%;
+    color: $global-font-color;
+    border: 1px solid #f0f8ff;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0px;
+      right: 10px;
+      bottom: 0;
+      left: 10px;
+      z-index: -1;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.08) 0px 10px 10px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+      transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+    }
+    border-radius: 12px;
+    position: relative;
+    background: #fff;
+
+    [theme="dark"] & {
       color: $global-font-color-dark;
       border-bottom: 3px dashed $global-border-color-dark;
     }
-    [theme=black] & {
+    [theme="black"] & {
       color: $global-font-color-black;
       border-bottom: 3px dashed $global-border-color-black;
     }
 
+    @media (max-width: 768px) {
+      & {
+        width: 100%;
+      }
+    }
+    transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+    
+
+    &:hover {
+      // transform: translateY(-0.3rem);
+    }
+    &:hover::before {
+      z-index: -1;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 10px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    }
+
     .featured-image-preview {
       width: 100%;
-      padding: 30% 0 0;
+      padding: 35% 0 0;
       position: relative;
-      margin: 0.6rem auto;
+      margin: 0rem auto;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      overflow: hidden;
       @include transition(transform 0.4s ease);
 
       img {
@@ -113,32 +176,69 @@
       img.lazyloaded {
         @include object-fit(cover);
       }
-
-      &:hover {
-        @include transform(scale(1.01));
+    }
+    .meta {
+      background: #fff;
+      padding: 1rem;
+    }
+    .title-date {
+      background-color: #9fa476;
+      display: inline-block;
+      padding: 0.2rem;
+      margin-left: -8px;
+      color: #fff;
+      border-radius: 5px;
+      font-family: kefa;
+      transform: scale(0.55);
+      width:2rem;
+      height:2rem;
+      vertical-align: -5px;
+      margin-top:-6px;
+      .year {
+        font-size: 0.8rem;
+        display: block;
+        text-align: center;
+        line-height: 1rem;
+      }
+      .month {
+        font-size: 0.8rem;
+        display: block;
+        text-align: center;
+        line-height: 1rem;
+        text-transform: uppercase;
       }
     }
-
     .single-title {
-      font-size: 1.25rem;
+      font-size: 1.2rem;
       line-height: 140%;
-      margin: 0.4rem 0;
+      margin: 0rem 0rem 0rem 0rem;
+      font-weight: 350;
+      .title-content {
+        margin-left: -3px;
+      }
     }
-
+    .post-meta {
+      margin-top: 0rem;
+      margin: 0rem 0rem 0rem 0rem;
+    }
+    .post-footer{
+      display: none;
+    }
     .content {
       @include box(vertical);
       -webkit-line-clamp: 3;
-      margin-top: .3rem;
-      width: 100%;
       overflow: hidden;
       text-overflow: ellipsis;
       @include overflow-wrap(break-word);
       color: $global-font-secondary-color;
-
-      [theme=dark] & {
+      font-weight: 300;
+      // color: var(--card-text-color-secondary);
+      margin: 7px 0;
+      line-height: 1.5;
+      [theme="dark"] & {
         color: $global-font-secondary-color-dark;
       }
-      [theme=black] & {
+      [theme="black"] & {
         color: $global-font-secondary-color-black;
       }
 
@@ -164,24 +264,25 @@
 
       @include link(false, true);
 
-      b, strong {
+      b,
+      strong {
         color: $global-font-secondary-color;
 
-        [theme=dark] & {
+        [theme="dark"] & {
           color: $global-font-secondary-color-dark;
         }
-        [theme=black] & {
+        [theme="black"] & {
           color: $global-font-secondary-color-black;
         }
       }
     }
 
     .post-footer {
-      margin-top: .4rem;
+      margin-top: 0.4rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      font-size: .875rem;
+      font-size: 0.875rem;
 
       @include link(false, false);
 
@@ -190,6 +291,33 @@
 
         @include link(true, true);
       }
+    }
+  }
+
+  .summary:nth-child(4n) {
+    .title-date {
+      background-color: #169d98;
+    }
+  }
+  .summary:nth-child(4n + 1) {
+    .title-date {
+      background-color: #d192f8;
+    }
+  }
+  .summary:nth-child(4n + 2) {
+    .title-date {
+      background-color: #6bcdb8;
+    }
+  }
+
+  .summary:nth-child(4n + 3) {
+    .title-date {
+      background-color: #ff2955;
+    }
+  }
+  .summary:nth-child(4n + 4) {
+    .title-date {
+      background-color: #f2c054;
     }
   }
 }

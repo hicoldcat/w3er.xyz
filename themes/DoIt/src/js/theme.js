@@ -291,6 +291,7 @@ function initSearch() {
                             offset: 0,
                             length: maxResultLength * 8,
                             attributesToHighlight: ['title'],
+                            attributesToRetrieve: ['*'],
                             attributesToSnippet: [`content:${snippetLength}`],
                             highlightPreTag: `<${highlightTag}>`,
                             highlightPostTag: `</${highlightTag}>`,
@@ -587,17 +588,6 @@ function initToc() {
         });
         window._tocOnScroll();
         window.scrollEventSet.add(window._tocOnScroll);
-        // window._tocOnResize = (() => {
-        //     if ($toc.style.position === 'fixed') {
-        //         if ($tocCore.offsetHeight > window.innerHeight - TOP_SPACING) {
-        //             $tocCore.style.height = `${window.innerHeight - $tocCore.getBoundingClientRect().top}px`;
-        //         } else {
-        //             $tocCore.style.removeProperty('height');
-        //         }
-        //     }
-        // });
-        // window.resizeEventSet.add(window._tocOnResize);        
-        // window._tocOnResize();
     }
 }
 
@@ -1025,6 +1015,8 @@ document.addEventListener('pjax:send', function () {
     for (let event of window.clickMaskEventSet) event();
     document.body.classList.remove('blur');
     delete window._tocOnScroll;
+    let el = document.getElementById('content');
+    window.lgData[el.getAttribute('lg-uid')].destroy(true)
 });
 
 topbar.config({

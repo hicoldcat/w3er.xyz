@@ -4,10 +4,10 @@ header {
   background-color: $header-background-color;
   @include transition(box-shadow 0.3s ease);
 
-  [theme=dark] & {
+  [theme="dark"] & {
     background-color: $header-background-color-dark;
   }
-  [theme=black] & {
+  [theme="black"] & {
     background-color: $header-background-color-black;
   }
 
@@ -17,17 +17,18 @@ header {
     vertical-align: text-bottom;
   }
 
-  .logo, .header-title-pre {
-    padding-right: .25rem;
+  .logo,
+  .header-title-pre {
+    padding-right: 0.25rem;
     vertical-align: -10px;
   }
 
   .header-title-post {
-    padding-left: .25rem;
+    padding-left: 0.25rem;
   }
 
   &:hover {
-    @include box-shadow(0 0 1.5rem 0 rgba(0, 0, 0, .1));
+    @include box-shadow(0 0 1.5rem 0 rgba(0, 0, 0, 0.1));
   }
 }
 
@@ -41,8 +42,8 @@ header {
 
 .header-title {
   font-family: $header-title-font-family;
-  font-weight: bold;
-  margin-right: .5rem;
+  font-weight: 400;
+  margin-right: 0.5rem;
   min-width: 10%;
   overflow: hidden;
   white-space: nowrap;
@@ -88,17 +89,17 @@ header {
     box-sizing: border-box;
     height: 2.5rem;
     width: 2.5rem;
-    @include border-radius(.5rem);
+    @include border-radius(0.5rem);
     border: none;
     outline: none;
     background-color: $header-background-color;
     vertical-align: baseline !important;
     @include transition(width 0.3s ease);
 
-    [theme=dark] & {
+    [theme="dark"] & {
       background-color: $header-background-color-dark;
     }
-    [theme=black] & {
+    [theme="black"] & {
       background-color: $header-background-color-black;
     }
   }
@@ -113,7 +114,7 @@ header {
   }
 
   .search-toggle {
-    left: .5rem;
+    left: 0.5rem;
     right: auto;
   }
 
@@ -125,14 +126,15 @@ header {
     display: none;
   }
 
-  .open &, &.mobile {
+  .open &,
+  &.mobile {
     input {
       color: $global-font-color;
       background-color: $search-background-color;
       padding: 0 2rem 0 2rem;
     }
 
-    [theme=dark] & {
+    [theme="dark"] & {
       input {
         color: $global-font-color-dark;
         background-color: $search-background-color-dark;
@@ -140,7 +142,7 @@ header {
 
       @include placeholder($global-font-secondary-color-dark);
     }
-    [theme=black] & {
+    [theme="black"] & {
       input {
         color: $global-font-color-black;
         background-color: $search-background-color-black;
@@ -154,10 +156,10 @@ header {
     .search-button {
       color: $global-font-secondary-color;
 
-      [theme=dark] & {
+      [theme="dark"] & {
         color: $global-font-secondary-color-dark;
       }
-      [theme=black] & {
+      [theme="black"] & {
         color: $global-font-secondary-color-black;
       }
     }
@@ -186,7 +188,7 @@ header {
   height: $header-height;
   line-height: $header-height;
 
-  [header-desktop=normal] & {
+  [header-desktop="normal"] & {
     position: static;
   }
 
@@ -206,15 +208,15 @@ header {
       }
 
       .menu-item {
-        margin: 0 .5rem;
+        margin: 0 0.5rem;
 
         &.delimiter {
           border-left: 1.5px solid $global-font-color;
 
-          [theme=dark] & {
+          [theme="dark"] & {
             border-left-color: $global-border-color-dark;
           }
-          [theme=black] & {
+          [theme="black"] & {
             border-left-color: $global-border-color-black;
           }
         }
@@ -228,7 +230,7 @@ header {
         }
 
         &.search {
-          margin: 0 -.5rem 0 0;
+          margin: 0 -0.5rem 0 0;
         }
       }
 
@@ -236,10 +238,10 @@ header {
         font-weight: 900;
         color: $header-hover-color;
 
-        [theme=dark] & {
+        [theme="dark"] & {
           color: $header-hover-color-dark;
         }
-        [theme=black] & {
+        [theme="black"] & {
           color: $header-hover-color-black;
         }
       }
@@ -247,7 +249,7 @@ header {
   }
 
   &.open .header-wrapper .menu .menu-item.search {
-    margin: 0 .25rem 0 .5rem;
+    margin: 0 0.25rem 0 0.5rem;
 
     input {
       width: 24rem;
@@ -261,7 +263,7 @@ header {
   height: $header-height;
   line-height: $header-height;
 
-  [header-mobile=normal] & {
+  [header-mobile="normal"] & {
     position: static;
   }
 
@@ -292,33 +294,33 @@ header {
           @include border-radius(3px);
           @include transition(all 0.3s ease-in-out);
 
-          [theme=dark] & {
+          [theme="dark"] & {
             background: $global-font-color-dark;
           }
-          [theme=black] & {
+          [theme="black"] & {
             background: $global-font-color-black;
           }
         }
 
         span:nth-child(1) {
-          margin-bottom: .5rem;
+          margin-bottom: 0.5rem;
         }
 
         span:nth-child(3) {
-          margin-top: .5rem;
+          margin-top: 0.5rem;
         }
 
         &.active {
           span:nth-child(1) {
-            @include transform(rotate(45deg) translate(.4rem, .5rem));
+            @include transform(rotate(45deg) translate(0.4rem, 0.5rem));
           }
 
           span:nth-child(2) {
-            opacity: 0
+            opacity: 0;
           }
 
           span:nth-child(3) {
-            @include transform(rotate(-45deg) translate(.4rem, -.5rem));
+            @include transform(rotate(-45deg) translate(0.4rem, -0.5rem));
           }
         }
       }
@@ -329,8 +331,8 @@ header {
       background: $header-background-color;
       border-top: 2px solid $global-border-color;
       display: none;
-      padding-top: .5rem;
-      @include box-shadow(0 .125rem .25rem rgba(0, 0, 0, .1));
+      padding-top: 0.5rem;
+      @include box-shadow(0 0.125rem 0.25rem rgba(0, 0, 0, 0.1));
 
       .search-wrapper {
         display: flex;
@@ -344,7 +346,8 @@ header {
       .search {
         flex-grow: 10;
 
-        .algolia-autocomplete, input {
+        .algolia-autocomplete,
+        input {
           width: 100%;
         }
       }
@@ -355,7 +358,7 @@ header {
 
       .search-cancel {
         display: none;
-        margin-left: .75rem;
+        margin-left: 0.75rem;
       }
 
       .menu-item {
@@ -367,11 +370,11 @@ header {
         display: block;
       }
 
-      [theme=dark] & {
+      [theme="dark"] & {
         background: $header-background-color-dark;
         border-top-color: $global-border-color-dark;
       }
-      [theme=black] & {
+      [theme="black"] & {
         background: $header-background-color-black;
         border-top-color: $global-border-color-black;
       }
@@ -402,7 +405,7 @@ header {
   position: fixed;
   z-index: 200;
   top: $header-height;
-  @include box-shadow(0 .125rem .25rem rgba(0, 0, 0, .1));
+  @include box-shadow(0 0.125rem 0.25rem rgba(0, 0, 0, 0.1));
 
   &.desktop {
     right: 2rem;
@@ -418,10 +421,10 @@ header {
     right: 0 !important;
     background-color: $global-background-color;
 
-    [theme=dark] & {
+    [theme="dark"] & {
       background-color: $global-background-color-dark;
     }
-    [theme=black] & {
+    [theme="black"] & {
       background-color: $global-background-color-black;
     }
 
@@ -430,7 +433,7 @@ header {
       max-height: calc(100vh - #{$header-height});
 
       .suggestion {
-        padding: .75rem 1rem;
+        padding: 0.75rem 1rem;
 
         .suggestion-title {
           display: inline-block;
@@ -443,15 +446,15 @@ header {
         }
 
         .suggestion-date {
-          font-size: .875rem;
+          font-size: 0.875rem;
           float: right;
           text-align: right;
           color: $global-font-secondary-color;
 
-          [theme=dark] & {
+          [theme="dark"] & {
             color: $global-font-secondary-color-dark;
           }
-          [theme=black] & {
+          [theme="black"] & {
             color: $global-font-secondary-color-black;
           }
         }
@@ -465,10 +468,10 @@ header {
           @include overflow-wrap(break-word);
           color: $global-font-secondary-color;
 
-          [theme=dark] & {
+          [theme="dark"] & {
             color: $global-font-secondary-color-dark;
           }
-          [theme=black] & {
+          [theme="black"] & {
             color: $global-font-secondary-color-black;
           }
         }
@@ -477,10 +480,10 @@ header {
           font-style: normal;
           background-color: $selection-color;
 
-          [theme=dark] & {
+          [theme="dark"] & {
             background-color: $selection-color-dark;
           }
-          [theme=black] & {
+          [theme="black"] & {
             background-color: $selection-color-black;
           }
         }
@@ -488,10 +491,10 @@ header {
         &.cursor {
           background: darken($code-background-color, 5%);
 
-          [theme=dark] & {
+          [theme="dark"] & {
             background: lighten($code-background-color-dark, 5%);
           }
-          [theme=black] & {
+          [theme="black"] & {
             background: lighten($code-background-color-black, 5%);
           }
         }
@@ -509,25 +512,25 @@ header {
       .search-query {
         font-weight: bold;
 
-        [theme=dark] & {
+        [theme="dark"] & {
           color: #ddd;
         }
-        [theme=black] & {
+        [theme="black"] & {
           color: #ddd;
         }
       }
     }
 
     .search-footer {
-      padding: .5rem 1rem;
+      padding: 0.5rem 1rem;
       float: right;
-      font-size: .8rem;
+      font-size: 0.8rem;
       color: $global-font-secondary-color;
 
-      [theme=dark] {
+      [theme="dark"] {
         color: $global-font-secondary-color-dark;
       }
-      [theme=black] {
+      [theme="black"] {
         color: $global-font-secondary-color-black;
       }
 

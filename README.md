@@ -1,7 +1,7 @@
 # W3W
 
 搭建指南：
-
+前提：全局要安装hugo
 
 1、安装hugo
 https://github.com/gohugoio/hugo
@@ -16,3 +16,4 @@ https://realfavicongenerator.net/
 
 4、使用cms
 https://www.hokuscms.com/
+https://sivan.github.io/heti/
