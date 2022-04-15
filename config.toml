@@ -77,6 +77,11 @@ version = "0.2.X"
     prefix = "https://www.zhihu.com/people/"
     title = "李留白"
 
+    [params.social.Email]
+    weight = 0.0
+    id = "chao@w3w.im"
+    title = "李留白"
+
   [params.footer]
   enable = true
   custom = ""
