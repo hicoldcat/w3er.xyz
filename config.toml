@@ -1,0 +1,184 @@
+baseURL = 'http://example.org/'
+# [en, zh-cn, fr, ...] 设置默认的语言
+defaultContentLanguage = "zh-cn"
+# 网站语言, 仅在这里 CN 大写
+languageCode = "zh-CN"
+# 是否包括中日韩文字
+hasCJKLanguage = true
+# 网站标题
+title = '李留白，探索发现频道'
+
+# 更改使用 Hugo 构建网站时使用的默认主题
+theme = "DoIt"
+
+[params]
+  # DoIt 主题版本
+  version = "0.2.X"
+
+[params.header.title]
+  # URL of the LOGO
+  # LOGO 的 URL
+  logo = "/images/logo.svg"
+  # title name
+  # 标题名称
+  name = "李留白"
+  # you can add extra information before the name (HTML format is supported), such as icons
+  # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+  pre = ""
+  # you can add extra information after the name (HTML format is supported), such as icons
+  # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+  post = "" 
+  # whether to use typeit animation for title name
+  # 是否为标题显示打字机动画
+  typeit = true
+
+[params.home.profile]
+  enable = true
+  # URL of avatar shown in home page
+  avatarURL = "/images/avatar.jpg"
+  # title shown in home page (HTML format is supported)
+  title = "李留白"
+  # subtitle shown in home page
+  subtitle = "全栈爱好者，喜欢探索发现新技术。关注前后端、Web3(区块链、元宇宙)......"
+  # whether to use typeit animation for subtitle
+  typeit = true
+  # whether to show social links
+  social = true
+  # disclaimer (HTML format is supported)
+  disclaimer = ""
+
+[params.section]
+  # special amount of posts in each section page
+  # section 页面每页显示文章数量
+  paginate = 20
+  # date format (month and day)
+  # 日期格式 (月和日)
+  dateFormat = "01-02"
+  # amount of RSS pages
+  # RSS 文章数目
+  rss = 20
+  # recently updated posts settings
+  # 最近更新文章设置
+  [params.section.recentlyUpdated]
+    enable = true
+    rss = true
+    days = 30
+    maxCount = 20
+
+# 社交
+[params.social]
+  [params.social.GitHub]
+    # 排列图标时的权重 (权重越大, 图标的位置越靠后)
+    weight = 0
+    # 你的社交 ID
+    id = "hicoldcat"
+    # 你的社交链接的前缀
+    prefix = "https://github.com/"
+    # 当鼠标停留在图标上时的提示内容
+    title = "GitHub"
+  [params.social.Zhihu]
+    # 排列图标时的权重 (权重越大, 图标的位置越靠后)
+    weight = 0
+    # 你的社交 ID
+    id = "hicoldcat"
+    # 你的社交链接的前缀
+    prefix = "https://www.zhihu.com/people/"
+    # 当鼠标停留在图标上时的提示内容
+    title = "李留白"
+
+[params.page.code]
+  # 是否显示代码块的复制按钮
+  copy = true
+  # 默认展开显示的代码行数
+  maxShownLines = 100
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+    pre = ""
+    # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+    post = ""
+    name = "文章"
+    url = "/posts/"
+    # 当你将鼠标悬停在此菜单链接上时, 将显示的标题
+    title = ""
+    weight = 1
+#   [[menu.main]]
+#     identifier = "tags"
+#     pre = ""
+#     post = ""
+#     name = "标签"
+#     url = "/tags/"
+#     title = ""
+#     weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "分类"
+    url = "/categories/"
+    title = ""
+    weight = 3
+
+# Hugo 解析文档的配置
+[markup]
+  # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    # false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+			[markup.goldmark]
+				[markup.goldmark.extensions]
+					definitionList = true
+					footnote = true
+					linkify = true
+					strikethrough = true
+					table = true
+					taskList = true
+					typographer = true
+				[markup.goldmark.renderer]
+					# 是否在文档中直接使用 HTML 标签
+					unsafe = true
+
+[params.footer]
+    enable = true
+    # Custom content (HTML format is supported)
+    # 自定义内容 (支持 HTML 格式)
+    custom = ''
+    # whether to show Hugo and theme info
+    # 是否显示 Hugo 和主题信息
+    hugo = false
+    # whether to show copyright info
+    # 是否显示版权信息
+    copyright = true
+    # whether to show the author
+    # 是否显示作者
+    author = true
+    # site creation time
+    # 网站创立年份
+    since = 2022
+    # ICP info only in China (HTML format is supported)
+    # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+    icp = "<a href='https://beian.miit.gov.cn/'>这里是ICP备案</a>"
+    # license info (HTML format is supported)
+    # 许可协议信息 (支持 HTML 格式)
+    license= ''
+
+[params.page.share]
+  enable = true
+  Weibo = true
+# Comment config
+# 评论系统设置
+[params.page.comment]
+  enable = false
+  # Disqus comment config (https://disqus.com/)
+  # Disqus 评论系统设置 (https://disqus.com/)
+  [params.page.comment.disqus]
+    enable = false
+    # Disqus shortname to use Disqus in posts
+    # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
+    shortname = "li-liu-bai"
