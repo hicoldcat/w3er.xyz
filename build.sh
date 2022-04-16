@@ -1,2 +1,1 @@
-rm -rf public/*
-hugo -D
+hugo

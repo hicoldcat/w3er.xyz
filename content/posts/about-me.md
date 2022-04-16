@@ -8,7 +8,7 @@ categories = ["info"]
 **简介**
 
 ![About me](https://img.shields.io/badge/About%20me-000?&logo=About.me&labelColor=000)<br />
-👨‍💻全栈菜鸟，爱好美女。日常出来关注前后端、移动/桌面端之外，也关注 Web3.0/元宇宙/区块链/NFT，Lowcode/Nocode 等新兴技术和自媒体等行业、。
+👨‍💻全栈菜鸟，爱好美女。日常出来关注前后端、移动/桌面端之外，也关注 Web3.0/元宇宙/区块链/NFT，Lowcode/Nocode 等新兴技术和自媒体等行业。
 
 **网站**
 
