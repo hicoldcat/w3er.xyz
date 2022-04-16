@@ -25,6 +25,14 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
+    - name: Prepare SSH
+        run: >
+          cd ~/.ssh &&
+          touch ~/.ssh/known_hosts &&
+          ssh-keyscan -H "$IP" >>~/.ssh/known_hosts
+        env:
+          IP: ${{ secrets.REMOTE_HOST }}
+
     - name: Deploy website
       uses: easingthemes/ssh-deploy@main
       env:
