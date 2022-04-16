@@ -1,9 +1,11 @@
-+++
-title = "关于我"
-pubdate = "2022-4-16"
-featuredImage = "https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg"
-categories = ["info"]
-+++
+---
+title: 关于我
+date: 2022-04-17 02:45:36
+author: 李留白
+weight: 1
+categories: ["总结"]
+featuredImage: "https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg"
+---
 
 **简介**
 

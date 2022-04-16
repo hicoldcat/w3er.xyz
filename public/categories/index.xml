@@ -3,12 +3,5 @@
         <title>Categories - 分类 - 李留白，探索发现频道</title>
         <link>http://w3w.im/categories/</link>
         <description>Categories - 分类 - 李留白，探索发现频道</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="http://w3w.im/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>info</title>
-    <link>http://w3w.im/categories/info/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-        <name>作者</name>
-    </author><guid>http://w3w.im/categories/info/</guid>
-    <description><![CDATA[]]></description>
-</item></channel>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="http://w3w.im/categories/" rel="self" type="application/rss+xml" /></channel>
 </rss>
