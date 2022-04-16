@@ -21,3 +21,7 @@ https://realfavicongenerator.net/
 #### 4、评论系统
 https://waline.js.org/guide/get-started.html
 
+
+#### 5、部署打包
+hugo -D
+

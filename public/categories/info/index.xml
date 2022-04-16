@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>info - 分类 - 李留白，探索发现频道</title>
+        <link>http://w3w.im/categories/info/</link>
+        <description>info - 分类 - 李留白，探索发现频道</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="http://w3w.im/categories/info/" rel="self" type="application/rss+xml" /><item>
+    <title>关于我</title>
+    <link>http://w3w.im/posts/about-me/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>作者</name>
+    </author><guid>http://w3w.im/posts/about-me/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg" referrerpolicy="no-referrer">
+            </div>简介 👨‍💻全栈菜鸟，爱好美女。日常出来关注前后端、移动/桌面端之外，也关注 Web3.0/元宇宙/区块链/NFT，Lowcode/Nocode 等新兴技术和自媒体等行业、。 网站 语言 框架 社交 浏览量 域名出售中]]></description>
+</item></channel>
+</rss>
