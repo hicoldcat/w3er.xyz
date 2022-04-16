@@ -787,8 +787,8 @@ enableEmoji = true
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = false
-        appId = "aM7gLUeWp8it1Efrcp3rm8TB-MdYXbMMI"
-        appKey = "Xn1xlYj3Fm5gvsYG3WyQpaix"
+        appId = ""
+        appKey = ""
         placeholder = ""
         avatar = "mp"
         meta= ""
@@ -812,13 +812,15 @@ enableEmoji = true
         emoji = ""
       # Waline comment config (https://waline.js.org)
       # Waline 评论系统设置 (https://waline.js.org)
+      # 直接在页面改的，这里没用
       [params.page.comment.waline]
         enable = false
-        serverURL = ""
+        serverURL = "https://valine-comment-mo172qu3z-hicoldcat.vercel.app"
         visitor = false
+        js = "https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js"   
         emoji = ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
         meta = ['nick', 'mail', 'link']
-        requiredMeta = []
+        requiredMeta = ['nick','mail']
         login = 'enable'
         wordLimit = 0
         pageSize = 10

@@ -1,19 +1,23 @@
 # W3W
 
-搭建指南：
-前提：全局要安装hugo
+### hugo 常用命令
 
-1、安装hugo
+
+
+### 搭建指南：
+> 前提：全局要安装hugo
+
+#### 1、安装hugo
 https://github.com/gohugoio/hugo
 
-2、安装主题
+#### 2、安装主题
 https://github.com/HEIGE-PCloud/DoIt
 https://hugodoit.pages.dev/zh-cn/
 
 
-3、转换一些icon图标
+#### 3、转换一些icon图标
 https://realfavicongenerator.net/
 
-4、使用cms
-https://www.hokuscms.com/
-https://sivan.github.io/heti/
+#### 4、评论系统
+https://waline.js.org/guide/get-started.html
+

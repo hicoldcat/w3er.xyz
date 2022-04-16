@@ -13,7 +13,7 @@
   // border-radius: 10px;
   width:100%;
   overflow: hidden;
-  height: 190px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,7 +81,7 @@
     font-weight: normal;
     color: #bababa;
     // color: #fff;
-    margin-bottom: 26rem;
+    margin-bottom: 32px;
     animation: bottomup 1s  forwards;
     @media screen and (max-width: 1000px) {
       margin-bottom: 3rem;
