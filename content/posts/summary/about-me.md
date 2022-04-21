@@ -1,10 +1,13 @@
 ---
 title: 关于我
-date: 2022-04-16 02:45:36
+date: 2022-04-16T11:02:57.690Z
 author: 李留白
 weight: 1
-categories: ["总结"]
-featuredImage: "https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg"
+categories:
+  - 总结
+featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg
+lastmod: 2022-04-21T11:07:45.371Z
+description: ""
 ---
 
 **简介**

@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>技术文章 - 分类 - 李留白，探索发现频道</title>
+        <link>http://hicoldcat.com/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/</link>
+        <description>技术文章 - 分类 - 李留白，探索发现频道</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 21 Apr 2022 17:57:25 &#43;0800</lastBuildDate><atom:link href="http://hicoldcat.com/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/" rel="self" type="application/rss+xml" /><item>
+    <title>Jenkins构建Docker并自动更新阿里云ACK（k8s）</title>
+    <link>http://hicoldcat.com/posts/tech-blog/jenkins-docker-k8s/</link>
+    <pubDate>Thu, 21 Apr 2022 17:57:25 &#43;0800</pubDate><author>
+        <name>李留白</name>
+    </author><guid>http://hicoldcat.com/posts/tech-blog/jenkins-docker-k8s/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220421171254.png" referrerpolicy="no-referrer">
+            </div>Jenkins如何构建Docker镜像，推送到阿里云镜像仓库，并且使用kubectl命令自动更新升级阿里云容器镜像器群kubernetes(k8s) ACK上的镜像 1、在Jenkins打包机上安装kubectl 2、Jenkins上创建Job 3、配置Jenkins打包参数 4、生成k8s集群容器yml文件 5、增加build.sh(以nest.js项目为例) 6、配置kubectl更新命令 7、测试效果]]></description>
+</item></channel>
+</rss>

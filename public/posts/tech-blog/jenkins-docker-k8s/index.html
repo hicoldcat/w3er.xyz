@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title class="pjax-title">Jenkins构建Docker并自动更新阿里云ACK（k8s） - 李留白，探索发现频道</title><meta name="Description" content=""><meta property="og:title" content="Jenkins构建Docker并自动更新阿里云ACK（k8s）" />
+<meta property="og:description" content="Jenkins如何构建Docker镜像，推送到阿里云镜像仓库，并且使用kubectl命令自动更新升级阿里云容器镜像器群kubernetes(k8s) ACK上的镜像 1、在Jenkins打包机上安装kubectl 2、Jenkins上创建Job 3、配置Jenkins打包参数 4、生成k8s集群容器yml文件 5、增加build.sh(以nest.js项目为例) 6、配置kubectl更新命令 7、测试效果" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://hicoldcat.com/posts/tech-blog/jenkins-docker-k8s/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-04-21T17:57:25+08:00" />
+<meta property="article:modified_time" content="2022-04-21T17:57:25+08:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Jenkins构建Docker并自动更新阿里云ACK（k8s）"/>
+<meta name="twitter:description" content="Jenkins如何构建Docker镜像，推送到阿里云镜像仓库，并且使用kubectl命令自动更新升级阿里云容器镜像器群kubernetes(k8s) ACK上的镜像 1、在Jenkins打包机上安装kubectl 2、Jenkins上创建Job 3、配置Jenkins打包参数 4、生成k8s集群容器yml文件 5、增加build.sh(以nest.js项目为例) 6、配置kubectl更新命令 7、测试效果"/>
+<meta name="application-name" content="李留白，探索发现频道">
+<meta name="apple-mobile-web-app-title" content="李留白，探索发现频道">
+
+<meta name="theme-color" content="#f8f8f8"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="canonical" href="http://hicoldcat.com/posts/tech-blog/jenkins-docker-k8s/" /><link rel="prev" href="http://hicoldcat.com/posts/summary/about-me/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Jenkins构建Docker并自动更新阿里云ACK（k8s）",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/hicoldcat.com\/posts\/tech-blog\/jenkins-docker-k8s\/"
+        },"genre": "posts","wordcount":  197 ,
+        "url": "http:\/\/hicoldcat.com\/posts\/tech-blog\/jenkins-docker-k8s\/","datePublished": "2022-04-21T17:57:25+08:00","dateModified": "2022-04-21T17:57:25+08:00","publisher": {
+            "@type": "Organization",
+            "name": "李留白"},"author": {
+                "@type": "Person",
+                "name": "李留白"
+            },"description": ""
+    }
+    </script></head>
+
+<body header-desktop="" header-mobile=""><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme);}
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('' === 'light' || '' === 'dark' || '' === 'black') setTheme(''), saveTheme(''); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><div style="display: none"><img src="/android-chrome-512x512.png" width="320" height="320"/></div>
+<header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="李留白，探索发现频道"><img
+        class="lazyload logo"
+        data-src="/images/logo.svg"
+        alt="/images/logo.svg"
+        title="/images/logo.svg"
+    /><span id="desktop-header-typeit" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><a href="#" onclick="return false;" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a></div>
+        </div>
+    </div>
+</header><div style="display: none"><img src="/android-chrome-512x512.png" width="320" height="320"/></div>
+<header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="李留白，探索发现频道"><img
+        class="lazyload logo"
+        data-src="/images/logo.svg"
+        alt="/images/logo.svg"
+        title="/images/logo.svg"
+    /><span id="mobile-header-typeit" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/categories/" title="">分类</a><a href="#" onclick="return false;" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+            <div class="container"><script src="/qrcode.js"></script><div class="toc" id="toc-auto">
+        <h2 class="toc-title">目录</h2>
+        <div class="toc-content" id="toc-content-auto"></div>
+        
+        
+    </div><script>document.getElementsByTagName("main")[0].setAttribute("pageStyle", "normal")</script><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "false")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Jenkins构建Docker并自动更新阿里云ACK（k8s）</h1><div class="post-meta">
+            <div class="post-meta-line">
+                
+                
+                
+
+                
+            </div>
+            <div class="post-meta-line"><span style="padding-right:10px;"><time datetime="2022-04-21">2022-04-21</time> </span>
+                <span style="padding-right:10px;">阅读: <span id="/posts/tech-blog/jenkins-docker-k8s/" class="waline-visitor-count" ></span></span>
+                <span style="padding-right:10px;">评论: <span id="/posts/tech-blog/jenkins-docker-k8s/" class="waline-comment-count" ></span></span>
+                <span style="padding-right:10px;">约 197 字</span>
+                <span style="padding-right:10px;">预计阅读 1 分钟</span></div>
+        </div><div class="featured-image-preview-post " style="background-image: url(https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220421171254.png);">
+                
+            </div><div class="details toc open" id="toc-static"  kept="true">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#jenkins如何构建docker镜像推送到阿里云镜像仓库并且使用kubectl命令自动更新升级阿里云容器镜像器群kubernetesk8s-ack上的镜像">Jenkins如何构建Docker镜像，推送到阿里云镜像仓库，并且使用kubectl命令自动更新升级阿里云容器镜像器群kubernetes(k8s) ACK上的镜像</a>
+      <ul>
+        <li><a href="#1在jenkins打包机上安装kubectl">1、在Jenkins打包机上安装kubectl</a></li>
+        <li><a href="#2jenkins上创建job">2、Jenkins上创建Job</a></li>
+        <li><a href="#3配置jenkins打包参数">3、配置Jenkins打包参数</a></li>
+        <li><a href="#4生成k8s集群容器yml文件">4、生成k8s集群容器yml文件</a></li>
+        <li><a href="#5增加buildsh以nestjs项目为例">5、增加build.sh(以nest.js项目为例)</a></li>
+        <li><a href="#6配置kubectl更新命令">6、配置kubectl更新命令</a></li>
+        <li><a href="#7测试效果">7、测试效果</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content heti" id="content"><h2 id="jenkins如何构建docker镜像推送到阿里云镜像仓库并且使用kubectl命令自动更新升级阿里云容器镜像器群kubernetesk8s-ack上的镜像">Jenkins如何构建Docker镜像，推送到阿里云镜像仓库，并且使用kubectl命令自动更新升级阿里云容器镜像器群kubernetes(k8s) ACK上的镜像</h2>
+<h3 id="1在jenkins打包机上安装kubectl">1、在Jenkins打包机上安装kubectl</h3>
+<h3 id="2jenkins上创建job">2、Jenkins上创建Job</h3>
+<h3 id="3配置jenkins打包参数">3、配置Jenkins打包参数</h3>
+<h3 id="4生成k8s集群容器yml文件">4、生成k8s集群容器yml文件</h3>
+<h3 id="5增加buildsh以nestjs项目为例">5、增加build.sh(以nest.js项目为例)</h3>
+<h3 id="6配置kubectl更新命令">6、配置kubectl更新命令</h3>
+<h3 id="7测试效果">7、测试效果</h3>
+</div>
+
+        <div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2022-04-21</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="#" onclick="return false;" title="分享到 微博" data-sharer="weibo" data-url="http://hicoldcat.com/posts/tech-blog/jenkins-docker-k8s/" data-title="Jenkins构建Docker并自动更新阿里云ACK（k8s）" data-image="https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220421171254.png"><i class="fab fa-weibo fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/summary/about-me/" class="prev" rel="prev" title="关于我"><i class="fas fa-angle-left fa-fw"></i>关于我</a></div>
+    <script src="/client.js"></script>
+    <div style="clear: both;margin-top:20px;"></div>
+    <div id="waline"></div>
+<script>
+Waline({
+  el: '#waline',
+  serverURL: 'https://valine-comment-mo172qu3z-hicoldcat.vercel.app',
+  visitor: true, 
+});
+</script>
+</div>
+</article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer"></a></span><span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br"/>
+                    <span class="icp"><a href='https://beian.miit.gov.cn/'>这里是ICP备案</a></span></div>
+        </div></footer>
+</div>
+
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="回到顶部">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><div class="assets"><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/topbar/topbar.min.js"></script><script type="text/javascript" src="/lib/pjax/pjax.min.js"></script><script type="text/javascript" src="/js/theme.min.js"></script></div>
+
+<div class="pjax-assets"><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":100},"comment":{},"data":{"desktop-header-typeit":"李留白","mobile-header-typeit":"李留白"},"sharerjs":true,"typeit":{"cursorChar":null,"cursorSpeed":null,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":null,"speed":null}};</script></div>
+</body>
+
+</html>
