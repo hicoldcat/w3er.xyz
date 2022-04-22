@@ -3,21 +3,30 @@
         <title>李留白，探索发现频道</title>
         <link>http://hicoldcat.com/</link>
         <description>李留白，探索发现频道</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 21 Apr 2022 17:57:25 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 22 Apr 2022 06:13:52 &#43;0000</lastBuildDate>
             <atom:link href="http://hicoldcat.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Jenkins构建Docker并自动更新阿里云ACK（k8s）</title>
-    <link>http://hicoldcat.com/posts/tech-blog/jenkins-docker-k8s/</link>
-    <pubDate>Thu, 21 Apr 2022 17:57:25 &#43;0800</pubDate><author>
+    <title>ACL, DAC, MAC, RBAC ,ABAC五种权限管理设计模式</title>
+    <link>http://hicoldcat.com/posts/tech-blog/acl-rbac-abab/</link>
+    <pubDate>Fri, 22 Apr 2022 06:13:52 &#43;0000</pubDate><author>
         <name>李留白</name>
-    </author><guid>http://hicoldcat.com/posts/tech-blog/jenkins-docker-k8s/</guid>
+    </author><guid>http://hicoldcat.com/posts/tech-blog/acl-rbac-abab/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220422144657.png" referrerpolicy="no-referrer">
+            </div>ACL, DAC, MAC, RBAC, ABAC模型的不同应用场景 ACL 访问控制列表( Access Control List) 规定资源可以被哪些主体进行哪些操作 场景：部门隔离 适用资源：客户页面、人事页面 在ACL权限模型下，权限管理是围绕资源来设定的。我们可以对不同部门的页面设定可以访问的用户。配置形式如下： 1 2 3 4 5 6 7 8 9 10 11 12 ACL配置表 资源: 客户页面 主体: 销售部（组） 操作：增删改查 主体: 王总（用户） 操作: 增删改查 资源: 人事页面 主体: 王总（组） 操作: 增删改查 注：主体可以是用户，也可以是组。 在维护性上，一般在粗粒度和相对静态的情况下，比较容易维护。 在细粒度情况下，比如将不同的客户视为不同的资源，1000个客户就需要配置1000张ACL表。如果1000个客户的权限配置是有规律的，那么就要对每种资源做相同的操作；如果权限配置是无规律的，那么ACL不妨也是一种恰当的解决方案。 在动态情况下，权限经常变动，每添加一名员工，都需要配置所有他需要访问的资源，这在频繁变动]]></description>
+</item><item>
+    <title>Jenkins构建Docker并自动更新阿里云ACK（k8s）</title>
+    <link>http://hicoldcat.com/posts/devops/jenkins-docker-k8s/</link>
+    <pubDate>Thu, 21 Apr 2022 10:04:09 &#43;0000</pubDate><author>
+        <name>李留白</name>
+    </author><guid>http://hicoldcat.com/posts/devops/jenkins-docker-k8s/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220421171254.png" referrerpolicy="no-referrer">
             </div>Jenkins如何构建Docker镜像，推送到阿里云镜像仓库，并且使用kubectl命令自动更新升级阿里云容器镜像器群kubernetes(k8s) ACK上的镜像 1、在Jenkins打包机上安装kubectl 2、Jenkins上创建Job 3、配置Jenkins打包参数 4、生成k8s集群容器yml文件 5、增加build.sh(以nest.js项目为例) 6、配置kubectl更新命令 7、测试效果]]></description>
 </item><item>
     <title>关于我</title>
     <link>http://hicoldcat.com/posts/summary/about-me/</link>
-    <pubDate>Sat, 16 Apr 2022 02:45:36 &#43;0000</pubDate><author>
+    <pubDate>Sat, 16 Apr 2022 11:02:57 &#43;0000</pubDate><author>
         <name>李留白</name>
     </author><guid>http://hicoldcat.com/posts/summary/about-me/</guid>
     <description><![CDATA[<div class="featured-image">
