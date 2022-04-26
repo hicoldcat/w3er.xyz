@@ -4,10 +4,10 @@ date: 2022-04-21T10:04:09.162Z
 author: 李留白
 weight: 1
 categories:
-  - 技术文章
   - 运维
 featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220421171254.png
-lastmod: 2022-04-21T11:08:04.721Z
+lastmod: 2022-04-23T06:19:28.608Z
+draft: true
 ---
 
 ## Jenkins如何构建Docker镜像，推送到阿里云镜像仓库，并且使用kubectl命令自动更新升级阿里云容器镜像器群kubernetes(k8s) ACK上的镜像
