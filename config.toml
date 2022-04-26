@@ -79,7 +79,7 @@ version = "0.2.X"
 
     [params.social.Email]
     weight = 0.0
-    id = "chao@w3w.im"
+    id = "hicoldcat@foxmail.com"
     title = "李留白"
 
   [params.footer]
@@ -88,8 +88,8 @@ version = "0.2.X"
   hugo = false
   copyright = true
   author = true
-  since = 2022.0
-  icp = "<a href='https://beian.miit.gov.cn/'>这里是ICP备案</a>"
+  since = 2022.4
+  icp = "<a href='https://beian.miit.gov.cn/'>浙ICP备2022012706号-1</a>"
   license = ""
 
 [menu]
