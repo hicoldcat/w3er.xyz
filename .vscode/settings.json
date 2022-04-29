@@ -1,10 +1,6 @@
 {
   "editor.formatOnPaste": false,
   "editor.formatOnSave": false,
-  "frontMatter.content.autoUpdateDate": true,
-  "frontMatter.preview.host": "http://localhost:1313",
-  "frontMatter.framework.id": "hugo",
-  "frontMatter.content.publicFolder": "static",
   "[markdown]": {
     "editor.fontSize": 14,
     "editor.lineHeight": 26,
