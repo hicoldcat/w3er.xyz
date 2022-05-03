@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 1
 date: 2022-04-29T07:28:45.480Z
-lastmod: 2022-05-03T13:57:49.977Z
+lastmod: 2022-05-03T14:14:34.827Z
 tags: []
 categories:
   - 区块链
@@ -15,11 +15,11 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220502151
 
 本文项目代码：
 
-https://github.com/hicoldcat/eth-solidity-token-example
+[https://github.com/hicoldcat/eth-solidity-token-example](https://github.com/hicoldcat/eth-solidity-token-example)
 
 原文地址：
 
-https://hicoldcat.com/posts/blockchain/my-token/
+[https://hicoldcat.com/posts/blockchain/my-token/](https://hicoldcat.com/posts/blockchain/my-token/)
 
 ## 1、初始化项目
 > [Hardhat](https://hardhat.org/)是一个编译、部署、测试和调试以太坊应用的开发环境。它可以帮助开发人员管理和自动化构建智能合约和DApps过程中固有的重复性任务，并围绕这一工作流程轻松引入更多功能。这意味着hardhat最核心的地方是编译、运行和测试智能合约。
@@ -108,7 +108,7 @@ contract Fool is ERC20, ERC20Burnable, Pausable, Ownable {
 
 #### *Ownable*
 
-智能合约最基本的访问控制机制，只有账户所有者能够对特定功能有访问权限。账户所有者指的是部署合约的账户。如代码中具有修饰符`onlyOwner`的`pause()`和`unpause()`,就是只能有账户所有者调用。
+智能合约最基本的访问控制机制，只有账户所有者能够对特定功能有访问权限。账户所有者指的是部署合约的账户。如代码中具有修饰符`onlyOwner`的`pause()`和`unpause()`,就是只能由账户所有者调用。
 
 至此，一个基本的代币合约就完成了。需要注意的是，上面代码中，一些基本的如获取Token名称的方法`name()`，交易转账的方法`transfer(address to, uint256 amount)`等，都封装到了`import "@openzeppelin/contracts/token/ERC20/ERC20.sol";`中，详细代码如下，也可以通过github源码[https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)去查看。
 
@@ -119,7 +119,7 @@ contract Fool is ERC20, ERC20Burnable, Pausable, Ownable {
 ```bash
  npx hardhat compile
 ```
-hardhat会查找项目下所有的只能合约，并根据`hardhat.config.js`配置文件生成编译完成之后的`artifacts`文件目录。
+hardhat会查找项目下所有的智能合约，并根据`hardhat.config.js`配置文件生成编译完成之后的`artifacts`文件目录。
 
 ![compile](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220502154746.png)
 
@@ -474,7 +474,7 @@ export default App;
 
 ![web](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220503192911.png)
 
-合约创建者信息卡片会显示账户地址和私钥，以及当前账户剩余的以太币余额（注意：这个余额是本地网络启动是的默认余额，上文打印中也显示有1000ETH，交易过程中会消耗一定的gas，所以余额是1000ETH - 累计gas消耗的ETH），还有当前智能合约我们部署的Fool币数量。
+合约创建者信息卡片会显示账户地址和私钥，以及当前账户剩余的以太币余额（注意：这个余额是本地网络启动时的默认余额，上文打印中也显示有1000ETH，交易过程中会消耗一定的gas，所以余额是1000ETH - 累计gas消耗的ETH），还有当前智能合约我们部署的Fool币数量。
 
 此外，还有我们要转账的收款账户地址和转账Fool币数量。
 
