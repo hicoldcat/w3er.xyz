@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 1
 date: 2022-04-29T07:28:45.480Z
-lastmod: 2022-05-03T14:14:34.827Z
+lastmod: 2022-05-08T06:17:31.856Z
 tags: []
 categories:
   - 区块链
@@ -495,7 +495,7 @@ export default App;
 ![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220503194159.png)
 
 
-## 8、总结
+## 6、总结
 
 *注意：每次启动项目需要重新部署合约，并且需要更新一下web目录下面的.env下面的合约地址！如果修改了合约内容，需要重新编译合约，并且将编译的文件夹/artifacts/contracts/Fool.sol/Fool.json文件拷贝到/web/src/artifacts/Fool.json!*
 
