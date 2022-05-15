@@ -1,11 +1,12 @@
 ---
-title: 别人有的你也要有，发行自己的第一款NFT(Non-Fungible Token)数字藏品
+title: 区块链实战：发行自己的第一款NFT(Non-Fungible Token)数字藏品
 description: null
 author: 李留白
 weight: 1
 date: 2022-05-08T06:09:19.920Z
-lastmod: 2022-05-08T06:55:02.721Z
+lastmod: 2022-05-15T02:40:49.630Z
 tags: []
+draft: true
 categories:
   - 区块链
 featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/pexels-steve-johnson-1812960.jpg
@@ -55,6 +56,12 @@ npx hardhat
 ```bash
 npm install @openzeppelin/contracts
 ```
+然后，在`contracts`目录下创建`FOOL_NFT.sol`文件。内容如下：
+```sol
+
+
+```
+
 
 
 
