@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 1
 date: 2022-05-08T06:09:19.920Z
-lastmod: 2022-05-22T08:19:43.214Z
+lastmod: 2022-06-05T05:50:33.314Z
 tags: []
 categories:
   - 区块链
@@ -472,9 +472,5 @@ opensea查看方式类似。
 
 后续我也将尝试开发一款具有完整的NFT数字藏品铸造、展示和交易的网站来一起交流学习。欢迎持续关注！
 
-我的个人网站：[https://hicoldcat.com/](https://hicoldcat.com/)
-
-我的个人微信公众号：
-
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/qrcode_for_gh_bc00b25843ea_430.jpg)
+![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.jpg)
 
