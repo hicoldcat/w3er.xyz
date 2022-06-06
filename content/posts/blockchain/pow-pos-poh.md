@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 1
 date: 2022-06-06T04:51:08.906Z
-lastmod: 2022-06-06T12:08:32.332Z
+lastmod: 2022-06-06T16:09:15.878Z
 tags: []
 categories:
   - 区块链
@@ -105,15 +105,45 @@ Solana的优势在于它的效率极高。由于使用PoH和其他创新，它�
 
 在Solana的白皮书中，创始人Anatoly Yakovenko解释了PoH如何利用可验证的时钟创建一个账本，以便网络中的节点知道记录的时间流逝，而不必依赖其他节点。
 
+简而言之，通过PoH，节点有自己的内部时钟来验证事件和时间的推移。该证明使用可验证的延迟函数（VDF）对传入的事件进行散列，同时记录下事件发生的时间。当其他节点查看哈希值的序列时，他们可以立即知道事件发生的顺序，而不需要与其他节点验证时间。
+
+由于很多讨论PoH的作者都是工程师/程序员/密码学者，所以阅读起来可能非常混乱。但是下面这个Solana的视频本身就是一个简短扼要的解释，可以帮助任何人更好地掌握PoH的工作方式。
+
+<video id="video" controls="" preload="none" poster="https://sator-www.oss-cn-hangzhou.aliyuncs.com/Proof%20of%20History%20Explainer.mp4?x-oss-process=video/snapshot,t_10000,m_fast">
+      <source id="mp4" src="https://sator-www.oss-cn-hangzhou.aliyuncs.com/Proof%20of%20History%20Explainer.mp4" type="video/mp4">
+</video>
+
+Solana还有其他一些技术创新来提高效率。例如，它使用Turbine协议，该协议将数据压缩为更小的大小，以降低带宽需求并提高TPS。它还使用Sealevel，它允许智能合约并行运行。
+
+由于所有这些改进，Solana可以实现超过60,000TPS。快速的交易速度和难以置信的低费用是Solana经常被其倡导者称为 "以太坊杀手 "的原因。
+
+但尽管Solana的效率很高，但在这一过程中也遇到了一些坎坷。2021年9月14日，Solana的网络崩溃，脱机17小时。这次崩溃是由一个机器人攻击造成的，该攻击基本上是以每秒超过40万笔交易攻击网络，导致验证器崩溃并使网络停滞。
+
+此次崩盘导致Solana市值损失约200亿美元。尽管Solana的价格已经回升，但这显现出Solana仍处于婴儿期，可能会经历更多的成长痛苦。
+
+![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/image1-4.png)
+
 ### 历史证明（PoH）的优势和劣势
 
 #### 优势
 
+- 费用低：Solana的费用明显低于以太坊等其他加密货币。这使得它对于经常性的消费或转移资金更加可行。
+- 可扩展性：每秒更多的交易增加了加密货币的可扩展性。
+
 #### 劣势
+
+- 中心化的担忧：Solana目前有不到1200个验证者来验证其网络上的交易。
+- 更少的去中心化应用程序（DAPP）：Solana通常被称为以太坊杀手，根据其网站，在Solana上构建了350多个DAPP。相比之下，以太坊上有近3000个DAPP，而这正是DeFi目前需要更多开发时间和创新的地方。
 
 ## 这些对投资者意味着什么？
 
+工作证明（Proof-of-Work）、权益证明（Proof-of-Stake）和历史证明（Proof-of-History）等术语可能看起来像纯粹的行话。但对于任何资产类型，了解您实际投资的是什么以及为什么它首先可能是有价值的，这一点很重要。对于加密货币，这意味着了解不同项目背后的基本技术。
 
+此外，像PoS和PoH这样的创新，除了在交易所购买加密货币，还创造了新的机会。例如，通过押注，你可以用你的加密货币赚取被动奖励。你还可以调查基于借贷的平台，如BlockFi和Celsius，让你存入你的加密货币以赚取利息。
+
+总之，工作证明和比特币为加密货币的共识机制奠定了基础。但这个领域仍在快速发展，投资者在选择投资之前，至少应该考虑到代币验证技术的长期可行性。
+
+![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
 
 
 
