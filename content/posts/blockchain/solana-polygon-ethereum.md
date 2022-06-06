@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 1
 date: 2022-06-04T10:03:36.045Z
-lastmod: 2022-06-05T05:50:35.788Z
+lastmod: 2022-06-06T02:44:15.258Z
 tags: []
 categories:
   - 区块链
@@ -151,4 +151,4 @@ Polygon提出了一个无边界的社会和经济的概念，在那里它像POS�
 
 就目前而言，以太坊在Defi和NFT的市场上占有一席之地，因为它是NFT发展的基础，而且开发者仍然喜欢以太坊。然而，随着加密货币完成度的增加，像Solana和Polygon这样的平台正在越来越受欢迎。如果你是加密货币市场的新手，或者最近刚进入NFT和Defi市场，本文将帮助您了解哪个平台更适合您投入时间和资源。总的来说，如果你正在寻找最可靠的安全和功能的平台，那就是以太坊。然而，如果你正在寻找经济实惠和更快的速度，最好选择Solana或Polygon。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.jpg)
+![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)

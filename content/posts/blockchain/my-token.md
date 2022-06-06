@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 1
 date: 2022-04-29T07:28:45.480Z
-lastmod: 2022-06-05T05:50:38.706Z
+lastmod: 2022-06-06T02:44:15.253Z
 tags: []
 categories:
   - 区块链
@@ -507,4 +507,4 @@ export default App;
 
 之后，如果有需求，我也会再写一些NFT相关的DEMO，和更复杂的合约。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.jpg)
+![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
