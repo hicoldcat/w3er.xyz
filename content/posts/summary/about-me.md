@@ -6,7 +6,7 @@ weight: 1
 categories:
   - 总结
 featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg
-lastmod: 2022-04-21T11:07:45.371Z
+lastmod: 2022-06-08T15:34:24.927Z
 description: ""
 ---
 
@@ -84,7 +84,7 @@ description: ""
 <a href="https://hicoldcat.com"><img src="https://img.shields.io/badge/-Blog-000?logo=hugo" alt="Blog"></a>
 <a href="https://github.com/hicoldcat"><img src="https://img.shields.io/badge/-GitHub-000?logo=GitHub" alt="GitHub"></a>
 <a href="https://zhihu.com/people/hicoldcat"><img src="https://img.shields.io/badge/-知乎-000?logo=zhihu" alt="知乎"></a>
-  <img src="https://img.shields.io/badge/-lichao1351290389-black?logo=wechat" alt="Wechat: lichao1351290389">
+<a href="mailto:hicoldcat@foxmail.com"><img src="https://img.shields.io/badge/-hicoldcat@foxmail.com-000?logo=Gmail" alt="Mail"></a>
 </p>
 
 **浏览量**
