@@ -2,9 +2,9 @@
 title: 区块链入门：在本地网络开发自己的加密数字货币(Token)-傻瓜币(FoolCoin)
 description: null
 author: 李留白
-weight: 1
+weight: 0
 date: 2022-04-29T07:28:45.480Z
-lastmod: 2022-06-06T02:44:15.253Z
+lastmod: 2022-06-12T09:03:14.030Z
 tags: []
 categories:
   - 区块链

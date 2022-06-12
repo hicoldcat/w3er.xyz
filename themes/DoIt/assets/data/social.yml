@@ -1,6 +1,6 @@
 # 001: Github
 github:
-  Weight: 1
+  weight: 0
   Prefix: https://github.com/
   Title: GitHub
   Icon:
@@ -72,7 +72,7 @@ youtubelegacy:
 
 # 010: YouTube Custom
 youtubecustom:
-  Weight: 10
+  weight: 00
   Prefix: https://www.youtube.com/c/
   Title: YouTube
   Icon:
@@ -80,7 +80,7 @@ youtubecustom:
 
 # 011: YouTube Channel
 youtubechannel:
-  Weight: 11
+  weight: 01
   Prefix: https://www.youtube.com/channel/
   Title: YouTube
   Icon:
@@ -88,7 +88,7 @@ youtubechannel:
 
 # 012: Tumblr
 tumblr:
-  Weight: 12
+  weight: 02
   Template: https://%v.tumblr.com/
   Title: Tumblr
   Icon:
@@ -96,7 +96,7 @@ tumblr:
 
 # 013: Quora
 quora:
-  Weight: 13
+  weight: 03
   Prefix: https://www.quora.com/profile/
   Title: Quora
   Icon:
@@ -104,7 +104,7 @@ quora:
 
 # 014: Keybase
 keybase:
-  Weight: 14
+  weight: 04
   Prefix: https://keybase.io/
   Title: Keybase
   Icon:
@@ -112,7 +112,7 @@ keybase:
 
 # 015: Pinterest
 pinterest:
-  Weight: 15
+  weight: 05
   Prefix: https://www.pinterest.com/
   Title: Pinterest
   Icon:
@@ -120,7 +120,7 @@ pinterest:
 
 # 016: Reddit
 reddit:
-  Weight: 16
+  weight: 06
   Prefix: https://www.reddit.com/user/
   Title: Reddit
   Icon:
@@ -128,7 +128,7 @@ reddit:
 
 # 017: CodePen
 codepen:
-  Weight: 17
+  weight: 07
   Prefix: https://codepen.io/
   Title: CodePen
   Icon:
@@ -136,7 +136,7 @@ codepen:
 
 # 018: freeCodeCamp
 freecodecamp:
-  Weight: 18
+  weight: 08
   Prefix: https://freecodecamp.org/
   Title: freeCodeCamp
   Icon:
@@ -144,7 +144,7 @@ freecodecamp:
 
 # 019: Bitbucket
 bitbucket:
-  Weight: 19
+  weight: 09
   Prefix: https://bitbucket.org/
   Title: Bitbucket
   Icon:

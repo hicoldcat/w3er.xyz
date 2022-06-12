@@ -2,11 +2,11 @@
 title: 权限系统设计模式：ACL, DAC, MAC, RBAC ,ABAC
 date: 2022-04-22T06:13:52.281Z
 author: 李留白
-weight: 1
+weight: 0
 categories:
   - 总结
 featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220422144657.png
-lastmod: 2022-06-06T02:44:15.262Z
+lastmod: 2022-06-12T09:03:14.006Z
 description: ""
 ---
 

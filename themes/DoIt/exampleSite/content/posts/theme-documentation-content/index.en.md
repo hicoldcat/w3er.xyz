@@ -1,16 +1,23 @@
 ---
 weight: 2
-title: "Theme Documentation - Content"
+title: Theme Documentation - Content
 date: 2020-03-04T15:58:26+08:00
-lastmod: 2020-03-04T15:58:26+08:00
+lastmod: 2022-06-12T09:03:13.990Z
 draft: false
-authors: ["Dillon", "PCloud"]
-description: "Find out how to create and organize your content quickly and intuitively in DoIt theme."
-featuredImage: "featured-image.webp"
+authors:
+  - Dillon
+  - PCloud
+description: Find out how to create and organize your content quickly and intuitively in
+  DoIt theme.
+featuredImage: featured-image.webp
 
-tags: ["content", "Markdown"]
-categories: ["documentation"]
-series: ["getting-start"]
+tags:
+  - content
+  - Markdown
+categories:
+  - documentation
+series:
+  - getting-start
 series_weight: 2
 lightgallery: true
 
@@ -110,7 +117,7 @@ images: []
 tags: []
 categories: []
 series: []
-series_weight: 1
+series_weight: 0
 seriesNavigation: true
 featuredImage: ""
 featuredImagePreview: ""

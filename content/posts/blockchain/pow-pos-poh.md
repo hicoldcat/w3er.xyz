@@ -2,9 +2,9 @@
 title: 共识算法对比：PoW vs PoS vs PoH
 description: null
 author: 李留白
-weight: 1
+weight: 0
 date: 2022-06-06T04:51:08.906Z
-lastmod: 2022-06-06T16:09:15.878Z
+lastmod: 2022-06-12T09:03:14.009Z
 tags: []
 categories:
   - 区块链

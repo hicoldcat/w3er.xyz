@@ -2,11 +2,11 @@
 title: Jenkins构建Docker并自动更新阿里云ACK（k8s）
 date: 2022-04-21T10:04:09.162Z
 author: 李留白
-weight: 1
+weight: 0
 categories:
   - 运维
 featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220421171254.png
-lastmod: 2022-04-23T06:19:28.608Z
+lastmod: 2022-06-12T09:03:14.041Z
 draft: true
 ---
 

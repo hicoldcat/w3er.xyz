@@ -2,9 +2,9 @@
 title: 区块链实战：发行自己的第一款NFT(Non-Fungible Token)数字藏品
 description: null
 author: 李留白
-weight: 1
+weight: 0
 date: 2022-05-08T06:09:19.920Z
-lastmod: 2022-06-06T02:43:11.718Z
+lastmod: 2022-06-12T09:03:14.033Z
 tags: []
 categories:
   - 区块链

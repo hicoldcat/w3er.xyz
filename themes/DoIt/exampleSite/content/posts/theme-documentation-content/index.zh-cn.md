@@ -1,16 +1,22 @@
 ---
 weight: 2
-title: "主题文档 - 内容"
+title: 主题文档 - 内容
 date: 2020-03-04T16:30:05+08:00
-lastmod: 2020-03-04T16:30:05+08:00
+lastmod: 2022-06-12T09:03:13.986Z
 draft: false
-authors: ["Dillon", "PCloud"]
-description: "了解如何在 DoIt 主题中快速, 直观地创建和组织内容."
-featuredImage: "featured-image.webp"
+authors:
+  - Dillon
+  - PCloud
+description: 了解如何在 DoIt 主题中快速, 直观地创建和组织内容.
+featuredImage: featured-image.webp
 
-tags: ["content", "Markdown"]
-categories: ["documentation"]
-series: ["getting-start"]
+tags:
+  - content
+  - Markdown
+categories:
+  - documentation
+series:
+  - getting-start
 series_weight: 2
 lightgallery: true
 
@@ -109,7 +115,7 @@ images: []
 tags: []
 categories: []
 series: []
-series_weight: 1
+series_weight: 0
 seriesNavigation: true
 featuredImage: ""
 featuredImagePreview: ""

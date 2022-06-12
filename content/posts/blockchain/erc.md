@@ -2,9 +2,9 @@
 title: 代币标准：ERC20 vs ERC721 vs ERC1155
 description: null
 author: 李留白
-weight: 1
+weight: 0
 date: 2022-06-05T02:51:47.964Z
-lastmod: 2022-06-05T05:48:47.610Z
+lastmod: 2022-06-12T09:03:14.036Z
 tags: []
 categories:
   - 区块链
