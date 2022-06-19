@@ -4,9 +4,11 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-12T09:34:27.343Z
-lastmod: 2022-06-12T12:08:54.711Z
+lastmod: 2022-06-19T16:28:50.597Z
 tags: []
-categories: null
+categories:
+  - 区块链
+  - WEB3.0
 featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/image1-5.png
 ---
 
