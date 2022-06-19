@@ -1,10 +1,10 @@
 ---
-title: Web3案例收集整理（附带源码）：80+ 项目、创意和案例等待你的探索
+title: Web3优秀案例收集整理（附带源码）：80+ 项目、创意和案例等待你的探索
 description: null
 author: 李留白
 weight: 0
 date: 2022-06-19T16:27:47.998Z
-lastmod: 2022-06-19T16:31:23.133Z
+lastmod: 2022-06-19T16:39:16.307Z
 tags: []
 categories:
   - 区块链
@@ -20,7 +20,7 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/web3-projec
 <!-- https://www.theinsaneapp.com/2021/03/system-design-and-recommendation-algorithms.html -->
 <!-- https://www.theinsaneapp.com/2021/05/best-tools-for-developers.html -->
 
-## 有哪些最好的Web3项目、想法和例子？
+## 有哪些优秀的Web3项目、创意和案例？
 
 - 如何编写和部署NFT
 - 如何搭建类似于OpenSea的平台
