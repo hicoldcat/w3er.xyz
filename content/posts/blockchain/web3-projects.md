@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-19T16:27:47.998Z
-lastmod: 2022-06-19T16:39:16.307Z
+lastmod: 2022-06-25T09:45:54.807Z
 tags: []
 categories:
   - 区块链
@@ -14,7 +14,6 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/web3-projec
 
 <!-- https://www.theinsaneapp.com/2022/03/best-web3-resources.html -->
 <!-- https://www.theinsaneapp.com/2022/03/best-web3-courses.html -->
-<!-- https://www.theinsaneapp.com/2022/05/best-web3-projects.html -->
 <!-- https://www.theinsaneapp.com/2021/10/angular-vue-nodejs-emberjs-react-roadmap.html -->
 <!-- https://www.theinsaneapp.com/2021/03/best-youtube-channels-for-programmers.html -->
 <!-- https://www.theinsaneapp.com/2021/03/system-design-and-recommendation-algorithms.html -->

@@ -7,12 +7,8 @@
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 64,
     "editor.lineNumbers": "off",
-    "editor.quickSuggestions": {
-      "comments": "off",
-      "strings": "off",
-      "other": "off"
-    },
+    "editor.quickSuggestions": false,
     "editor.minimap.enabled": false
   },
-  "frontMatter.framework.startCommand": "hugo server -D"
+  "frontMatter.framework.startCommand": "hugo server "
 }
