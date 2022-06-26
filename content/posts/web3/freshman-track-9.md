@@ -4,13 +4,28 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-19T16:27:47.998Z
-lastmod: 2022-06-26T12:51:18.073Z
+lastmod: 2022-06-26T13:50:04.398Z
 tags: []
 categories:
   - 区块链
   - WEB3.0
 featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/freshman.png
 ---
+
+> 原文：[https://www.learnweb3.io/tracks/freshman](https://www.learnweb3.io/tracks/freshman)<br/>
+> 翻译：李留白
+
+本文是[learnweb3](https://www.learnweb3.io/)的新手篇，包括：
+- [Level 0：前置基础编程知识](https://hicoldcat.com/posts/web3/freshman-track-0)
+- [Level 1：什么是区块链？](https://hicoldcat.com/posts/web3/freshman-track-1)
+- [Level 2：什么是Web3？](https://hicoldcat.com/posts/web3/freshman-track-2)
+- [Level 3：什么是ETH？](https://hicoldcat.com/posts/web3/freshman-track-3)
+- [Level 4：加密钱包？](https://hicoldcat.com/posts/web3/freshman-track-4)
+- [Level 5：Remix IDE介绍](https://hicoldcat.com/posts/web3/freshman-track-5)
+- [Level 6：Solidity介绍](https://hicoldcat.com/posts/web3/freshman-track-6)
+- [Level 7：dApp介绍](https://hicoldcat.com/posts/web3/freshman-track-7)
+- [Level 8：加密货币(ERC20)简介](https://hicoldcat.com/posts/web3/freshman-track-8)
+- [Level 9：NFT介绍](https://hicoldcat.com/posts/web3/freshman-track-9)
 
 ## 喜欢视频？
 
@@ -30,16 +45,20 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/freshman.pn
 为了构建智能合约，我们将使用Hardhat。Hardhat 是专为全栈开发而设计的以太坊开发环境和框架。简单来说，您可以编写智能合约、部署它们、运行测试和调试代码。
 
 - 要设置安Hardhat项目，请打开终端并执行以下命令
+
 ```
 mkdir NFT-Tutorial
 cd  NFT-Tutorial
 npm init --yes
 npm install --save-dev hardhat
 ```
+
 - 在安装 Hardhat 的同一目录中运行：
+
 ```
 npx hardhat
 ```
+
 - 选择`Create a basic sample project`
 - 按回车键已指定`Hardhat Project root`
 - 如果您想添加一个问题，请按 Enter 键`.gitignore`
@@ -62,7 +81,9 @@ npm install @openzeppelin/contracts
 ```
 
 - 在 contracts 文件夹中，创建一个名为 NFTee.sol 的新 Solidity 文件
+
 - 现在我们将在 NFTee.sol 文件中编写一些代码。我们将导入[Openzeppelin 的 ERC721 Contract](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol)。ERC721 是创建 NFT 的最常用标准。在新生赛道中，我们只会使用 ERC721。在二年级课程中，您将详细了解 ERC721。所以别担心，如果你不明白一切:)
+
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -79,6 +100,7 @@ contract GameItem is ERC721 {
     }
 }
 ```
+
 - 编译合约，打开终端并执行这些命令
 
 ```
@@ -90,6 +112,7 @@ npx hardhat compile
 - 让我们将合约部署到`rinkeby`网络。首先，在文件夹`deploy.js`下创建一个名为的新文件`scripts`
 
 - `deploy.js`现在我们将编写一些代码来在文件中部署合约。
+
 ```
 // Import ethers from Hardhat package
 const { ethers } = require("hardhat");
@@ -121,7 +144,6 @@ main()
 - 现在在文件夹中创建一个`.env`文件`NFT-Tutorial`并添加以下行。使用评论中的说明获取您的 Alchemy API 密钥和 RINKEBY 私钥。确保您获得 rinkeby 私钥的帐户由 Rinkeby Ether 提供资金。您可以在这里获得一些：https ://www.rinkebyfaucet.com/
 
 ```
-
 # Go to https://www.alchemyapi.io, sign up, create
 # a new App in its dashboard and select the network as Rinkeby, and replace "add-the-alchemy-key-url-here" with its key url
 ALCHEMY_API_KEY_URL="add-the-alchemy-key-url-here"
@@ -137,6 +159,7 @@ RINKEBY_PRIVATE_KEY="add-the-rinkeby-private-key-here"
 您可以将 Alchemy 视为区块链的 AWS EC2。它是一个节点提供者。它通过为我们提供节点来帮助我们与区块链连接，以便我们可以读取和写入区块链。Alchemy 帮助我们将合约部署到 rinkeby。
 
 - 现在我们将安装`dotenv`包以便能够导入 env 文件并在我们的配置中使用它。在您的终端中，执行这些命令。
+
 ```
 npm install dotenv
 ```
@@ -169,7 +192,6 @@ module.exports = {
 ```
 
 - 将打印在终端上的 NFT 合约地址保存在记事本中，您将需要它。
-
 
 ## 在 Etherscan 上验证
 
