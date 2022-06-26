@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-19T16:27:47.998Z
-lastmod: 2022-06-26T09:14:30.438Z
+lastmod: 2022-06-26T10:24:42.144Z
 tags: []
 categories:
   - 区块链
@@ -16,16 +16,16 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/freshman.pn
 > 翻译：李留白
 
 本文是[learnweb3](https://www.learnweb3.io/)的新手篇，包括：
-- Level 0：前置基础编程知识
-- Level 1：什么是区块链？
-- Level 2：什么是Web3？
-- Level 3：什么是ETH？
-- Level 4：加密钱包？
-- Level 5：Remix IDE介绍
-- Level 6：Solidity介绍
-- Level 7：dApp介绍
-- Level 8：加密货币(ERC20)简介
-- Level 9：NFT介绍
+- [Level 0：前置基础编程知识](https://hicoldcat.com/posts/web3/freshman-track-0)
+- [Level 1：什么是区块链？](https://hicoldcat.com/posts/web3/freshman-track-1)
+- [Level 2：什么是Web3？](https://hicoldcat.com/posts/web3/freshman-track-2)
+- [Level 3：什么是ETH？](https://hicoldcat.com/posts/web3/freshman-track-3)
+- [Level 4：加密钱包？](https://hicoldcat.com/posts/web3/freshman-track-4)
+- [Level 5：Remix IDE介绍](https://hicoldcat.com/posts/web3/freshman-track-5)
+- [Level 6：Solidity介绍](https://hicoldcat.com/posts/web3/freshman-track-6)
+- [Level 7：dApp介绍](https://hicoldcat.com/posts/web3/freshman-track-7)
+- [Level 8：加密货币(ERC20)简介](https://hicoldcat.com/posts/web3/freshman-track-8)
+- [Level 9：NFT介绍](https://hicoldcat.com/posts/web3/freshman-track-9)
 
 ## 介绍
 要开始在 Web3 中构建应用程序，我们需要一些 Web2 的背景知识。web2 中肯定涵盖了许多在 Web3 中非常有用的主题。
@@ -62,3 +62,6 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/freshman.pn
 - React
 
 如果您愿意，您可以并行学习它们，但拥有背景知识肯定会有所帮助！尤其是当您继续在大一以外的轨道上行驶时。
+
+
+![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
