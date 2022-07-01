@@ -4,10 +4,10 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-10T16:04:56.667Z
-lastmod: 2022-06-12T09:07:02.542Z
+lastmod: 2022-07-01T16:47:00.720Z
 tags: []
 categories: null
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/d746c8_ab1bae4eb2724ce0ba928297aafce899_mv2.png
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/d746c8_ab1bae4eb2724ce0ba928297aafce899_mv2.png
 draft: true
 ---
 <!-- https://www.offbeat.xyz/newsroom/web-3-terminology-everyone-should-know -->
@@ -30,7 +30,7 @@ draft: true
 
 Web3.0，区别于Web1和Web2，是对信息交换传递的进一步深化。网上对于web3.0的说明，大部分都是下面这种：
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/微信图片_20220611003034.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/微信图片_20220611003034.png)
 
 但其实简单来理解，
 

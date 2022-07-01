@@ -4,12 +4,12 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-19T16:27:47.998Z
-lastmod: 2022-06-26T10:24:51.537Z
+lastmod: 2022-07-01T16:47:00.753Z
 tags: []
 categories:
   - 区块链
   - WEB3.0
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/freshman.png
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/freshman.png
 ---
 
 > 原文：[https://www.learnweb3.io/tracks/freshman](https://www.learnweb3.io/tracks/freshman)<br/>
@@ -77,4 +77,4 @@ Web3：读写拥有📖 🖊️ 🔑
 - [Web2 与 Web3](https://ethereum.org/en/developers/docs/web2-vs-web3/)
 
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)

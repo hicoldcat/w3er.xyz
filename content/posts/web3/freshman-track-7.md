@@ -4,12 +4,12 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-19T16:27:47.998Z
-lastmod: 2022-06-26T12:00:53.219Z
+lastmod: 2022-07-01T16:47:00.724Z
 tags: []
 categories:
   - 区块链
   - WEB3.0
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/freshman.png
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/freshman.png
 ---
 
 > 原文：[https://www.learnweb3.io/tracks/freshman](https://www.learnweb3.io/tracks/freshman)<br/>
@@ -367,4 +367,4 @@ lite-server
 
 *这说明了一个重点：您也可以构建一个 dApp ，而无需自己编写以太坊合约！如果你想使用已经在以太坊上编写的现有合约，你可以！*
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)

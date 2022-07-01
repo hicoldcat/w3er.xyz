@@ -4,11 +4,11 @@ description: 在开始前端开发的职业生涯之前你应该知道的事情
 author: 李留白
 weight: 0
 date: 2022-06-25T11:02:38.327Z
-lastmod: 2022-06-25T12:59:34.187Z
+lastmod: 2022-07-01T16:47:00.728Z
 tags: []
 categories:
   - 技术分享
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/0_bMfANTYZ3J3rSmn1.jpg
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/0_bMfANTYZ3J3rSmn1.jpg
 ---
 
 >原文：https://betterprogramming.pub/frontend-development-the-essentials-1c1290b43590 <br/>
@@ -31,11 +31,11 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/0_bMfANTYZ3
 
 将网站想象成一本包含一些页面的书，一本高级书，其中每一页都由图像、文本、视频、音频和一个名为链接的特殊元素组成。在网页上，我们可以将所有这些元素放在一起，将它们设置为带有字体和颜色的书页，也可以将它们放在不同的布局中。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220625191336.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220625191336.png)
 
 正是链接使网页不同于一本书。链接的作用是帮助您以非顺序的顺序在页面之间导航。链接可以将访问者带到网站的任意页面。您可以根据每页上的链接在页面之间跳转，甚至可以跳转到其他书籍的页面。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220625205757.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220625205757.png)
 
 ### 网页元素
 你在网页上看到的几乎所有其他东西都是这些基本元素的组合：
@@ -59,11 +59,11 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/0_bMfANTYZ3
 
 >“超文本标记语言 (HTML) 是设计用于在Web 浏览器中显示的文档的标准标记语言。它可以通过级联样式表(CSS) 等技术和 JavaScript 等脚本语言来辅助。” —维基百科
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220625191659.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220625191659.png)
 
 HTML 是一种标记语言。这意味着您通过称为标签的 HTML 元素创建页面内容。每个标签都有自己的特定属性和行为。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220625191721.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220625191721.png)
 
 这是[HTML 标记](https://www.w3schools.com/TAGS/default.ASP)列表。
 
@@ -75,7 +75,7 @@ HTML 用于构建页面内容。在 CSS 的帮助下，可以根据布局、颜�
 
 JavaScript 是一种浏览器可以理解的动态脚本语言。在 JavaScript 的帮助下，网页可以进行交互，例如当您单击按钮时，您可以向用户显示特定数据。想想你以前见过的所有登录按钮。JavaScript 支持它们以启用它们的功能和交互。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220625191827.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220625191827.png)
 
 所以现在我们知道，借助三种技术，我们可以构建网页。我们将在进一步的步骤中研究如何做到这一点。
 
@@ -85,7 +85,7 @@ JavaScript 是一种浏览器可以理解的动态脚本语言。在 JavaScript 
 
 为您提供此概述的目的是表明软件开发过程不仅仅是编写代码。在其中，您会听到很多与流程其他部分相关的奇怪和新词。
 
-![软件开发过程非常重要](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220625191856.png)
+![软件开发过程非常重要](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220625191856.png)
 
 
 记住这个事实：整个过程是迭代的。每次将应用程序上线时，您都应该监控用户或利益相关者的请求和反馈，然后计划更改。
@@ -96,7 +96,7 @@ JavaScript 是一种浏览器可以理解的动态脚本语言。在 JavaScript 
 
 [Git](https://git-scm.com/) 是开发人员最常用的源代码控制工具之一。正如[Web Development Glossary](https://books.google.ca/books?id=nYjhDwAAQBAJ&pg=PT101&lpg=PT101&dq=s+goals+include+speed,+data+integrity,+and+support+for+distributed,+non-linear+workflows.&source=bl&ots=8iV6gquLBx&sig=ACfU3U2E-OmUydwQiMArK3yDjR7M8-Zj-w&hl=en&sa=X&ved=2ahUKEwib0JWuqM_pAhWRVN8KHYeYBoAQ6AEwAHoECAkQAQ#v=onepage&q=s%20goals%20include%20speed%2C%20data%20integrity%2C%20and%20support%20for%20distributed%2C%20non-linear%20workflows.&f=false)中所述，“Git 是一个分布式版本控制系统，用于在开发过程中跟踪源代码的更改。它是为协调程序员之间的工作而设计的，但它可用于跟踪任何文件集的更改。它的目标包括速度、数据完整性以及对分布式非线性工作流的支持。”
 
-![源代码控制机制](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220625191952.png)
+![源代码控制机制](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220625191952.png)
 
 
 ## 软件开发生态系统
@@ -202,7 +202,7 @@ ReactJs 也是最受欢迎的之一，周围有一个很大的社区。
 
 你可以通过开始 Udemy ReactJs 课程来学习前端开发，但是在求职面试中，你会遇到很多新的和未知的问题和关键词。我的目标是帮助你作为一名真正的开发人员从根本上学习前端开发。还要记住，要学习一些东西，你需要做一些事情，所以你需要从零开始编写代码。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220625205152.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220625205152.png)
 
 ## 学习资料
 
@@ -279,4 +279,4 @@ HTML 和 CSS 的另一门好课程
 
 谢谢阅读！
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)

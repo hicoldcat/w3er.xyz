@@ -5,8 +5,8 @@ author: 李留白
 weight: 0
 categories:
   - 技术分享
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220422144657.png
-lastmod: 2022-06-25T10:53:52.591Z
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220422144657.png
+lastmod: 2022-07-01T16:47:00.673Z
 description: ""
 ---
 
@@ -186,4 +186,4 @@ ABAC其中的属性就是与主体、资源、情况相关的所有信息。
 ```
 ABAC可以发挥权限系统最大的灵活性，但在灵活的同时，如果不对策略加以管理，也有可维护性的问题。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)

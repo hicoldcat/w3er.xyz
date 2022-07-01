@@ -4,11 +4,11 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-26T03:47:38.267Z
-lastmod: 2022-06-26T03:58:40.254Z
+lastmod: 2022-07-01T16:47:00.676Z
 tags: []
 categories:
   - 技术分享
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/gabriel-heinzer-g5jpH62pwes-unsplash.jpg
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/gabriel-heinzer-g5jpH62pwes-unsplash.jpg
 ---
 
 > 原文：https://www.codecademy.com/article/back-end-architecture <br/>

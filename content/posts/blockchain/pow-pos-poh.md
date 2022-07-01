@@ -4,11 +4,11 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-06T04:51:08.906Z
-lastmod: 2022-06-12T09:03:14.009Z
+lastmod: 2022-07-01T16:47:00.712Z
 tags: []
 categories:
   - 区块链
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/202206061250374.png
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/202206061250374.png
 ---
 
 <!-- https://medium.com/hackernoon/pos-pow-and-12-other-blockchain-protocols-you-didnt-know-about-3634b089d119 -->
@@ -33,7 +33,7 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220606125
 
 这就是对什么是共识机制以及它们在加密货币中如何使用的简单解释。然而，不同的加密货币有不同的共识机制，这对能源使用、安全性和可扩展性具有重大影响。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/202206061309703.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/202206061309703.png)
 
 ## 什么是工作证明（PoW）？
 
@@ -121,7 +121,7 @@ Solana还有其他一些技术创新来提高效率。例如，它使用Turbine�
 
 此次崩盘导致Solana市值损失约200亿美元。尽管Solana的价格已经回升，但这显现出Solana仍处于婴儿期，可能会经历更多的成长痛苦。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/image1-4.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/image1-4.png)
 
 ### 历史证明（PoH）的优势和劣势
 
@@ -143,7 +143,7 @@ Solana还有其他一些技术创新来提高效率。例如，它使用Turbine�
 
 总之，工作证明和比特币为加密货币的共识机制奠定了基础。但这个领域仍在快速发展，投资者在选择投资之前，至少应该考虑到代币验证技术的长期可行性。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)
 
 
 

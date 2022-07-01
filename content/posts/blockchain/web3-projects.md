@@ -4,12 +4,12 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-19T16:27:47.998Z
-lastmod: 2022-06-25T09:45:54.807Z
+lastmod: 2022-07-01T16:47:00.705Z
 tags: []
 categories:
   - 区块链
   - WEB3.0
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/web3-projects-for-beginners-with-source-code.png
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/web3-projects-for-beginners-with-source-code.png
 ---
 
 <!-- https://www.theinsaneapp.com/2022/03/best-web3-resources.html -->
@@ -429,5 +429,5 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/web3-projec
 > 原文：https://www.theinsaneapp.com/2022/05/best-web3-projects.html#NFT-Minting-Bot<br/>
 > 翻译：李留白
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)
 

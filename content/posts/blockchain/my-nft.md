@@ -4,11 +4,11 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-05-08T06:09:19.920Z
-lastmod: 2022-06-12T09:03:14.033Z
+lastmod: 2022-07-01T16:47:00.649Z
 tags: []
 categories:
   - 区块链
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/pexels-steve-johnson-1812960.jpg
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/pexels-steve-johnson-1812960.jpg
 ---
 
 > 注意：该项目仅供学习区块链知识，不作为任何投资建议。市场有风险，投资需谨慎。
@@ -44,7 +44,7 @@ npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs
 npx hardhat
 ```
 
-![init](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220508144827.png)
+![init](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220508144827.png)
 
 ## 开发合约
 > [Solidity](https://soliditylang.org/)是一门面向合约的、为实现智能合约而创建的高级编程语言。
@@ -120,7 +120,7 @@ contract FoolNFT is ERC721, ERC721URIStorage, ERC721Burnable, Ownable {
 
 在 infura 上创建一个project，可以获得API调用地址。在以太坊测试网络中，我们选择rinkeby作为我们的测试网络。所以这个项目的API地址网络要选为`rinkeby`。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220522110015.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220522110015.png)
 
 然后，因为我们再部署合约是需要用到一个`Account`，包括账号的公钥和私钥，所以，为了安全，我们使用dotenv存放部署合约以及和合约交互需要用到的数据。这样就不会写死到代码里。
 
@@ -259,7 +259,7 @@ module.exports = {
 
 之后，在 metamask 钱包切换到rinkeby测试网络，可以看到我们领取的ETH已经到账户里了。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220522112252.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220522112252.png)
 
 然后，我们就可以执行合约的部署了，
 
@@ -273,18 +273,18 @@ owner 0xD936DEa2791e76F20A643d4149747e8598E51D8c
 
 ```
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220522120422.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220522120422.png)
 
 
 部署完成之后，我们既可以在[https://rinkeby.etherscan.io/](https://rinkeby.etherscan.io/) 搜索我们的合约地址找到我们的合约信息。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220522120544.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220522120544.png)
 
 另外，我们也可以在`https://rinkeby.etherscan.io/address/AccountOwnerKey`地址中，查询到资产消耗，地址中的`AccountOwnerKey`要替换成上面的owner 地址，也就是我们在`.env`里配置的`PUBLIC_KEY`。
 
 如本例中，[https://rinkeby.etherscan.io/address/0xD936DEa2791e76F20A643d4149747e8598E51D8c](https://rinkeby.etherscan.io/address/0xD936DEa2791e76F20A643d4149747e8598E51D8c)，领了三次测试币 0.42 ETH，部署合约消耗了 0.004464784529 ETH。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220522121130.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220522121130.png)
 
 
 ## 铸造NFT
@@ -292,7 +292,7 @@ owner 0xD936DEa2791e76F20A643d4149747e8598E51D8c
 
 在铸造NFT之前，我们要现在[https://nft.storage/](https://nft.storage/)注册一个账号，然后获得 API Token。获取方式可以参考文档：[https://nft.storage/docs/#get-an-api-token](https://nft.storage/docs/#get-an-api-token)。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220522135341.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220522135341.png)
 
 获取后，可以将这个Token 保存在`.env`中。在`.env`中增加如下内容：
 
@@ -441,7 +441,7 @@ NFT Storage上存储的NFT数据： Token {
 铸造的NFT区块地址： 0xd37902100eec5afceb337ca5a9f4e2e667e222696f58cb84f48bd0b8b85a96b5
 ```
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220522153507.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220522153507.png)
 
 
 ## 查看NFT
@@ -454,17 +454,17 @@ looksrare测试网络地址:[https://rinkeby.looksrare.org/](https://rinkeby.loo
 
 以looksrare为例，选择登录，会唤起 metamask钱包登录：
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220522155530.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220522155530.png)
 
 授权登录后，就可以在个人中心，我的NFT中看到：
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220522155845.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220522155845.png)
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220522160009.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220522160009.png)
 
 opensea查看方式类似。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220522160056.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220522160056.png)
 
 ## 总结
 
@@ -472,5 +472,5 @@ opensea查看方式类似。
 
 后续我也将尝试开发一款具有完整的NFT数字藏品铸造、展示和交易的网站来一起交流学习。欢迎持续关注！
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)
 

@@ -4,12 +4,12 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-19T16:27:47.998Z
-lastmod: 2022-06-26T10:24:47.352Z
+lastmod: 2022-07-01T16:47:00.757Z
 tags: []
 categories:
   - 区块链
   - WEB3.0
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/freshman.png
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/freshman.png
 ---
 
 > 原文：[https://www.learnweb3.io/tracks/freshman](https://www.learnweb3.io/tracks/freshman)<br/>
@@ -27,7 +27,7 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/freshman.pn
 - [Level 8：加密货币(ERC20)简介](https://hicoldcat.com/posts/web3/freshman-track-8)
 - [Level 9：NFT介绍](https://hicoldcat.com/posts/web3/freshman-track-9)
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220626172515.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220626172515.png)
 
 区块链是计算机网络上多个节点之间共享的共享、分布式和永久数据库。他们以一种不可能修改或破解系统的方式记录数据。
 
@@ -39,13 +39,13 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/freshman.pn
 
 ## 状态管理
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220626173258.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220626173258.png)
 
 区块链在启动时以创世纪状态开始。比特币的创世状态发生在 2009 年公共网络启动时。以太坊的创世纪状态发生在 2015 年推出时。
 
 区块链上的每笔交易都会修改跨所有节点复制的全局状态。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220626173458.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220626173458.png)
 
 由于有数百万笔交易，交易被组合成块。由此得名。这些块以可加密验证的方式链接在一起，因此它们在历史上是可追溯的。网络的当前状态可以随时重新计算，从创世块开始，根据每个块的信息转换状态，直到现在。
 
@@ -98,4 +98,4 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/freshman.pn
 - [简单解释的区块链是如何工作的](https://www.youtube.com/watch?v=SSo_EIwHSd4)
 
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)

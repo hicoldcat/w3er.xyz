@@ -5,8 +5,8 @@ author: 李留白
 weight: 0
 categories:
   - 运维
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220421171254.png
-lastmod: 2022-06-12T09:03:14.041Z
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220421171254.png
+lastmod: 2022-07-01T16:47:00.746Z
 draft: true
 ---
 

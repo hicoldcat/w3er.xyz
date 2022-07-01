@@ -4,12 +4,12 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-19T16:27:47.998Z
-lastmod: 2022-06-26T10:24:56.856Z
+lastmod: 2022-07-01T16:47:00.739Z
 tags: []
 categories:
   - 区块链
   - WEB3.0
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/freshman.png
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/freshman.png
 ---
 
 > 原文：[https://www.learnweb3.io/tracks/freshman](https://www.learnweb3.io/tracks/freshman)<br/>
@@ -83,4 +83,4 @@ Buterin 试图说服其他项目的开发人员中的比特币核心开发人员
 - https://www.investopedia.com/news/what-erc20-and-what-does-it-mean-ethereum/
 
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)

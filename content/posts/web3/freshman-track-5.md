@@ -4,12 +4,12 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-19T16:27:47.998Z
-lastmod: 2022-07-01T03:31:29.649Z
+lastmod: 2022-07-01T16:47:00.743Z
 tags: []
 categories:
   - 区块链
   - WEB3.0
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/freshman.png
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/freshman.png
 ---
 
 > 原文：[https://www.learnweb3.io/tracks/freshman](https://www.learnweb3.io/tracks/freshman)<br/>
@@ -27,7 +27,7 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/freshman.pn
 - [Level 8：加密货币(ERC20)简介](https://hicoldcat.com/posts/web3/freshman-track-8)
 - [Level 9：NFT介绍](https://hicoldcat.com/posts/web3/freshman-track-9)
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220626183258.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220626183258.png)
 
 Remix 是用于以太坊开发的开源、Web 和桌面集成开发环境 (IDE)。它是开始在以太坊上构建的最简单的开发工具，并且拥有大量插件来扩展其体验。
 
@@ -91,4 +91,4 @@ File Explorer在左侧边栏中，您可以在、Solidity Compiler、Deployer和
 - 浏览[Remix IDE Docs上的文档](https://remix-ide.readthedocs.io/en/latest/)
 - 使用 Remix 附带的默认智能合约来处理工作流程
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)

@@ -4,11 +4,11 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-05-15T01:59:10.831Z
-lastmod: 2022-06-12T09:03:14.003Z
+lastmod: 2022-07-01T16:47:00.599Z
 tags: []
 categories:
   - 区块链
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/alchemy-vs-infura-which-node-provider-best.png
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/alchemy-vs-infura-which-node-provider-best.png
 ---
 
 当我们开始开发DApp，托管智能合约需要你建立一个你想托管它们的区块链节点，但这个过程不仅对刚刚开始Web3之旅的人来说很复杂；它也可能很耗时，需要大量的处理能力来完成。
@@ -38,17 +38,17 @@ Alchemy支持Polygon主网及其测试网（Polygon Mumbai），此外还支持A
 
 你可以从它的仪表板上即时访问你的所有应用程序，以及快速访问关于每个应用程序的简明指标，如总的请求和响应，无效请求的数量，以及更多的信息。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220515101616.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220515101616.png)
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220515101548.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220515101548.png)
 
 查看每个应用程序的额外细节，使你可以选择正确配置每个应用程序，以及更好的分析视图，使你可以按日期、类型、甚至国家过滤请求。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220515101722.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220515101722.png)
 
 还值得注意的是，你可以访问Alchemy的 composer，这个平台允许你直接使用网络表格配置和发送区块链请求。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220515101748.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220515101748.png)
 
 ### API、文档和DX
 
@@ -84,7 +84,7 @@ Infura也有一个直观的界面。从仪表板上，你可以看到你所有�
 
 你还可以访问Infura Explorer，它允许你管理所有的IPFS项目，分析上传的数据以及实时数据。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220515102321.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220515102321.png)
 
 ### API、文档和DX
 
@@ -147,4 +147,4 @@ Infura和Alchemy都是很好的产品，但虽然都是节点提供商，但它�
     </tr>
 </table>
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)

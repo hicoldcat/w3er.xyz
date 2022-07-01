@@ -4,12 +4,12 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-14T14:29:29.821Z
-lastmod: 2022-06-19T16:29:23.653Z
+lastmod: 2022-07-01T16:47:00.644Z
 tags: []
 categories:
   - 区块链
   - WEB3.0
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220614222854.png
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220614222854.png
 ---
 
 > 你想参与建设web3项目吗？本文带你快速了解web3领域最流行的技术栈和开发环境。当然，由于Web3生态的广泛性，本文只能简单介绍一部分技术栈。
@@ -38,7 +38,7 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220614222
 
 ### 1.Ethereum
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/What-is-Ethereum.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/What-is-Ethereum.png)
 
 以太坊[https://ethereum.org/zh/](https://ethereum.org/zh/)凭借其原生的智能合约提案而广受欢迎。
 
@@ -46,7 +46,7 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220614222
 
 ### 2.Polygon
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/Polygon-layer.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/Polygon-layer.png)
 
 [Polygon](https://polygon.technology/)是以太坊的侧链，提供更复杂的安全实践，同时保持较低的交易（gas）费用。对于交易数量极高但交易价格较低的项目来说，这是一种流行的选择。
 
@@ -65,13 +65,13 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220614222
 
 ### 1. Hardhat
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/Hardhat-edited.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/Hardhat-edited.png)
 
 [Hardhat](https://hardhat.org/)是一个为Ethereum开发者提供的开发环境。它的工作原理是帮助开发者自动构建和组合去中心化的应用程序，也包括智能合约。它的受欢迎程度源于内置的一个以太坊网络1比1复制还原的Hardhat网络，你可以用它来测试你的应用程序。
 
 ### 2. Truffle
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/Truffle-edited.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/Truffle-edited.png)
 
 [Truffle](https://trufflesuite.com/)是一个基于JavaScript的用于构建智能合约的框架。它假设你使用EVM（以太坊虚拟机），并给你提供一些工具包括自动测试、合约编译器以及直接从控制台访问你的联系人的单独工具，来加速开发过程。
 
@@ -88,7 +88,7 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220614222
 
 ### 1. WalletConnect
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/WalletConnect.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/WalletConnect.png)
 
 [WalletConnect](https://walletconnect.com/)是一个开源协议，用于通过移动钱包连接到dApps。使用WalletConnect的主要概念是围绕扫描二维码，然后用户可以用它来验证他们的身份并批准与Web3应用程序的新连接。
 
@@ -96,7 +96,7 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220614222
 
 ### 2. Spruce
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/Spruce.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/Spruce.png)
 
 [Spruce](https://www.spruceid.com/)是一家Y Combinator支持的创业公司，旨在将去中心化的身份概念带到区块链之外的领域。这个工具包旨在帮助用户在各种媒介上验证其数字身份：社交媒体、个人网站和区块链网络。
 
@@ -105,7 +105,7 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220614222
 
 ### 1. IPFS
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/IPFS-edited.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/IPFS-edited.png)
 
 [IPFS](https://ipfs.io/)是世界领先的P2P（对等）存储协议。一旦你上传一个文件到IPFS，这个文件就会被调整大小，通过一个自定义的散列来保护，并分配一个指纹作为它的唯一标识符。
 
@@ -115,13 +115,13 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220614222
 
 ### 2. Skynet
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/Skynet.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/Skynet.png)
 
 [Skynet](https://siasky.net/)利用Sia（去中心化）云网络提供无障碍文件共享。实际上，你可以直接从主页上使用它。只要上传一个文件，就会给你一个链接。除非您注册API密钥，否则它将持续90天。不过，在开发环境中，Skynet使您可以轻松地在自己的分散应用程序中复制相同的用例。
 
 ### 3. Filebase
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/Filebase.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/Filebase.png)
 
 [Filebase](https://filebase.com/)是一家SaaS初创公司，提供与Amazon S3 API的直接链接。您可以使用此API从S3存储桶中提取数据，然后让它们跨各种分散的存储选项重新分布。
 
@@ -141,7 +141,7 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220614222
 
 ### 1. The Graph
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/The-Graph-web3.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/The-Graph-web3.png)
 
 [The Graph](https://thegraph.com/en/)是一个多合一的API解决方案，用于连接各种区块链。这个API的目标是帮助开发者访问数据，否则就需要建立单独的算法。例如，区块链中的数据点源于简单的地址到基于智能合约的复杂交易。
 
@@ -151,19 +151,19 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220614222
 
 ### 2. Web3.js
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/web3.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/web3.png)
 
 [Web3.js](https://web3js.readthedocs.io/)是最流行的JavaScript API，可直接与以太坊互动。它主要用于开发与以太坊链互动的客户端应用程序。Web3.js中包含的子库集合提供了诸如转账、智能合约管理等功能。
 
 ### 3. Alchemy
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/Alchemy-Web3-edited.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/Alchemy-Web3-edited.png)
 
 [Alchemy](https://www.alchemy.com/)已经迅速崛起，成为最受尊敬的Web3平台之一。他们的方法是教育开发者如何快速建立和扩展Web3应用程序。他们能够通过提供复杂的区块链API和一套开发者工具来做到这一点。
 
 ### 4. useDApp
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/useDApp-edited.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/useDApp-edited.png)
 
 [useDApp](https://usedapp.io/)是一个基于React的框架，用于与以太坊区块链交互。它包括React.js、 Ethers.js库、Waffle和Web3 React组件。它通常用于构建易于访问的网站前端，可以根据项目需要显示各种数据查询。
 
@@ -172,7 +172,7 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220614222
 
 ### 1. React 
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/ReactJS.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/ReactJS.png)
 
 [React](https://reactjs.org/)的受欢迎程度是无可比拟的。当得知它也是Web3网站最受欢迎的前端库时，我们并不感到惊讶。组件驱动的架构意味着开发者可以在不影响核心设计的情况下，对前端的多个部分进行处理。
 
@@ -180,7 +180,7 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220614222
 
 ### 2. Next
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/NextJS-framework-edited.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/NextJS-framework-edited.png)
 
 [Next.js](https://nextjs.org/)是React的继任者，尽管两者都没有直接关联。大规模的Web3项目需要巨大的资源管理，Next.js捆绑了用于静态和动态项目的本地工具，并被Binance、Bitscreener、Hashnode等公司使用。
 
@@ -192,4 +192,4 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220614222
 
 就开始接触Web3项目而言，这个参考资料应该足够入门了。其他的可以查找一些web3社区和github上关于web3的项目来持续学习。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/profile.jpg)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/profile.jpg)

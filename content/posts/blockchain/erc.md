@@ -4,11 +4,11 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-05T02:51:47.964Z
-lastmod: 2022-06-12T09:03:14.036Z
+lastmod: 2022-07-01T16:47:00.716Z
 tags: []
 categories:
   - 区块链
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/ERC20-vs-ERC721-vs-ERC1155-1.png
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/ERC20-vs-ERC721-vs-ERC1155-1.png
 ---
 
 > 原文：[https://www.leewayhertz.com/erc-20-vs-erc-721-vs-erc-1155/](https://www.leewayhertz.com/erc-20-vs-erc-721-vs-erc-1155/) <br/>
@@ -51,7 +51,7 @@ ERC代币标准只是智能合约标准的另一个名称。以太坊上的智�
 
 下面，我们讨论了以太坊代币标准到目前为止是如何发展的，以及目前与之相关的不同ERC令牌标准。因此，我们将研究全世界企业和用户在以太坊区块链上的增长范围和发展机会。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/微信截图_20220605110631.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/微信截图_20220605110631.png)
 
 ## ERC-20代币标准
 
@@ -407,5 +407,5 @@ ERC-721代表某人对数字资产的所有权，主要用作游戏行业的NFT�
 
 以太坊发布新代币标准的动机是为了应对区块链世界不断发展的变化。每个ERC代币标准的独特功能对希望利用Ethereum的不同企业和开发者来说都是一种好处。三种代币ERC20、ERC721和ERC1155目前在数字生态系统中是非常有效和包容的。然而，以太坊代币标准的不断发展，可能会在未来几年内带来区块链的根本性进步。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)
  

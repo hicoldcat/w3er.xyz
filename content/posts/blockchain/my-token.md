@@ -4,11 +4,11 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-04-29T07:28:45.480Z
-lastmod: 2022-06-12T09:03:14.030Z
+lastmod: 2022-07-01T16:47:00.697Z
 tags: []
 categories:
   - 区块链
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220502151927.png
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220502151927.png
 ---
 
 > 注意：该项目仅供学习区块链知识，不作为任何投资建议。市场有风险，投资需谨慎。
@@ -38,7 +38,7 @@ npm install --save-dev hardhat
 npx hardhat
 ```
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220429160229.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220429160229.png)
 
 ## 2、开发合约
 > [Solidity](https://soliditylang.org/)是一门面向合约的、为实现智能合约而创建的高级编程语言。
@@ -121,7 +121,7 @@ contract Fool is ERC20, ERC20Burnable, Pausable, Ownable {
 ```
 hardhat会查找项目下所有的智能合约，并根据`hardhat.config.js`配置文件生成编译完成之后的`artifacts`文件目录。
 
-![compile](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220502154746.png)
+![compile](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220502154746.png)
 
 ## 4、部署合约
 
@@ -161,7 +161,7 @@ main()
  npx hardhat node
 ```
 
-![localhost](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220502161938.png)
+![localhost](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220502161938.png)
 
 *注意：这些账户地址和私钥都是公开在网络中的，千万不要在主网上向这些地址转币，否则会丢失掉！！！*
 
@@ -171,7 +171,7 @@ main()
 npx hardhat run --network localhost scripts/deploy.js
 ```
 
-![run](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220502162649.png)
+![run](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220502162649.png)
 
 可以看到，合约已经部署到了localhost测试网络上，合约持有人，账户余额，合约部署的链ID，合约地址如下：
 
@@ -184,7 +184,7 @@ npx hardhat run --network localhost scripts/deploy.js
 
 此时，我们之前运行的本地节点上，也收到了部署的信息，如下
 
-![message](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220502162917.png)
+![message](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220502162917.png)
 
 其中，值得注意的是如下代码：
 
@@ -472,7 +472,7 @@ export default App;
 
 页面效果如下：
 
-![web](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220503192911.png)
+![web](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220503192911.png)
 
 合约创建者信息卡片会显示账户地址和私钥，以及当前账户剩余的以太币余额（注意：这个余额是本地网络启动时的默认余额，上文打印中也显示有1000ETH，交易过程中会消耗一定的gas，所以余额是1000ETH - 累计gas消耗的ETH），还有当前智能合约我们部署的Fool币数量。
 
@@ -482,17 +482,17 @@ export default App;
 
 点击*发币*按钮，就会发送转账交易。
 
-![gif](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/demo.gif)
+![gif](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/demo.gif)
 
 下方会监听交易信息，并打印出来交易数据。*点击transactionHash会显示该笔交易的详细信息弹窗如下*：
 
-![tx](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220503193814.png)
+![tx](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220503193814.png)
 
 同时，在我们运行的本地网络节点中，也会收到查询和交易的相关信息：
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220503194119.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220503194119.png)
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220503194159.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220503194159.png)
 
 
 ## 6、总结
@@ -507,4 +507,4 @@ export default App;
 
 之后，如果有需求，我也会再写一些NFT相关的DEMO，和更复杂的合约。
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)

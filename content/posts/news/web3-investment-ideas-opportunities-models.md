@@ -6,8 +6,8 @@ weight: 0
 categories:
   - WEB3.0
   - 资讯
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/202207011529062.jpeg
-lastmod: 2022-07-01T11:12:41.254Z
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/202207011529062.jpeg
+lastmod: 2022-07-01T16:47:00.623Z
 description: ""
 ---
 
@@ -20,7 +20,7 @@ description: ""
 Web 3.0 (Web3) 的发展产生了重大影响并改变了企业的运营方式。在这篇文章中，我们将看到驱动Web3.0的关键方面，以及最生动的Web3示例和企业可能使用的技术来实现其全部潜力。
 
 
-![资料来源：Appinventive：Web1 & Web2 & Web3 的历史](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/202207011530077.png)
+![资料来源：Appinventive：Web1 & Web2 & Web3 的历史](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/202207011530077.png)
 
 web3.0的浪潮比任何人想象的都要更加完整。首先，它被认为仅仅是跟加密货币相关的。但随着时间的推移，我们正在看到一个全新水平的使用领域。web3.0将通过机器学习算法将来自个人、企业和机器的数据以加密方式连接起来，并与物联网等其他技术相结合，从而导致从根本上全新的市场和有效的商业模式的兴起。
 
@@ -160,4 +160,4 @@ Web3 为所有企业带来了远程机会。由于它分散到数据控制也将
 
 有了这个说明，您在这里可以决定您喜欢哪种模式以及机会。 
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)

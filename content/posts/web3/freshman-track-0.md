@@ -4,12 +4,12 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-19T16:27:47.998Z
-lastmod: 2022-07-01T11:09:49.112Z
+lastmod: 2022-07-01T16:47:00.750Z
 tags: []
 categories:
   - 区块链
   - WEB3.0
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/freshman.png
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/freshman.png
 ---
 
 > 原文：[https://www.learnweb3.io/tracks/freshman](https://www.learnweb3.io/tracks/freshman)<br/>
@@ -64,4 +64,4 @@ featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/freshman.pn
 如果您愿意，您可以并行学习它们，但拥有背景知识肯定会有所帮助！尤其是当您继续在大一以外的轨道上行驶时。
 
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)

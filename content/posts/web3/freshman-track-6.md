@@ -4,15 +4,15 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-06-19T16:27:47.998Z
-lastmod: 2022-06-26T10:48:26.265Z
+lastmod: 2022-07-01T16:47:00.709Z
 tags: []
 categories:
   - 区块链
   - WEB3.0
-featuredImage: https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/freshman.png
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/freshman.png
 ---
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/20220626183840.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220626183840.png)
 
 在本模块中，您将了解什么是 Solidity 以及该语言的基本语法。
 
@@ -268,4 +268,4 @@ contract Array {
 - [Solidity by Example](https://solidity-by-example.org/)
 - [Solidity docs](https://docs.soliditylang.org/en/v0.8.10/)
 
-![](https://cdn.jsdelivr.net/gh/hicoldcat/assets@main/img/my.png)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)
