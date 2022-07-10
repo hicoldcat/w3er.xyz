@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-07-03T13:35:44.938Z
-lastmod: 2022-07-03T13:54:08.346Z
+lastmod: 2022-07-10T06:34:41.838Z
 tags: []
 categories:
   - 区块链
@@ -121,5 +121,7 @@ Sybil Resistance衡量协议如何应对Sybil 攻击。
 - [51% 攻击](https://en.bitcoin.it/wiki/Majority_attack)
 - [交易终结](https://blog.ethereum.org/2016/05/09/on-settlement-finality/)
 - [Ethash](https://eth.wiki/en/concepts/ethash/ethash)
+
+> 原文：[https://www.learnweb3.io/tracks/sophomore/proof-of-work](https://www.learnweb3.io/tracks/sophomore/proof-of-work)
 
 ![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)

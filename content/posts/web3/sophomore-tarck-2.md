@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-07-03T11:23:36.983Z
-lastmod: 2022-07-03T13:54:02.577Z
+lastmod: 2022-07-10T06:35:12.540Z
 tags: []
 categories:
   - 区块链
@@ -223,5 +223,7 @@ contract Gas {
 - [伦敦升级](https://ethereum.org/en/history/#london)
 - [智能合约中的气体优化](https://medium.com/coinmonks/8-ways-of-reducing-the-gas-consumption-of-your-smart-contracts-9a506b339c0a)
 - [有关第 2 层扩展的更多信息](https://ethereum.org/en/developers/docs/scaling/layer-2-rollups/)
+
+> 原文：[https://www.learnweb3.io/tracks/sophomore/what-is-gas](https://www.learnweb3.io/tracks/sophomore/what-is-gas)
 
 ![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)

@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-07-03T09:23:00.012Z
-lastmod: 2022-07-03T13:53:59.972Z
+lastmod: 2022-07-10T06:35:48.476Z
 tags: []
 categories:
   - 区块链
@@ -703,5 +703,8 @@ export default function handler(req, res) {
 - [Next.js in 100 Seconds // 加上完整的教程](https://www.youtube.com/watch?v=Sklc_fQBmcs)
 - [Scrimba 的完整 React 课程](https://scrimba.com/learn/learnreact)
 - [Next.js 速成班](https://www.youtube.com/watch?v=mTz0GXj8NN0)
+
+
+> 原文：[https://www.learnweb3.io/tracks/sophomore/just-enough-react-and-nextjs](https://www.learnweb3.io/tracks/sophomore/just-enough-react-and-nextjs)
 
 ![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)

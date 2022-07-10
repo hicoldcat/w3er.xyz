@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-07-03T13:49:40.864Z
-lastmod: 2022-07-03T13:54:11.202Z
+lastmod: 2022-07-10T06:34:21.829Z
 tags: []
 categories:
   - 区块链
@@ -110,5 +110,7 @@ EVM 的所有实现都必须遵守[以太坊黄皮书](https://ethereum.github.i
 - [Ethereum Yellowpaper](https://ethereum.github.io/yellowpaper/paper.pdf)
 - [Understanding EVM](https://www.youtube.com/watch?v=RxL_1AfV7N4)
 - [Merkle Patricia Trie](https://www.youtube.com/watch?v=OxofT39TJgg)
+
+> 原文：[https://www.learnweb3.io/tracks/sophomore/ethereum-virtual-machine](https://www.learnweb3.io/tracks/sophomore/ethereum-virtual-machine)
 
 ![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)

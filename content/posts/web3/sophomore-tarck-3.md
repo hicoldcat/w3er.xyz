@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-07-03T13:24:43.514Z
-lastmod: 2022-07-03T13:54:05.519Z
+lastmod: 2022-07-10T06:34:58.408Z
 tags: []
 categories:
   - 区块链
@@ -98,6 +98,8 @@ Bob -->  Charlie 1 ETH
 - [挖以太坊意味着什么？](https://docs.ethhub.io/using-ethereum/mining/)
 - [顶级以太坊矿工](https://etherscan.io/stat/miner?range=7&blocktype=blocks)
 - [Etherscan 挖矿计算器](https://etherscan.io/ether-mining-calculator)
+
+> 原文：[https://www.learnweb3.io/tracks/sophomore/what-is-mining](https://www.learnweb3.io/tracks/sophomore/what-is-mining)
 
 ![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)
 
