@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-07-10T06:33:40.207Z
-lastmod: 2022-07-10T06:37:27.989Z
+lastmod: 2022-07-11T14:51:48.099Z
 tags: []
 categories:
   - 区块链
@@ -13,7 +13,6 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220703215340
 ---
 
 有一些话题不太值得单独拿出一个章节去说，但是确有助于我们理解和学习。其中一些关键点会都放到这里来说明。
-
 ## 目录：
 
 - 提供者和签名者

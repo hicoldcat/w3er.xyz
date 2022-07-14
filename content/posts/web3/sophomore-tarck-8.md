@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-07-10T06:36:39.486Z
-lastmod: 2022-07-10T06:37:37.111Z
+lastmod: 2022-07-12T15:28:42.317Z
 tags: []
 categories:
   - 区块链
@@ -12,7 +12,7 @@ categories:
 featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220703215340.png
 ---
 
-你正在推出名为`Crypto Devs`的NFT系列。你想让你的早期支持者访问你的收藏品的白名单，所以在这里你要为`Crypto Devs`创建一个白名单dapp
+假如你正在推出名为`Crypto Devs`的NFT系列。你想让你的早期支持者访问你的收藏品的白名单，所以在这里你要为`Crypto Devs`创建一个白名单dapp
 
 ![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220710135551.png)
 
