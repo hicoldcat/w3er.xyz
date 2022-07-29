@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-07-17T12:26:58.103Z
-lastmod: 2022-07-17T12:30:48.038Z
+lastmod: 2022-07-29T02:02:53.612Z
 tags: []
 categories:
   - 区块链
@@ -15,8 +15,6 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220703215340
 现在是时候为你的`Crypto Dev`代币启动 DeFi 交易所了
 
 ![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220717192003.png)
-
-![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220717192021.png)
 
 ## 要求
 - 仅使用一个资产对（Eth / Crypto Dev）建立交易所
