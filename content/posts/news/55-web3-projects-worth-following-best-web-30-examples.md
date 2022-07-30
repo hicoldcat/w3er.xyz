@@ -7,7 +7,7 @@ categories:
   - WEB3.0
   - 资讯
 featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220730091408.png
-lastmod: 2022-07-30T02:29:41.385Z
+lastmod: 2022-07-30T02:47:23.096Z
 description: ""
 ---
 
@@ -103,7 +103,7 @@ Akropolis是一个产生收益的平台，不主要依靠基于通货膨胀的�
 
 ### [Alchemix](https://alchemix.fi/)
 
-![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/O-2sAAHCO.avif)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/O-2sAAHCO.gif)
 
 Alchemix是一个DeFi贷款人。与传统银行不同，Alchemix的贷款是灵活和即时的。通过该平台，用户能够从其可用于贷款的加密货币资产中获得利息。
 
@@ -318,7 +318,7 @@ Decentraland是一个以区块链为动力的去中心化虚拟现实网站。�
 
 ## 基础设施和发展
 
-![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/giphy (1).gif)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/giphy1.gif)
 
 对于一个完全的初学者来说，浏览区块链场景并不容易，在区块链上构建更是难上加难，但社区已经开发了一些工具，使开发者和业余爱好者更容易构建和部署Dapps。这里有一些最值得注意的。
 
@@ -434,7 +434,7 @@ Web2就是我们今天所知的网络。Web2是为了解决Web1的不足之处�
 
 ### Web3的定义：什么是Web3？
 
-![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/giphy (2).gif)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/giphy2.gif)
 
 第二代网络仍然有其自身的缺陷。第二代网络的用户无法控制他们的数据如何以及在何处被存储和使用。这导致大型科技公司和他们的广告合作伙伴用目标广告轰炸他们的用户。
 
@@ -464,7 +464,7 @@ Web3是 "民有民享 "的网络，意味着网络的管理权在社区手中。
 
 ## 总结
 
-在这篇文章中，我们探讨了网络的演变和web3的可能采用。在这篇文章中，我们还经历了55个web3网站的例子，以及它们不同的使用情况，如DeFi、社交网络、DAO和基础设施。
+在本文中，我们探讨了web的演变和采用web3的可能性。在本文中我们还介绍了55个web3网站的示例，以及它们的不同用例，例如DeFi、社交网络、DAOs和基础设施。
 
 希望这篇文章能够指导你，并帮助你探索和尝试去中心化和开放网络的新世界。
 
