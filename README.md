@@ -1,4 +1,4 @@
-# W3W
+# hicoldcat.com
 
 ### hugo 常用命令
 
@@ -25,5 +25,5 @@ https://waline.js.org/guide/get-started.html
 #### 5、部署打包
 hugo -D
 
-ftp://101.34.232.160/
+ftp上传
 
