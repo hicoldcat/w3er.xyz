@@ -4,11 +4,11 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-08-28T01:42:00.287Z
-lastmod: 2022-08-28T02:03:09.691Z
+lastmod: 2022-08-28T02:06:49.980Z
 tags: []
 categories:
   - 区块链
-featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/pexels-steve-johnson-1812960.jpg
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/21_12_How-to-Mint-NFTs-for-Free-Without-Paying-Gas.jpg
 ---
 
 在区块链主网上铸造 NFT通常会花费一些钱，因为将数据写入区块链需要费用（通常称为*gas*）来支付计算和存储费用。这对于 NFT 创作者来说可能是一个障碍，尤其是那些可能不想在知道自己的作品是否会出售之前先投入大量资金的 NFT 新手。
