@@ -3,13 +3,12 @@ title: 5个获取用于dapp测试和开发的测试网代币的地方
 description: null
 author: 李留白
 weight: 0
-date: 2022-09-09T10:07:28.128Z
-lastmod: 2022-09-09T10:17:39.824Z
+date: 2022-09-10T00:47:44.708Z
+lastmod: 2022-09-10T00:52:19.481Z
 tags: []
 categories:
   - 区块链
 featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/202209091807551.png
-draft: true
 ---
 
 ## 介绍
@@ -30,7 +29,7 @@ draft: true
 
 ## 什么是测试网代币？
 
-测试网代币或硬币是从水龙头获得的真实加密货币的伪造版本，可用于在开发过程中支付以太坊汽油费。
+测试网代币或硬币是从水龙头获得的真实加密货币的测试版本，可用于在开发过程中支付以太坊汽油费。
 
 加密水龙头是一个应用程序或网站，它为用户提供少量加密货币，以换取完成简单的任务，例如解决[CAPTCHA](https://support.google.com/a/answer/1217728)（完全自动化的公共图灵测试，以区分计算机和人类）。
 
@@ -112,7 +111,7 @@ Kovan 测试网络包含在您的 Metamask 钱包中：
 
 ## 5 个获取测试网代币的地方
 
-### 1. 链环水龙头
+### 1. Chainlink水龙头
 
 Chainlink (LINK) 是一个加密货币和技术平台，使非区块链企业能够安全地连接到区块链平台。
 
@@ -149,7 +148,7 @@ LINK 测试网还分发测试网代币以支付用于测试目的的交易费用
 
 Chainlink 支持的网络：**Ethereum Rinkeyby**、**Avalanche Fuji**、**BSC Testnet**、**Ethereum Görli**、**Ethereum Rinkeby**、**Fantom Testnet**、**POA Network Sokol**和**Polygon Mumbai**。
 
-### 2.炼金龙头
+### 2.Alchemy龙头
 
 ![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/202209091812216.png)
 
@@ -159,7 +158,7 @@ Chainlink 支持的网络：**Ethereum Rinkeyby**、**Avalanche Fuji**、**BSC T
 
 如何从 Alchemy 获取测试网代币：
 
-- 访问[炼金术水龙头网站](https://rinkebyfaucet.com/)。
+- 访问[Alchemy水龙头网站](https://rinkebyfaucet.com/)。
 - 在输入框中复制粘贴你的以太坊钱包地址，点击“Send Me ETH”按钮，如下图：
 
 ![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/202209091813666.png)
@@ -176,7 +175,7 @@ Chainlink 支持的网络：**Ethereum Rinkeyby**、**Avalanche Fuji**、**BSC T
 
 Alchemy 支持的网络：仅限**Rinkeby**。
 
-### 3.计算水龙头
+### 3.Komputing水龙头
 
 ![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/202209091813843.png)
 
@@ -241,8 +240,6 @@ Alchemy 支持的网络：仅限**Rinkeby**。
 
 测试网是主区块链的副本环境，允许开发人员测试他们的区块链应用程序。
 
-测试网是某个区块链的副本。
-
 在本文中，我们回顾了四个以太坊测试网（Rinkeby、Goerli、Ropsten 和 Kovan 测试网络），以及我们可以在哪里获得他们的（假）代币以用于基于以太坊的 dApp 开发。
 
-<!-- https://web3.hashnode.com/5-places-to-get-testnet-tokens-for-dapp-testing-and-development -->
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)
