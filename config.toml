@@ -1,4 +1,5 @@
-baseURL = "http://hicoldcat.com/"
+# https://hugodoit.pages.dev/zh-cn/theme-documentation-basics/#site-configuration
+baseURL = "https://hicoldcat.com/"
 defaultContentLanguage = "zh-cn"
 languageCode = "zh-CN"
 hasCJKLanguage = true
@@ -7,130 +8,169 @@ theme = "DoIt"
 summaryLength = 400.0
 googleAnalytics = ""
 enableRobotsTXT = true
+paginate = 50
 
 [params]
 version = "0.2.X"
+description = "Web3.0布道者，专注区块链/元宇宙/以太坊/Dapp/NFT/智能合约/加密等新技术研究和资讯分享。"
+keywords = ["Web3", "BlockChain","NFT","Metaverse","DeFi","DAO","Token", "SmartContarct", "Wallet", "SocialFi"]
+fingerprint = "sha256"
+enablePWA = true
 
-  [params.page]
-
-    [params.page.toc]
-    enable = true
-    keepStatic = true
-
-    [params.page.code]
-    copy = true
-    maxShownLines = 100.0
-
-    [params.page.share]
-    enable = true
-    Weibo = true
-
-    [params.page.comment]
-    enable = false
-
-      [params.page.comment.disqus]
-      enable = false
-      shortname = "li-liu-bai"
 
   [params.header]
 
     [params.header.title]
-    logo = "/images/logo.svg"
-    name = "李留白"
-    pre = ""
-    post = ""
-    typeit = true
+			logo = "/images/logo.svg"
+			name = "李留白"
+			pre = ""
+			post = ""
+			typeit = true
 
-  [params.home]
-
-    [params.home.profile]
-    enable = true
-    avatarURL = "/images/avatar.jpg"
-    title = "李留白"
-    subtitle = "Web3布道师。全栈开发工程师，专注Web3(区块链、元宇宙、XR、DAO、NFT)......"
-    typeit = true
-    social = true
-    disclaimer = ""
+	[params.footer]
+		enable = true
+		custom = ""
+		hugo = false
+		copyright = true
+		author = true
+		since = 2022.4
+		icp = "<a href='https://beian.miit.gov.cn/'>浙ICP备2022012706号-1</a>"
+		license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
   [params.section]
-  paginate = 20.0
-  dateFormat = "01-02"
-  rss = 20.0
+		paginate = 20
+		dateFormat = "01-02"
+		rss = 20
 
     [params.section.recentlyUpdated]
-    enable = true
-    rss = true
-    days = 30.0
-    maxCount = 20.0
+			enable = true
+			rss = true
+			days = 30
+			maxCount = 20
+
+	[params.home]
+
+    [params.home.profile]
+			enable = true
+			avatarURL = "/images/avatar.jpg"
+			title = "李留白"
+			subtitle = "Web3布道师。全栈开发工程师，专注Web3(区块链、元宇宙、XR、DAO、NFT、智能合约、DeFi等)......"
+			typeit = true
+			social = true
+			disclaimer = ""
+		[params.home.posts]
+			enable = true
+			paginate = 50
+			defaultHiddenFromHomePage = false
+
 
   [params.social]
 
     [params.social.GitHub]
-    weight = 0.0
-    id = "hicoldcat"
-    prefix = "https://github.com/"
-    title = "GitHub"
+			weight = 0.0
+			id = "hicoldcat"
+			prefix = "https://github.com/"
+			title = "GitHub"
 
     [params.social.Zhihu]
-    weight = 0.0
-    id = "hicoldcat"
-    prefix = "https://www.zhihu.com/people/"
-    title = "李留白"
+			weight = 0.0
+			id = "hicoldcat"
+			prefix = "https://www.zhihu.com/people/"
+			title = "李留白"
 
     [params.social.Email]
-    weight = 0.0
-    id = "hicoldcat@foxmail.com"
-    title = "李留白"
+			weight = 0.0
+			id = "hicoldcat@foxmail.com"
+			title = "李留白"
 
-  [params.footer]
-  enable = true
-  custom = ""
-  hugo = false
-  copyright = true
-  author = true
-  since = 2022.4
-  icp = "<a href='https://beian.miit.gov.cn/'>浙ICP备2022012706号-1</a>"
-  license = ""
+  [params.page]
+
+    [params.page.toc]
+			enable = true
+			keepStatic = true
+
+    [params.page.code]
+			copy = true
+			maxShownLines = 100.0
+
+    [params.page.share]
+			enable = true
+			Weibo = true
+			Twitter = true
+      Facebook = true
+      Linkedin = false
+      Whatsapp = true
+      Baidu = true
+      Evernote = true
+      Skype = true
+
+    [params.page.comment]
+			enable = false
+
+      [params.page.comment.disqus]
+				enable = false
+				shortname = "li-liu-bai"
+  
+	 [params.sponsor]
+			enable = true
+			bio = "如果你觉得这篇文章对你有所帮助，欢迎赞赏~"
+			link = "/posts/summary/about-me/#赞赏" # 你的赞赏页面的地址
+			custom = ""
+
+	[params.seo]
+    # 图片 URL
+    image = "https://hicoldcat.com/images/logo.svg"
+    # 缩略图 URL
+    thumbnailUrl = "https://hicoldcat.com/images/logo.svg"
+
+	[markup]
+
+		[markup.highlight]
+			codeFences = true
+			guessSyntax = true
+			lineNos = true
+			lineNumbersInTable = true
+			noClasses = false
+
+		[markup.goldmark]
+
+			[markup.goldmark.extensions]
+				definitionList = true
+				footnote = true
+				linkify = true
+				strikethrough = true
+				table = true
+				taskList = true
+				typographer = true
+
+			[markup.goldmark.renderer]
+				unsafe = true
+
+	[author]
+		name = "李留白"
+		email = "hicoldcat@foxmail.com"
+		link = "https://hicoldcat.com/"
+		avatar = "https://hicoldcat.com/images/avatar.jpg"
+		gravatarEmail = ""
+
 
 [menu]
 
   [[menu.main]]
-  identifier = "posts"
-  pre = ""
-  post = ""
-  name = "文章"
-  url = "/posts/"
-  title = ""
-  weight = 1.0
+		identifier = "posts"
+		pre = ""
+		post = ""
+		name = "文章"
+		url = "/posts/"
+		title = ""
+		weight = 1.0
 
   [[menu.main]]
-  identifier = "categories"
-  pre = ""
-  post = ""
-  name = "分类"
-  url = "/categories/"
-  title = ""
-  weight = 3.0
+		identifier = "categories"
+		pre = ""
+		post = ""
+		name = "分类"
+		url = "/categories/"
+		title = ""
+		weight = 3.0
 
-[markup]
-
-  [markup.highlight]
-  codeFences = true
-  guessSyntax = true
-  lineNos = true
-  lineNumbersInTable = true
-  noClasses = false
-
-  [markup.goldmark]
-
-    [markup.goldmark.extensions]
-    definitionList = true
-    footnote = true
-    linkify = true
-    strikethrough = true
-    table = true
-    taskList = true
-    typographer = true
-
-    [markup.goldmark.renderer]
-    unsafe = true
