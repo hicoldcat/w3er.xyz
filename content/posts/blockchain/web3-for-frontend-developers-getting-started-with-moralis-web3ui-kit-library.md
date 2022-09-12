@@ -1,16 +1,15 @@
 ---
-title: 面向前端开发人员的Web3 - Moralis Web3UI 工具包库入门
+title: 面向前端开发人员的Web3-Moralis Web3UI 工具包库入门
 description: null
 author: 李留白
 weight: 0
-date: 2022-09-09T08:56:55.474Z
-lastmod: 2022-09-09T09:35:41.896Z
+date: 2022-09-12T01:33:55.204Z
+lastmod: 2022-09-12T01:48:46.509Z
 tags: []
 categories:
   - 区块链
   - WEB3.0
 featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/202209091656679.png
-draft: true
 ---
 
 > 了解 Web3UI 工具包的基础知识，以及如何快速构建设计良好、易于访问的用户界面！
@@ -43,11 +42,11 @@ web3 生态系统优先考虑基于区块链的项目的后端开发，而对前
 
 #### 1. 用户通过连接钱包登录：
 
-![用户连接钱包的登录页面](https://cdn.hashnode.com/res/hashnode/image/upload/v1652834858672/LZDbB2dF7.png?auto=compress,format&format=webp)
+![用户连接钱包的登录页面](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220912094718.png)
 
 #### 2. 连接的用户将被重定向到他们的仪表板：
 
-![连接的用户可以访问 Web3 dApp 仪表板并查看他们的余额](https://cdn.hashnode.com/res/hashnode/image/upload/v1652834808962/7VSCGwGNy.png?auto=compress,format&format=webp)
+![连接的用户可以访问 Web3 dApp 仪表板并查看他们的余额](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220912094804.png)
 
 ## 演示
 
@@ -59,7 +58,7 @@ web3 生态系统优先考虑基于区块链的项目的后端开发，而对前
 
 ## 什么是 Web3UI 工具包？
 
-![Moralis Web3UI Kit 是第一个用于开发 dApp 前端的 web3 前端库](https://cdn.hashnode.com/res/hashnode/image/upload/v1652555591538/Y0iR63MMZ.png?auto=compress,format&format=webp)
+![Moralis Web3UI Kit 是第一个用于开发 dApp 前端的 web3 前端库](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220912094825.png)
 
 Web3UI Kit 是一个开源的、轻量级的、可重用的 web3 UI 组件。它由[Moralis](https://web3.hashnode.com/moralis.io)团队开发和维护。它类似于 Web2 UI 组件库、[Chakra UI](https://chakra-ui.com/)和[Material UI](https://mui.com/)，但功能更多。
 
@@ -522,4 +521,4 @@ footer {
 
 Web3UIKit 是一个用于构建 Web3 项目界面的开源前端库，由[Moralis](https://moralis.io/)维护。[您可以从这里](https://github.com/web3ui/web3uikit)的官方存储库为 Web3UI 工具包做出贡献。
 
-<!-- https://web3.hashnode.com/web3-for-frontend-developers-getting-started-with-moralis-web3ui-kit-library#heading-4-usenotification -->
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png)
