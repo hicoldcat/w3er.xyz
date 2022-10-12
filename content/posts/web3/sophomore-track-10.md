@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-07-10T08:22:55.581Z
-lastmod: 2022-07-14T14:31:08.837Z
+lastmod: 2022-10-12T02:11:22.609Z
 tags: []
 categories:
   - 区块链
@@ -27,7 +27,7 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220703215340
 
 ## 先决条件
 
-- 你必须已经完成了[NFT-Collection的教程](https://hicoldcat.com/posts/web3/sophomore-tarck-9/)
+- 你必须已经完成了[NFT-Collection的教程](https://hicoldcat.com/posts/web3/sophomore-track-9/)
 
 ## 理论
 

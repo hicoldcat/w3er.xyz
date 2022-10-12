@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-07-10T06:37:50.100Z
-lastmod: 2022-07-13T14:39:16.040Z
+lastmod: 2022-10-12T02:11:22.614Z
 tags: []
 categories:
   - 区块链
@@ -26,7 +26,7 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220703215340
 让我们开始建造🚀
 
 ## 先决条件
-你应该已经完成​​了[白名单 dApp 教程](https://hicoldcat.com/posts/web3/sophomore-tarck-8/)
+你应该已经完成​​了[白名单 dApp 教程](https://hicoldcat.com/posts/web3/sophomore-track-8/)
 
 ## 理论
 

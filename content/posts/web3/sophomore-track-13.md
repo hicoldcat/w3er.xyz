@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-07-17T12:26:58.103Z
-lastmod: 2022-07-29T02:02:53.612Z
+lastmod: 2022-10-12T02:11:16.335Z
 tags: []
 categories:
   - 区块链
@@ -26,9 +26,9 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220703215340
 
 ## 先决条件
 
-- 您已完成[ICO 教程](https://hicoldcat.com/posts/web3/sophomore-tarck-10/)
-- 您已完成[Defi 交换理论教程](https://hicoldcat.com/posts/web3/sophomore-tarck-12/)
-- 您已完成[混合主题教程](https://hicoldcat.com/posts/web3/sophomore-tarck-7/)
+- 您已完成[ICO 教程](https://hicoldcat.com/posts/web3/sophomore-track-10/)
+- 您已完成[Defi 交换理论教程](https://hicoldcat.com/posts/web3/sophomore-track-12/)
+- 您已完成[混合主题教程](https://hicoldcat.com/posts/web3/sophomore-track-7/)
 
 
 ## 智能合约

@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 0
 date: 2022-07-16T00:58:34.440Z
-lastmod: 2022-07-16T01:12:30.801Z
+lastmod: 2022-10-12T02:11:22.605Z
 tags: []
 categories:
   - 区块链
@@ -43,7 +43,7 @@ DAO 的成员资格通常受到 ERC20 Token 所有权或 NFT 所有权的限制�
 - 我们将使用 Next.js 制作网站，以允许用户创建和对提案进行投票
 
 ## 先决条件
-- 你已完成[NFT-Collection ](https://hicoldcat.com/posts/web3/sophomore-tarck-9/)教程
+- 你已完成[NFT-Collection ](https://hicoldcat.com/posts/web3/sophomore-track-9/)教程
 - 你必须有一些 ETH 给 DAO 财政部
 
 ## 构建
