@@ -6,7 +6,7 @@ categories:
   - 总结
 featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg
 date: 2022-08-14T12:48:39.969Z
-lastmod: 2022-09-10T15:01:38.648Z
+lastmod: 2022-10-16T02:40:27.564Z
 description: ""
 ---
 
@@ -90,10 +90,6 @@ description: ""
 
 **浏览量**
 
-<a href="https://github.com/hicoldcat">
-    <img src="https://visitor-badge.glitch.me/badge?page_id=hicoldcat.hicoldcat" alt="Vistor">
-</a>
-
 <p>
     <a href="https://github.com/hicoldcat">
     <img align="" src="https://github-readme-stats.vercel.app/api?username=hicoldcat&show_icons=true&text_color=282828&bg_color=0,FFDEE9,B5FFFC&hide_title=true&count_private=true&locale=cn" />
@@ -104,15 +100,6 @@ description: ""
     <img  align="" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hicoldcat&layout=compact&bg_color=0,FFDEE9,B5FFFC&text_color=282828&locale=cn" />
   </a>
 </p>
-
-**域名出售中**
-
-![点击购买](https://img.shields.io/badge/点击购买:-74bef0)
-[![eventsdao.com](https://img.shields.io/badge/-applemeta.tech-000?&labelColor=000)](mailto:hicoldcat@foxmail.com)
-[![eventsdao.com](https://img.shields.io/badge/-bytemeta.tech-000?&labelColor=000)](mailto:hicoldcat@foxmail.com)
-[![eventsdao.com](https://img.shields.io/badge/-alimeta.tech-000?&labelColor=000)](mailto:hicoldcat@foxmail.com)
-[![eventsdao.com](https://img.shields.io/badge/-metatimes.cloud-000?&labelColor=000)](mailto:hicoldcat@foxmail.com)
-[![eventsdao.com](https://img.shields.io/badge/-mimeta.tech-000?&labelColor=000)](mailto:hicoldcat@foxmail.com)
 
 **关注公众号【李留白】**
 

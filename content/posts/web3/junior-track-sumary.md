@@ -2,9 +2,9 @@
 title: Web3系列教程之进阶篇---教程索引
 description: null
 author: 李留白
-weight: 1
+weight: 0
 date: 2022-07-29T02:10:37.256Z
-lastmod: 2022-10-12T02:11:05.739Z
+lastmod: 2022-10-16T02:40:44.804Z
 tags: []
 categories:
   - 区块链
