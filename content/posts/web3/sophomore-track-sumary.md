@@ -2,9 +2,9 @@
 title: Web3系列教程之入门篇---教程索引
 description: null
 author: 李留白
-weight: 1
+weight: 0
 date: 2022-07-17T12:37:38.318Z
-lastmod: 2022-10-12T02:11:12.472Z
+lastmod: 2022-10-16T02:40:49.477Z
 tags: []
 categories:
   - 区块链
