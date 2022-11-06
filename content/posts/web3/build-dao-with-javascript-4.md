@@ -3,8 +3,8 @@ title: Web3教程：仅仅一个周末，只用Javascript就可以构建出你�
 description: null
 author: 李留白
 weight: 0
-date: 2022-11-03T12:50:57.332Z
-lastmod: 2022-11-06T14:52:40.676Z
+date: 2022-11-06T14:52:40.676Z
+lastmod: 2022-11-06T15:01:17.386Z
 tags: []
 categories:
   - 区块链
