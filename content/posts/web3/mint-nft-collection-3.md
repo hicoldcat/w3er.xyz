@@ -3,15 +3,37 @@ title: 建立你自己的以太坊 NFT 集合（3）
 description: null
 author: 李留白
 weight: 0
-date: 2022-12-10T02:31:40.366Z
-lastmod: 2022-12-10T03:28:21.192Z
+date: 2022-12-13T12:32:51.163Z
+lastmod: 2022-12-13T12:35:47.825Z
 tags: []
 categories:
   - 区块链
   - WEB3.0
 featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20221210103130.png
-draft: true
 ---
+
+**目录**
+
+```
+入门
+  我们在建造什么？
+铸造你的第一个 NFT
+  什么是 NFT
+  启动并运行您的本地环境
+  在本地铸造 NFT
+  创建一个铸造 NFT 的合约
+在链上生成 NFT
+  什么是链上数据。
+  使用静态 SVG 铸造 NFT
+  在链上动态生成 SVG NFT
+创建 WEB 客户端
+  设置 React 应用程序和钱包
+  将钱包连接到网络应用程序
+  创建一个调用合约和铸造 NFT 的按钮
+完成并交付
+  Web 应用程序的最后完善
+  交付
+```
 
 ## 在链上生成 NFTS
 
@@ -207,7 +229,8 @@ string[] thirdWords = ["YOUR_WORD", "YOUR_WORD", "YOUR_WORD", "YOUR_WORD", "YOUR
 
 词义的选择越有趣越好，哈哈。 我喜欢让每个阵列都有一个特定的主题。 例如，`第一个单词`可以是您最喜欢的动漫角色的名字,然后，`第二个单词` 可能是您喜欢的食物, `第三个单词`可以是随机动物的名字。希望你能尽情享受挑选单词的过程。
 
-这是我的一些单词次住。我喜欢的第一行感觉像是在“描述”某些东西的词！ ![img](https://i.imgur.com/ADawgrB.png)
+这是我的一些单词次住。我喜欢的第一行感觉像是在“描述”某些东西的词！ 
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20221213203542.png)
 
 也许您想随机生成一个乐队名称，也许您想随机为龙与地下城游戏生成角色名称，遵循您内心所想的去做吧。也许您根本不在乎三个单词的组合，只想制作类似于`pixel art penguins`的 SVG。 去吧。做你想做的 ：）。
 
