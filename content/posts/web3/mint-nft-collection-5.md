@@ -3,14 +3,13 @@ title: 建立你自己的以太坊 NFT 集合（5）
 description: null
 author: 李留白
 weight: 0
-date: 2022-12-10T02:31:40.366Z
-lastmod: 2022-12-13T12:33:40.969Z
+date: 2022-12-17T13:12:10.963Z
+lastmod: 2022-12-17T13:12:34.883Z
 tags: []
 categories:
   - 区块链
   - WEB3.0
 featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20221210103130.png
-draft: true
 ---
 
 **目录**
@@ -35,7 +34,6 @@ draft: true
   Web 应用程序的最后完善
   交付
 ```
-
 ## 完成并交付
 
 ### 💚Web 应用程序的最后完善
