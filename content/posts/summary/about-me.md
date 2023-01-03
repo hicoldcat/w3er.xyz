@@ -6,7 +6,7 @@ categories:
   - 总结
 featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg
 date: 2022-08-14T12:48:39.969Z
-lastmod: 2023-01-03T06:31:25.386Z
+lastmod: 2023-01-03T06:38:00.222Z
 description: ""
 ---
 
@@ -23,7 +23,7 @@ description: ""
 **公众号**
 
 <p>
-  <img src="https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/扫码_搜索联合传播样式-白色版.png" width="400"></img>
+  <img src="https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/扫码_搜索联合传播样式-白色版.png" width="600"></img>
 </p>
 
 **语言**
@@ -112,11 +112,11 @@ description: ""
 如果你觉得文章对你有所帮助，欢迎赞赏~
 
 <p>
-    <img src="https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/微信图片_20230103142437.jpg" width="260"></img>
+    <img src="https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/微信图片_20230103142437.jpg" width="400"></img>
 </p>
 
 **联系我**
 
 <p>
-  <img src="https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png" width="400"></img>
+  <img src="https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/my.png" width="800"></img>
 </p>
