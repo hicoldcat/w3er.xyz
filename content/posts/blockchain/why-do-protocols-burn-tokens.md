@@ -3,8 +3,8 @@ title: 为什么协议会销毁代币？
 description: null
 author: 李留白
 weight: 0
-date: 2023-01-04T02:54:40.634Z
-lastmod: 2023-01-03T03:16:15.546Z
+date: 2023-01-04T03:05:34.600Z
+lastmod: 2023-01-04T03:05:42.208Z
 tags: []
 categories:
   - 区块链
