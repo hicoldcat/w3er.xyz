@@ -3,8 +3,8 @@ title: 学习 Web3 开发的最佳平台
 description: null
 author: 李留白
 weight: 0
-date: 2023-01-04T03:05:34.600Z
-lastmod: 2023-01-17T15:16:29.209Z
+date: 2023-01-17T15:16:29.209Z
+lastmod: 2023-01-18T02:28:57.287Z
 tags: []
 categories:
   - 区块链
