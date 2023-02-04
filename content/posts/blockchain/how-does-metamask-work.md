@@ -3,14 +3,13 @@ title: Metamask 是什么以及如何工作？
 description: null
 author: 李留白
 weight: 0
-date: 2023-01-04T03:05:34.600Z
-lastmod: 2023-01-09T06:48:43.709Z
+date: 2023-02-04T02:43:00.589Z
+lastmod: 2023-02-04T02:43:24.390Z
 tags: []
 categories:
   - 区块链
   - WEB3.0
 featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/202301091443202.png
-draft: true
 ---
 
 Metamask 是一种加密货币电子钱包，可以作为扩展安装在任何网络浏览器上。基于区块链的加密钱包，也可作为应用程序编程接口（API），适用于并可以连接到任何基于以太坊的去中心化应用程序（dApps）。
