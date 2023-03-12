@@ -1,0 +1,342 @@
+---
+title: 什么是 Web3-React 以及如何将其用于 dApp 前端？
+description: null
+author: 李留白
+weight: 0
+date: 2023-03-12T13:12:15.372Z
+lastmod: 2023-03-12T13:30:12.678Z
+tags: []
+categories:
+  - 区块链
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/202303122115607.png
+---
+
+你在构建 dApp 吗？如果是，那么您必须需要将您的 dApp 连接到钱包。Web3-react 可能正是您正在寻找的工具！
+
+[Web3-react](https://github.com/NoahZinsmeister/web3-react/tree/v6)是由 Noah Zinsmeister 创建的 web3 框架，用于帮助区块链开发人员使用 React hooks 制作现代以太坊 dApp。
+
+让我们探索 web3-react！👇‍
+
+## 什么是 Web3-react？
+
+Web3-react 是一个基于 React 的框架，有助于简化 dApp 的前端开发。
+
+Web3-react 还充当状态机，维护与 dApp 相关的数据，并将其注入组件树中需要的任何位置。Web3-React 支持范围广泛的钱包，从 Metamask 和 Coinbase 等浏览器钱包到 Trezor 和 Ledger 等硬件钱包。
+
+在[LearnWeb3](https://www.learnweb3.io/)中，我们使用 Web3-Modal 在 dApps 中进行钱包连接。Web3-Modal 非常适合初学者，但随着我们扩展项目，处理 Web3-Modal 变得更加困难。
+
+因此 web3-react 可能是更好的选择，因为：
+
+- 它更适合构建现代 dApp
+- 拥有更好的开发者体验
+- 减少代码冗余
+- 并且是一个直观的框架
+
+## 为什么使用 Web3-react 可能是一个更好的主意？
+
+Web3-React 在很多方面提供了灵活性。如前所述，它对许多钱包都有很好的支持。
+
+但即使钱包未包含在 web3-react 包中，您也可以创建自定义连接器并连接 web3-react 中列出的钱包以外的钱包！
+
+Web3-react 在底层使用 Ethers.js 或 Web3.js，从而提供流畅的体验，因为**仅**使用ether.js 连接钱包可能是一个非常痛苦的过程。
+
+*注意*：在继续之前，请确保您了解 ContextAPI，换句话说，useContext hook。这是 Web3-React 的关键特性。
+
+## 安装 web3-react
+
+让我们安装 web3-react！
+
+在本文中，我们假设您已经设置了 ReactJS/NextJS 应用程序。
+
+在您的应用程序目录中，运行以下命令来安装 web-react：
+
+```
+npm install @web-react/core
+```
+
+或者
+
+```
+yarn add @web3-react/core
+```
+
+现在，为了连接基于浏览器的钱包，我们需要安装以下 web3-react 包：
+
+```
+npm install @web3-react/injected-connector
+```
+
+或者
+
+```
+yarn add @web3-react/injected-connector
+```
+
+而且..你拥有将你的 dApp 连接到浏览器钱包所需的所有要素！让我们开始编写连接钱包的代码吧！
+
+## 连接钱包
+
+本节假设您已经创建了应用程序并安装了之前的依赖项。既然已经解决了，让我们直接进入这个！
+
+### 第 1 步：设置**Web3ReactProvider**
+
+让我们跳转到`pages`文件夹下的（对于下一步）`_app.js`文件！
+
+编辑代码，使其看起来像这样👇‍
+
+```js
+import '../styles/globals.css'
+import { Web3ReactProvider } from '@web3-react/core'
+import { providers, Web3Provider } from 'ethers'
+
+function getLibrary(provider, connector) {
+  return new providers.Web3Provider(provider)
+}
+
+function MyApp({ Component, pageProps }) {
+  return(
+    <Web3ReactProvider getLibrary={getLibrary}>
+      <Component {...pageProps} />
+    </Web3ReactProvider>
+  )
+}
+
+export default MyApp
+
+```
+
+完成了吗？现在让我们来理解一下这段代码！
+
+- 此函数返回提供者对象。
+
+```js
+function getLibrary(provider, connector) {
+  return new providers.Web3Provider(provider)
+}
+```
+
+- Web3ReactProvider 是上下文提供者，它将所有数据向下传递到组件树。
+
+```js
+function MyApp({ Component, pageProps }) {
+return (
+  <Web3ReactProvider getLibrary={getLibrary}>
+    <Component {...pageProps} />
+  </Web3ReactProvider>
+ )
+}
+```
+
+### 第 2 步：设置挂钩
+
+现在让我们进入您的`pages`文件夹`index.js`。
+
+```js
+import Head from 'next/head'
+import Image from 'next/image'
+import styles from '../styles/Home.module.css'
+import { InjectedConnector } from '@web3-react/injected-connector'
+import { useWeb3React } from '@web3-react/core'
+import { useState } from 'react'
+import { CONTRACT_ADDRESS, CONTRACT_ABI } from '../constants'
+
+export default function Home() {
+
+  const [ result, setResult ] = useState("")
+
+  // web3-react hook, helps in fetching 
+  // the data passed by Web3ReactProvider
+  const { active, activate, deactivate, account, library, connector, error } = useWeb3React()
+
+  // injected provider identifier
+  const injected = new InjectedConnector(
+    {
+      supportedChainIds:[80001]
+    }
+  )
+
+  const connectWallet = async () => {
+    try {
+      await activate(injected)
+    } catch (err) {
+      console.error(err)
+    }
+  }
+
+  const disconnectWallet = async () => {
+    try {
+      deactivate(injected)
+    } catch (err) {
+      console.error(err)
+    }
+  }
+return (
+    <div className={styles.container}>
+      <Head>
+        <title>Create Next App</title>
+        <meta name="description" content="Generated by create next app" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <button onClick={connectWallet}>Connect Wallet</button>
+      {active? <span>Connected with <b>{account}</b></span>: <span>Not Connected</span>}
+      <button onClick={disconnectWallet}>Disconnect Wallet</button>
+
+    </div>
+  )
+}
+
+```
+
+好的，现在让我们看看**useWeb3React** hook
+
+```js
+const { active, activate, deactivate, account, library, connector, error } = useWeb3React()
+```
+
+- `useWeb3React`是来自 web-react 库的自定义挂钩，它返回许多有用的功能。
+- 这个钩子返回：
+
+```
+  connector;
+  // connector object returns some useful connection
+  // methods like activate() and deactivate()
+
+  library;
+  // library is the provider object that we 
+  // passed with the Web3ReactProvider
+
+  chainId;
+  // returns the chainId for the account that
+  // is connected to the dApp
+
+  account;
+  // the account address of the connected account
+
+  active;   
+  // active is a state variable which returns boolean values
+  // that determines whether the wallet connection is 
+  // active or inactive
+
+  error;
+  // returns any error happening with the wallet connection
+```
+
+现在让我们看看**注入的**变量 -
+
+```
+const injected = new InjectedConnector({
+      supportedChainIds:[80001]
+})
+// we can list multiple networks by listing their
+// chainIds, separated by comma
+```
+
+- **Injected Connector**是一个类，它接受受支持的 chainIds 的输入并返回一组与浏览器钱包交互的方法。
+- 如果钱包未连接到正确的网络，它将返回`UnsupportedChainId`错误。`error`可以从`useWeb3React`钩子返回的对象访问此错误。
+
+至于`activate(injected)`和`deactivate(injected)`，它们是连接或断开注入提供者（浏览器钱包）的方法。
+
+BOOM 💥 你**已经**准备好钱包连接设置了！
+
+## 合同中的读写
+
+现在我们已经连接了我们的钱包，剩下的就是读写区块链的方式了！
+
+我们如何做到这一点？
+
+我们将使用 web3-react `library`(provider) 对象从区块链读取/写入区块链
+
+因此，我们将使用在 LearnWeb3DAO 的 Freshman Track 中构建的 Mood dApp 合约。[单击此处](https://www.learnweb3.io/tracks/freshman/dapp-tutorial)获取智能合约。
+
+在我们深入研究之前，请确保您已经在`constants`文件夹中（在根目录中）创建了一个`index.js`，并且它应该具有以下代码 -
+
+```js
+// put your contract address in place of this gibberish
+export const CONTRACT_ADDRESS = "0xabcabcabcabcabcabc";
+
+// put your abi in this variable, it will be of the form [{},{}]
+export const CONTRACT_ABI = [...]
+```
+
+### 阅读
+
+要从智能合约中读取数据，我们需要两件事——
+
+- 合约实例
+- 提供者
+
+因此，让我们编写一个从智能合约中读取的函数！
+
+```js
+const getMood = async () => {
+
+    const provider = library;
+
+    const contract = new Contract(
+      CONRTACT_ADDRESS,
+      CONTRACT_ABI,
+      provider
+    );
+
+    const tx = await contract.getMood();
+    tx.wait();
+    setResult(tx);
+  }
+```
+
+- 我们将`provider`变量设置为`library`. 请记住，`library`是从`useWeb3React`钩子返回的，它是一个提供者对象。很方便，不是吗？
+- 然后，我们创建一个新的 Contract 实例，这使我们能够与合同进行交互。
+- 现在是创建交易的时候了！我们在这里调用合约中的 getMood() 函数。
+- `tx.wait()`等待交易完成。
+- `setResult(tx)`将状态变量`result`的值设置为`tx`的值。
+
+### 写作
+
+为了通过智能合约编写，我们需要两件事——
+
+- 合约实例
+- 签名者（签署交易）
+
+让我们创建一个写作功能！
+
+```js
+const setMood = async ( mood ) => {
+
+    const signer = await library.getSigner()
+
+    const contract = new Contract(
+      CONRTACT_ADDRESS,
+      CONTRACT_ABI,
+      signer
+    )
+
+    const tx = await contract.setMood(mood)
+    tx.wait()
+    alert("Mood set!")
+  }
+```
+
+现在情况发生了变化，让我们一步一步地探索它们——
+
+- `library`是一个提供者对象，但我们需要一个签名者，对吗？好吧，一个提供者对象有一个方法叫做`getSigner()`返回附加到这个提供者的签名者对象！
+- `contract`是一个 Contract 实例，但在这里，我们没有传递提供者，而是传递了一个签名者，因为为了编写交易，我们需要一个签名者来签署交易。
+- 最后，我们现在已经将一个参数传递给合约函数，因为合约中的函数需要一个参数来设置心情。
+
+LFG！! 你已经用 web3-react 制作了一个 dApp 前端！它也可以在区块链上读取和写入！💪‍
+
+## 结论
+
+Web3-react 是一个非常方便的框架，用于在 React/NextJS 中构建 dApp 前端。
+
+这是一个非常易于使用的工具，但它可能会让初学者感到困惑。要使用此工具，您可能需要了解 Context API。
+
+注意：**Web3-React**没有很好的文档，他们 repo 的主要分支甚至没有文档。要阅读他们的文档，请转到他们的[`v6`](https://github.com/NoahZinsmeister/web3-react/tree/v6)分支。
+
+这篇博客就写到这里!
+
+下次再见。😄
+
+> 原文：https://blog.learnweb3.io/what-is-web3-react
+
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/profile.jpg)
