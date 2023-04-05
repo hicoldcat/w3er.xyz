@@ -2,7 +2,7 @@
 weight: 0
 title: Theme Documentation - Basics
 date: 2020-03-03T21:29:01+08:00
-lastmod: 2022-06-12T09:03:13.995Z
+lastmod: 2023-04-05T05:31:56.727Z
 draft: false
 authors:
   - Dillon
@@ -437,7 +437,8 @@ Please open the code block below to view the complete sample configuration :(far
     QQ = ""
     QQGroup = ""
     Email = "xxxx@xxxx.com"
-    RSS = true # {{< version 0.2.0 >}}
+    RSS = true
+    WeiXin = "" # {{< version 0.2.0 >}}
 
   # {{< version 0.2.0 changed >}} Page config
   [params.page]

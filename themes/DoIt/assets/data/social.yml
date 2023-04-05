@@ -565,3 +565,11 @@ rss:
   Newtab: true
   Icon:
     Class: fas fa-rss fa-fw
+
+# 070: WEIXIN
+weixin:
+  Weight: 72
+  Prefix: https://mp.weixin.qq.com/s/
+  Title: WeiXin
+  Icon:
+    Src: svg/icons/weixin.svg

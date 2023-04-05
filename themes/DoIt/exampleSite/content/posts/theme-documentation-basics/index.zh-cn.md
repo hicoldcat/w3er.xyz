@@ -2,7 +2,7 @@
 weight: 0
 title: 主题文档 - 基本概念
 date: 2020-03-03T21:40:32+08:00
-lastmod: 2022-06-12T09:03:13.998Z
+lastmod: 2023-04-05T05:31:49.048Z
 draft: false
 authors:
   - Dillon
@@ -438,7 +438,8 @@ hugo
     QQ = ""
     QQGroup = ""
     Email = "xxxx@xxxx.com"
-    RSS = true # {{< version 0.2.0 >}}
+    RSS = true
+    WeiXin = "" # {{< version 0.2.0 >}}
 
   # {{< version 0.2.0 changed >}} 文章页面配置
   [params.page]

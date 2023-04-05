@@ -79,6 +79,12 @@ keywords = ["Web3", "BlockChain","NFT","Metaverse","DeFi","DAO","Token", "Smart 
 			weight = 0.0
 			id = "hicoldcat@foxmail.com"
 			title = "李留白"
+	
+	[params.social.WeiXin]
+			weight = 0.0
+			id = "HZeDT97iL3LML5uD77jhVQ"
+			prefix = "https://mp.weixin.qq.com/s/"
+			title = "李留白"
 
   [params.page]
 

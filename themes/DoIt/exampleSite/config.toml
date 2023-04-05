@@ -262,6 +262,7 @@ enableEmoji = true
         Linktree = ""
         Email = "xxxx@xxxx.com"
         RSS = true
+        WeiXin = ""
         [languages.en.params.social.Mastodon]
           id = "@xxxx"
           prefix = "https://mastodon.technology/"
@@ -510,6 +511,7 @@ enableEmoji = true
         QQGroup = ""
         Email = "xxxx@xxxx.com"
         RSS = true
+        WeiXin = ""
         # 赞助设置
       [languages.zh-cn.params.sponsor]
         enable = false
