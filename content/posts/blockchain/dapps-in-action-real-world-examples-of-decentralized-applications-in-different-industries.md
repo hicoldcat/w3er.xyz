@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 0
 date: 2023-04-14T15:57:22.729Z
-lastmod: 2023-04-14T16:01:31.586Z
+lastmod: 2023-04-16T13:02:38.283Z
 tags: []
 categories:
   - 区块链
@@ -76,4 +76,4 @@ Dapps 有几种类型，根据它们的功能和它们使用的共识机制进�
 
 > 原文：https://maithaliblock.hashnode.dev/dapps-in-action-real-world-examples-of-decentralized-applications-in-different-industries
 
-![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/profile.jpg)![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/profile.jpg)
+![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/profile.jpg)
