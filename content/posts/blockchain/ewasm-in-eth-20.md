@@ -4,14 +4,12 @@ description: null
 author: 李留白
 weight: 0
 date: 2023-04-28T14:30:30.337Z
-lastmod: 2023-04-28T15:14:07.366Z
+lastmod: 2023-04-28T15:22:33.969Z
 tags: []
 categories:
   - 区块链
 featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20230428230130.png
 ---
-
-![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20230428230130.png)
 
 ## 关于
 
