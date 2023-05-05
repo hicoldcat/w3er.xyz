@@ -4,14 +4,12 @@ description: null
 author: 李留白
 weight: 0
 date: 2023-05-04T02:27:01.276Z
-lastmod: 2023-05-04T02:30:26.555Z
+lastmod: 2023-05-05T17:31:42.787Z
 tags: []
 categories:
   - 区块链
 featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20230504102713.png
 ---
-
-![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20230504102713.png)
 
 Web3 中不成比例的注意力集中在与货币相关的用例上，因为正在建设的项目将对几乎每个行业部门产生深远影响。考虑到这一点，我们仔细研究了 Nodle，这是一个基于区块链的网络，对不断发展的物联网 (IoT) 和去中心化互联网具有重要意义。
 
