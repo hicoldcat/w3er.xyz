@@ -3,8 +3,8 @@ title: Aptos：点燃区块链革命，潜力无限
 description: null
 author: 李留白
 weight: 0
-date: 2023-07-18T02:43:34、406Z
-lastmod: 2023-07-18T02:58:10.652Z
+date: 2023-07-18T02:43:34.406Z
+lastmod: 2023-07-24T10:56:54.845Z
 tags: []
 categories:
   - 区块链
