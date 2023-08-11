@@ -1,4 +1,4 @@
-# hicoldcat.com
+# w3er.xyz
 
 ### hugo 常用命令
 
