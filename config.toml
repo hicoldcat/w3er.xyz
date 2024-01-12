@@ -12,8 +12,8 @@ paginate = 50
 
 [params]
 version = "0.2.X"
-description = "Web3.0布道者，公众号【李留白】作者，专注区块链/元宇宙/以太坊/Dapp/NFT/智能合约/加密等新技术研究和资讯分享。"
-keywords = ["Web3", "BlockChain","NFT","Metaverse","DeFi","DAO","Token", "Smart Contarct", "Wallet", "SocialFi", "DApp", "DEX", "News", "Posts"]
+description = "科技领域自媒体作者，公众号【李留白】作者，全栈开发工程师，关注Web3和AI等领域。"
+keywords = ["AI","Web3", "BlockChain","NFT","Metaverse","DeFi","DAO","Token", "Smart Contarct", "Wallet", "SocialFi", "DApp", "DEX", "News", "Posts"]
 
   [params.header]
 
@@ -31,7 +31,6 @@ keywords = ["Web3", "BlockChain","NFT","Metaverse","DeFi","DAO","Token", "Smart 
 		copyright = true
 		author = true
 		since = 2022
-		icp = "<a href='https://beian.miit.gov.cn/'>浙ICP备2022012706号-1</a>"
 		license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
   [params.section]
@@ -51,7 +50,7 @@ keywords = ["Web3", "BlockChain","NFT","Metaverse","DeFi","DAO","Token", "Smart 
 			enable = true
 			avatarURL = "/images/avatar.jpg"
 			title = "李留白"
-			subtitle = "科技领域自媒体作者，公众号【李留白】主理人，全栈开发工程师，关注Web3和AI等领域。"
+			subtitle = "科技领域自媒体作者，公众号【李留白】作者，全栈开发工程师，关注Web3和AI等领域。"
 			typeit = true
 			social = true
 			disclaimer = ""
