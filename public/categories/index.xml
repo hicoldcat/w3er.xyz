@@ -4,19 +4,26 @@
         <link>https://hicoldcat.com/categories/</link>
         <description>Categories - 分类 - 李留白，探索发现频道</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>hicoldcat@foxmail.com (李留白)</managingEditor>
-            <webMaster>hicoldcat@foxmail.com (李留白)</webMaster><lastBuildDate>Sun, 01 Jan 2023 09:45:00 &#43;0000</lastBuildDate><atom:link href="https://hicoldcat.com/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>WEB3.0</title>
-    <link>https://hicoldcat.com/categories/web3.0/</link>
-    <pubDate>Sun, 01 Jan 2023 09:45:00 &#43;0000</pubDate><author>
-        <name>李留白</name>
-    </author><guid>https://hicoldcat.com/categories/web3.0/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
+            <webMaster>hicoldcat@foxmail.com (李留白)</webMaster><lastBuildDate>Sun, 14 Jan 2024 13:17:49 &#43;0000</lastBuildDate><atom:link href="https://hicoldcat.com/categories/" rel="self" type="application/rss+xml" /><item>
     <title>区块链</title>
     <link>https://hicoldcat.com/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/</link>
-    <pubDate>Sun, 01 Jan 2023 09:45:00 &#43;0000</pubDate><author>
+    <pubDate>Sun, 14 Jan 2024 13:17:49 &#43;0000</pubDate><author>
         <name>李留白</name>
     </author><guid>https://hicoldcat.com/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>AI</title>
+    <link>https://hicoldcat.com/categories/ai/</link>
+    <pubDate>Tue, 05 Dec 2023 13:57:19 &#43;0000</pubDate><author>
+        <name>李留白</name>
+    </author><guid>https://hicoldcat.com/categories/ai/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>WEB3.0</title>
+    <link>https://hicoldcat.com/categories/web3.0/</link>
+    <pubDate>Sun, 27 Aug 2023 12:49:21 &#43;0000</pubDate><author>
+        <name>李留白</name>
+    </author><guid>https://hicoldcat.com/categories/web3.0/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>总结</title>
