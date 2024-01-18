@@ -1,5 +1,5 @@
 # https://hugodoit.pages.dev/zh-cn/theme-documentation-basics/#site-configuration
-baseURL = "https://hicoldcat.com/"
+baseURL = "https://w3er.xyz/"
 defaultContentLanguage = "zh-cn"
 languageCode = "zh-CN"
 hasCJKLanguage = true
@@ -121,9 +121,9 @@ keywords = ["AI","Web3", "BlockChain","NFT","Metaverse","DeFi","DAO","Token", "S
 
 	[params.seo]
     # 图片 URL
-    image = "https://hicoldcat.com/images/logo.svg"
+    image = "https://w3er.xyz/images/logo.svg"
     # 缩略图 URL
-    thumbnailUrl = "https://hicoldcat.com/images/logo.svg"
+    thumbnailUrl = "https://w3er.xyz/images/logo.svg"
 
 	[markup]
 
