@@ -1,1 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1" width="520" height="520" viewBox="0 0 520 520"><defs><clipPath id="master_svg0_3_1518"><rect x="0" y="0" width="520" height="520" rx="0"/></clipPath></defs><g clip-path="url(#master_svg0_3_1518)"><rect x="0" y="0" width="520" height="520" rx="0" fill="#FFFFFF" fill-opacity="1"/><g style="mix-blend-mode:passthrough"><g style="mix-blend-mode:passthrough"><rect x="70" y="107" width="35.90550994873047" height="250" rx="17.952754974365234" fill="#FF87A2" fill-opacity="1"/></g><g style="mix-blend-mode:passthrough"><rect x="70" y="371" width="179.52755737304688" height="36" rx="18" fill="#2CB9B0" fill-opacity="1"/></g><g style="mix-blend-mode:passthrough"><path d="M270 107C270 107 270 107 270 107L414 107C433.88225099390854 107 450 123.11774900609144 450 143L450 257C450 257 450 257 450 257L270 257C270 257 270 257 270 257Z" fill="#2CB9B0" fill-opacity="1"/></g><g style="mix-blend-mode:passthrough"><path d="M270 257C270 257 270 257 270 257L450 257C450 257 450 257 450 257L450 371C450 390.88225099390854 433.88225099390854 407 414 407L270 407C270 407 270 407 270 407Z" fill="#FF87A2" fill-opacity="1"/></g><g style="mix-blend-mode:passthrough"><path d="M306 275C306 275 306 275 306 275L414 275C414 275 414 275 414 275L414 353C414 362.94112549695427 405.94112549695427 371 396 371L306 371C306 371 306 371 306 371Z" fill="#FFFFFF" fill-opacity="1"/></g><g style="mix-blend-mode:passthrough" transform="matrix(1,0,0,-1,0,478)"><path d="M306,239L414,239L414,317C414,326.9411,405.9411,335,396,335L306,335L306,239Z" fill="#FFFFFF" fill-opacity="1"/></g></g></g></svg>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="1024.000000pt" height="1024.000000pt" viewBox="0 0 1024.000000 1024.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.14, written by Peter Selinger 2001-2017
+</metadata>
+<g transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M1350 5358 c0 -1839 2 -2167 15 -2248 23 -149 71 -259 155 -353 109
+-121 244 -179 460 -197 152 -13 5914 -13 6068 0 348 28 589 170 707 415 87
+182 99 304 92 950 -6 501 -9 532 -66 681 -34 87 -87 174 -152 247 -81 92 -237
+185 -348 208 -31 6 -67 13 -81 16 -21 4 -16 8 30 22 222 69 398 268 482 543
+21 71 22 89 26 603 4 569 0 633 -45 759 -92 260 -323 450 -604 495 -42 7 -587
+11 -1601 11 l-1538 0 0 -2030 0 -2030 -1290 0 -1290 0 0 2030 0 2030 -510 0
+-510 0 0 -2152z m6278 722 l-3 -561 -838 -2 -837 -2 0 563 0 562 840 0 840 0
+-2 -560z m102 -2045 l0 -615 -890 0 -890 0 0 615 0 615 890 0 890 0 0 -615z"/>
+</g>
+</svg>

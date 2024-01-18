@@ -1,1 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1" width="520" height="520" viewBox="0 0 520 520"><defs><clipPath id="master_svg0_9_014"><rect x="0" y="0" width="520" height="520" rx="0"/></clipPath></defs><g clip-path="url(#master_svg0_9_014)"><g style="mix-blend-mode:passthrough"><g style="mix-blend-mode:passthrough"><rect x="70" y="107" width="35.90550994873047" height="250" rx="17.952754974365234" fill="#FF87A2" fill-opacity="1"/></g><g style="mix-blend-mode:passthrough"><rect x="70" y="371" width="179.52755737304688" height="36" rx="18" fill="#2CB9B0" fill-opacity="1"/></g><g style="mix-blend-mode:passthrough"><path d="M270 107C270 107 270 107 270 107L414 107C433.88225099390854 107 450 123.11774900609144 450 143L450 257C450 257 450 257 450 257L270 257C270 257 270 257 270 257Z" fill="#000000" fill-opacity="0"/><path d="M414,107L270,107L270,257L450,257L450,143C450,123.1178,433.882,107,414,107ZM306,143L306,239L414,239L414,143L306,143Z" fill-rule="evenodd" fill="#2CB9B0" fill-opacity="1"/></g><g style="mix-blend-mode:passthrough"><path d="M450,257L270,257L270,407L414,407C433.882,407,450,390.882,450,371L450,257ZM306,275L306,371L414,371L414,275L306,275Z" fill-rule="evenodd" fill="#FF87A2" fill-opacity="1"/></g></g></g></svg>
+<svg width="512.000000" height="512.000000" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_7_3_dd" x="247.484375" y="136.343750" width="194.843750" height="248.046875" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="12"/>
+			<feGaussianBlur stdDeviation="4"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="shape" result="effect_innerShadow_1"/>
+		</filter>
+		<filter id="filter_7_2_dd" x="67.359375" y="136.331177" width="180.156250" height="248.046875" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="12"/>
+			<feGaussianBlur stdDeviation="4"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="shape" result="effect_innerShadow_1"/>
+		</filter>
+		<clipPath id="clip7_1">
+			<rect id="logo-方形-白色" width="512.000000" height="512.000000" fill="white"/>
+		</clipPath>
+	</defs>
+	<rect id="logo-方形-白色" width="512.000000" height="512.000000" fill="#FFFFFF"/>
+	<g clip-path="url(#clip7_1)">
+		<g filter="url(#filter_7_3_dd)">
+			<path id="B" d="M408.422 257.984C412.901 258.193 417.276 259.417 421.547 261.656C425.818 263.896 429.438 266.812 432.406 270.406C439.021 278.323 442.328 287.932 442.328 299.234L442.328 342.75C442.328 354.729 438.917 364.443 432.094 371.891C423.812 380.224 412.094 384.391 396.938 384.391L247.484 384.391L247.484 136.344L396.938 136.344C408.656 136.344 418.682 140.51 427.016 148.844C433.839 156.292 437.25 166.005 437.25 177.984L437.25 216.969C437.25 227.229 434.516 236.214 429.047 243.922C423.63 251.578 416.755 256.266 408.422 257.984ZM381.234 236.188L381.234 179.859L297.406 179.859L297.406 236.188L381.234 236.188ZM386.391 279.703L297.406 279.703L297.406 340.875L386.391 340.875L386.391 279.703Z" fill-rule="evenodd" fill="#2CB9B0"/>
+		</g>
+		<g filter="url(#filter_7_2_dd)">
+			<path id="L" d="M247.516 339.534L247.516 384.378L102.594 384.378C91.0312 384.378 82.2552 381.175 76.2656 374.769C70.3281 368.362 67.3594 359.612 67.3594 348.519L67.3594 136.331L118.531 136.331L118.531 339.534L247.516 339.534Z" fill-rule="evenodd" fill="#FF87A2"/>
+		</g>
+	</g>
+</svg>
