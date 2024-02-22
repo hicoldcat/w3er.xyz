@@ -16,16 +16,16 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/freshman.png
 > 翻译：李留白
 
 本文是[learnweb3](https://www.learnweb3.io/)的新手篇，包括：
-- [Level 0：前置基础编程知识](https://hicoldcat.com/posts/web3/freshman-track-0)
-- [Level 1：什么是区块链？](https://hicoldcat.com/posts/web3/freshman-track-1)
-- [Level 2：什么是Web3？](https://hicoldcat.com/posts/web3/freshman-track-2)
-- [Level 3：什么是ETH？](https://hicoldcat.com/posts/web3/freshman-track-3)
-- [Level 4：加密钱包？](https://hicoldcat.com/posts/web3/freshman-track-4)
-- [Level 5：Remix IDE介绍](https://hicoldcat.com/posts/web3/freshman-track-5)
-- [Level 6：Solidity介绍](https://hicoldcat.com/posts/web3/freshman-track-6)
-- [Level 7：dApp介绍](https://hicoldcat.com/posts/web3/freshman-track-7)
-- [Level 8：加密货币(ERC20)简介](https://hicoldcat.com/posts/web3/freshman-track-8)
-- [Level 9：NFT介绍](https://hicoldcat.com/posts/web3/freshman-track-9)
+- [Level 0：前置基础编程知识](https://w3er.xyz/posts/web3/freshman-track-0)
+- [Level 1：什么是区块链？](https://w3er.xyz/posts/web3/freshman-track-1)
+- [Level 2：什么是Web3？](https://w3er.xyz/posts/web3/freshman-track-2)
+- [Level 3：什么是ETH？](https://w3er.xyz/posts/web3/freshman-track-3)
+- [Level 4：加密钱包？](https://w3er.xyz/posts/web3/freshman-track-4)
+- [Level 5：Remix IDE介绍](https://w3er.xyz/posts/web3/freshman-track-5)
+- [Level 6：Solidity介绍](https://w3er.xyz/posts/web3/freshman-track-6)
+- [Level 7：dApp介绍](https://w3er.xyz/posts/web3/freshman-track-7)
+- [Level 8：加密货币(ERC20)简介](https://w3er.xyz/posts/web3/freshman-track-8)
+- [Level 9：NFT介绍](https://w3er.xyz/posts/web3/freshman-track-9)
 
 ## 介绍
 要开始在 Web3 中构建应用程序，我们需要一些 Web2 的背景知识。web2 中肯定涵盖了许多在 Web3 中非常有用的主题。
@@ -37,7 +37,7 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/freshman.png
 ## 前端技术
 前端是用户与之交互的界面。在网络上，前端是指您可以浏览的网站。移动应用程序和桌面应用程序也是有效前端接口的示例。就本课程而言，我们将专注于 Web，并使用 HTML、CSS 和 Javascript 等 Web 技术开发前端界面。
 
-- [前端开发要点](https://hicoldcat.com/posts/tech-blog/frontend-development-the-essentials/)
+- [前端开发要点](https://w3er.xyz/posts/tech-blog/frontend-development-the-essentials/)
 - [免费学习 Javascript](https://scrimba.com/learn/learnjavascript)
 - [免费学习 React](https://scrimba.com/learn/learnreact)
 
@@ -49,7 +49,7 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/freshman.png
 
 必读：
 
-- [什么是后端？](https://hicoldcat.com/posts/tech-blog/back-end-architecture/)
+- [什么是后端？](https://w3er.xyz/posts/tech-blog/back-end-architecture/)
 - [使用 Node.js 和 Express 构建 API](https://www.freecodecamp.org/learn/back-end-development-and-apis/#basic-node-and-express)
 - [在 Node.js 中构建连接到数据库的 API](https://www.freecodecamp.org/learn/back-end-development-and-apis/#back-end-development-and-apis-projects)
 

@@ -25,8 +25,8 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220703215340
 
 ## 先决条件
 
-- 你可以用JavaScript写代码（[ Level-0 ](https://hicoldcat.com/posts/web3/freshman-track-0/)）。
-- 已经建立了一个Metamask钱包([ Level-4 ](https://hicoldcat.com/posts/web3/freshman-track-4/))
+- 你可以用JavaScript写代码（[ Level-0 ](https://w3er.xyz/posts/web3/freshman-track-0/)）。
+- 已经建立了一个Metamask钱包([ Level-4 ](https://w3er.xyz/posts/web3/freshman-track-4/))
 - 你的电脑已经安装了Node.js。如果没有，请从[这里](https://nodejs.org/en/download/)下载
 
 ## Build

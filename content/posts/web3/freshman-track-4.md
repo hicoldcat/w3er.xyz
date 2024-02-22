@@ -16,16 +16,16 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/freshman.png
 > 翻译：李留白
 
 本文是[learnweb3](https://www.learnweb3.io/)的新手篇，包括：
-- [Level 0：前置基础编程知识](https://hicoldcat.com/posts/web3/freshman-track-0)
-- [Level 1：什么是区块链？](https://hicoldcat.com/posts/web3/freshman-track-1)
-- [Level 2：什么是Web3？](https://hicoldcat.com/posts/web3/freshman-track-2)
-- [Level 3：什么是ETH？](https://hicoldcat.com/posts/web3/freshman-track-3)
-- [Level 4：加密钱包？](https://hicoldcat.com/posts/web3/freshman-track-4)
-- [Level 5：Remix IDE介绍](https://hicoldcat.com/posts/web3/freshman-track-5)
-- [Level 6：Solidity介绍](https://hicoldcat.com/posts/web3/freshman-track-6)
-- [Level 7：dApp介绍](https://hicoldcat.com/posts/web3/freshman-track-7)
-- [Level 8：加密货币(ERC20)简介](https://hicoldcat.com/posts/web3/freshman-track-8)
-- [Level 9：NFT介绍](https://hicoldcat.com/posts/web3/freshman-track-9)
+- [Level 0：前置基础编程知识](https://w3er.xyz/posts/web3/freshman-track-0)
+- [Level 1：什么是区块链？](https://w3er.xyz/posts/web3/freshman-track-1)
+- [Level 2：什么是Web3？](https://w3er.xyz/posts/web3/freshman-track-2)
+- [Level 3：什么是ETH？](https://w3er.xyz/posts/web3/freshman-track-3)
+- [Level 4：加密钱包？](https://w3er.xyz/posts/web3/freshman-track-4)
+- [Level 5：Remix IDE介绍](https://w3er.xyz/posts/web3/freshman-track-5)
+- [Level 6：Solidity介绍](https://w3er.xyz/posts/web3/freshman-track-6)
+- [Level 7：dApp介绍](https://w3er.xyz/posts/web3/freshman-track-7)
+- [Level 8：加密货币(ERC20)简介](https://w3er.xyz/posts/web3/freshman-track-8)
+- [Level 9：NFT介绍](https://w3er.xyz/posts/web3/freshman-track-9)
 
 在本模块中，您将了解什么是加密钱包以及如何下载。🤔
 

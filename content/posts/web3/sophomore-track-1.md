@@ -12,7 +12,7 @@ categories:
 featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220703215340.png
 ---
 
-> 传送门: [WEB3系列教程之新手篇](https://hicoldcat.com/posts/web3/freshman-track-sumary/)
+> 传送门: [WEB3系列教程之新手篇](https://w3er.xyz/posts/web3/freshman-track-sumary/)
 
 在新手课程中，我们建立了一个非常简单的dApp，使用HTML、CSS和一些JavaScript。然而，在现实世界中，这些类型的"vanilla"网站实现已经是过去式了。
 

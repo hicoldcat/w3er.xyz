@@ -19,7 +19,7 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220502151927
 
 原文地址：
 
-[https://hicoldcat.com/posts/blockchain/my-token/](https://hicoldcat.com/posts/blockchain/my-token/)
+[https://w3er.xyz/posts/blockchain/my-token/](https://w3er.xyz/posts/blockchain/my-token/)
 
 ## 1、初始化项目
 > [Hardhat](https://hardhat.org/)是一个编译、部署、测试和调试以太坊应用的开发环境。它可以帮助开发人员管理和自动化构建智能合约和DApps过程中固有的重复性任务，并围绕这一工作流程轻松引入更多功能。这意味着hardhat最核心的地方是编译、运行和测试智能合约。

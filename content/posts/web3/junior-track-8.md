@@ -28,7 +28,7 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/Dcx1zWU(1).png
 
 ## 先决条件
 
-- 你应该已经完成了[IPFS 理论教程](https://hicoldcat.com/posts/web3/junior-track-7/)
+- 你应该已经完成了[IPFS 理论教程](https://w3er.xyz/posts/web3/junior-track-7/)
 
 ## 构建
 

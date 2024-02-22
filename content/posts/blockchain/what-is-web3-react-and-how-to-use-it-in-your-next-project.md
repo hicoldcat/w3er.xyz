@@ -11,7 +11,7 @@ categories:
 featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/202210152125283.png
 ---
 
-到目前为止，您可能已经听说过区块链和 Web3，并且可能想要制作一些去[中心化应用程序 (dApps)](https://hicoldcat.com/posts/blockchain/what-are-dapps-a-comprehensive-guide-to-dapps)来展示您的朋友和社区。
+到目前为止，您可能已经听说过区块链和 Web3，并且可能想要制作一些去[中心化应用程序 (dApps)](https://w3er.xyz/posts/blockchain/what-are-dapps-a-comprehensive-guide-to-dapps)来展示您的朋友和社区。
 
 与普通的 Web 应用程序类似，dApp 也有后端和前端。
 

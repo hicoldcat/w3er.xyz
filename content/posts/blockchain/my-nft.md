@@ -13,7 +13,7 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/pexels-steve-j
 
 > 注意：该项目仅供学习区块链知识，不作为任何投资建议。市场有风险，投资需谨慎。
 
-> 传送门：[区块链入门：在本地网络开发自己的加密数字货币(Token)-傻瓜币(FoolCoin)](https://hicoldcat.com/posts/blockchain/my-token/)
+> 传送门：[区块链入门：在本地网络开发自己的加密数字货币(Token)-傻瓜币(FoolCoin)](https://w3er.xyz/posts/blockchain/my-token/)
 
 本文项目代码：
 
@@ -21,7 +21,7 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/pexels-steve-j
 
 原文地址：
 
-[https://hicoldcat.com/posts/blockchain/my-nft/](https://hicoldcat.com/posts/blockchain/my-nft/)
+[https://w3er.xyz/posts/blockchain/my-nft/](https://w3er.xyz/posts/blockchain/my-nft/)
 
 ## NFT概念
 NFT（Non-Fungible Token），官方学名非同质化代币，区别于同质化代币，表示的是具有不可分割性的数字资产。通俗上来理解，10美元可以拆分为10份，每一份都是1美元，每1份（1美元）都是等价的，这就是同质化代币。而类比于1副画价值10美元，是不可以拆分成10份，每份1美元的。所以NFT就是一个不可分割的数字资产，可以用来作为价值交换的代币，但是只能一个独立的整体存在。
@@ -114,7 +114,7 @@ contract FoolNFT is ERC721, ERC721URIStorage, ERC721Burnable, Ownable {
 ```
 
 ## 节点配置
-> 节点服务商[infura](https://infura.io/)和[Alchemy](https://www.alchemy.com/)的区别，可以看我的另一篇文章《[ALCHEMY VS. INFURA：哪个是最好的区块链节点服务商？](https://hicoldcat.com/posts/blockchain/alchemy-infura/)》
+> 节点服务商[infura](https://infura.io/)和[Alchemy](https://www.alchemy.com/)的区别，可以看我的另一篇文章《[ALCHEMY VS. INFURA：哪个是最好的区块链节点服务商？](https://w3er.xyz/posts/blockchain/alchemy-infura/)》
 
 此次，我们将不使用本地运行一个以太坊节点的方式来部署合约，而是使用[infura](https://infura.io/)节点服务商提供的服务。
 

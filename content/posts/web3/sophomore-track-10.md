@@ -27,7 +27,7 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220703215340
 
 ## 先决条件
 
-- 你必须已经完成了[NFT-Collection的教程](https://hicoldcat.com/posts/web3/sophomore-track-9/)
+- 你必须已经完成了[NFT-Collection的教程](https://w3er.xyz/posts/web3/sophomore-track-9/)
 
 ## 理论
 

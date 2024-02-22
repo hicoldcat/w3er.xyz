@@ -26,7 +26,7 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20220703215340
 让我们开始建造🚀
 
 ## 先决条件
-你应该已经完成​​了[白名单 dApp 教程](https://hicoldcat.com/posts/web3/sophomore-track-8/)
+你应该已经完成​​了[白名单 dApp 教程](https://w3er.xyz/posts/web3/sophomore-track-8/)
 
 ## 理论
 
