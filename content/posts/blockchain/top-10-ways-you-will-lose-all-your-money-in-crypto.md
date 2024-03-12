@@ -4,7 +4,7 @@ description: null
 author: 李留白
 weight: 0
 date: 2024-03-12T13:39:43.215Z
-lastmod: 2024-03-12T14:20:14.950Z
+lastmod: 2024-03-12T14:25:42.326Z
 tags: []
 categories:
     - Web3.0
@@ -12,7 +12,7 @@ featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20240312214404
 ---
 
 >免责声明：观点来自原文作者，与本人无关，文章仅供参考学习，请自行辨别真伪，切勿跟风，风险自担。<br/>
->翻译原文：https://www.blockpit.io/blog/what-is-bitcoin
+>翻译原文：https://tonyob.medium.com/top-10-ways-you-will-lose-all-your-money-in-crypto-68dc3aca2907
 
 ![](https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/20240312214404.png)
 
