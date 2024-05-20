@@ -4,11 +4,11 @@ description: null
 author: 李留白
 weight: 0
 date: 2024-05-12T13:16:52.166Z
-lastmod: 2024-05-12T13:16:55.885Z
+lastmod: 2024-05-20T04:26:22.569Z
 tags: []
 categories:
     - Web3.0
-featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/202405122054764.jpeg
+featuredImage: https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/202405122054764.png
 ---
 
 >免责声明：文章来自外网，观点来自原文作者，文章仅翻译供参考学习，请自行辨别真伪，风险自担。
