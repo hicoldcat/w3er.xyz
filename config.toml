@@ -13,166 +13,215 @@ paginate = 50
 [params]
 version = "0.2.X"
 description = "科技领域自媒体作者，公众号【李留白】作者，全栈开发工程师，关注Web3和AI等领域。"
-keywords = ["AI","Web3", "BlockChain","NFT","Metaverse","DeFi","DAO","Token", "Smart Contarct", "Wallet", "SocialFi", "DApp", "DEX", "News", "Posts"]
+keywords = [
+	"AI",
+	"Web3",
+	"BlockChain",
+	"NFT",
+	"Metaverse",
+	"DeFi",
+	"DAO",
+	"Token",
+	"Smart Contarct",
+	"Wallet",
+	"SocialFi",
+	"DApp",
+	"DEX",
+	"News",
+	"Posts",
+]
 
-  [params.header]
+[params.header]
 
-    [params.header.title]
-			logo = "/images/logo.svg"
-			name = "李留白"
-			pre = ""
-			post = ""
-			typeit = true
+[params.header.title]
+logo = "/images/logo.svg"
+name = "李留白"
+pre = ""
+post = ""
+typeit = true
 
-	[params.footer]
-		enable = true
-		custom = ""
-		hugo = false
-		copyright = true
-		author = true
-		since = 2022
-		license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+[params.footer]
+enable = true
+custom = ""
+hugo = false
+copyright = true
+author = true
+since = 2022
+license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
-  [params.section]
-		paginate = 20
-		dateFormat = "01-02"
-		rss = 20
+[params.section]
+paginate = 20
+dateFormat = "01-02"
+rss = 20
 
-    [params.section.recentlyUpdated]
-			enable = true
-			rss = true
-			days = 30
-			maxCount = 20
+[params.section.recentlyUpdated]
+enable = true
+rss = true
+days = 30
+maxCount = 20
 
-	[params.home]
+[params.home]
 
-    [params.home.profile]
-			enable = true
-			avatarURL = "/images/avatar.jpg"
-			title = "李留白"
-			subtitle = "科技领域自媒体作者，公众号【李留白】作者，全栈开发工程师，关注Web3和AI等领域。"
-			typeit = true
-			social = true
-			disclaimer = ""
-		[params.home.posts]
-			enable = true
-			paginate = 50
-			defaultHiddenFromHomePage = false
+[params.home.profile]
+enable = true
+avatarURL = "/images/avatar.jpg"
+title = "李留白"
+subtitle = "科技领域自媒体作者，公众号【李留白】作者，全栈开发工程师，关注Web3和AI等领域。"
+typeit = true
+social = true
+disclaimer = ""
+[params.home.posts]
+enable = true
+paginate = 50
+defaultHiddenFromHomePage = false
 
+[params.search]
+enable = true
+# 搜索引擎的类型 ("algolia", "fuse")
+type = "fuse"
+# 文章内容最长索引长度
+contentLength = 4000
+# 搜索框的占位提示语
+placeholder = ""
+#  最大结果数目
+maxResultLength = 10
+#  结果内容片段长度
+snippetLength = 50
+#  搜索结果中高亮部分的 HTML 标签
+highlightTag = "em"
+#  是否在搜索索引中使用基于 baseURL 的绝对路径
+absoluteURL = false
+[params.search.algolia]
+index = ""
+appID = ""
+searchKey = ""
+[params.search.fuse]
+#  https://fusejs.io/api/options.html
+isCaseSensitive = false
+minMatchCharLength = 2
+findAllMatches = false
+location = 0
+threshold = 0.3
+distance = 100
+ignoreLocation = false
+useExtendedSearch = false
+ignoreFieldNorm = false
 
-  [params.social]
+[params.social]
 
-    [params.social.GitHub]
-			weight = 0.0
-			id = "hicoldcat"
-			prefix = "https://github.com/"
-			title = "GitHub"
+	[params.social.GitHub]
+	weight = 0.0
+	id = "hicoldcat"
+	prefix = "https://github.com/"
+	title = "GitHub"
 
-    [params.social.Zhihu]
-			weight = 0.0
-			id = "hicoldcat"
-			prefix = "https://www.zhihu.com/people/"
-			title = "李留白"
+	[params.social.Zhihu]
+	weight = 0.0
+	id = "hicoldcat"
+	prefix = "https://www.zhihu.com/people/"
+	title = "李留白"
 
-    [params.social.Email]
-			weight = 0.0
-			id = "hicoldcat@foxmail.com"
-			title = "李留白"
-	
+	[params.social.Email]
+	weight = 0.0
+	id = "hicoldcat@foxmail.com"
+	title = "李留白"
+
 	[params.social.WeiXin]
-			weight = 0.0
-			id = "HZeDT97iL3LML5uD77jhVQ"
-			prefix = "https://mp.weixin.qq.com/s/"
-			title = "李留白"
+	weight = 0.0
+	id = "HZeDT97iL3LML5uD77jhVQ"
+	prefix = "https://mp.weixin.qq.com/s/"
+	title = "李留白"
 
-  [params.page]
+[params.page]
 
-    [params.page.toc]
-			enable = true
-			keepStatic = true
+	[params.page.toc]
+	enable = true
+	keepStatic = true
 
-    [params.page.code]
-			copy = true
-			maxShownLines = 100.0
+	[params.page.code]
+	copy = true
+	maxShownLines = 100.0
 
-    [params.page.share]
-			enable = true
-			Weibo = true
-			Twitter = true
-      Facebook = true
-      Linkedin = false
-      Whatsapp = true
-      Baidu = true
-      Evernote = true
-      Skype = true
+	[params.page.share]
+	enable = true
+	Weibo = true
+	Twitter = true
+	Facebook = true
+	Linkedin = false
+	Whatsapp = true
+	Baidu = true
+	Evernote = true
+	Skype = true
 
-    [params.page.comment]
-			enable = false
+	[params.page.comment]
+	enable = false
 
-      [params.page.comment.disqus]
-				enable = false
-				shortname = "li-liu-bai"
-  
-	 [params.sponsor]
-			enable = true
-			bio = "如果你觉得这篇文章对你有所帮助，欢迎赞赏~"
-			link = "/posts/summary/about-me/#赞赏" # 你的赞赏页面的地址
-			custom = ""
+	[params.page.comment.disqus]
+	enable = false
+	shortname = "li-liu-bai"
 
-	[params.seo]
-    # 图片 URL
-    image = "https://w3er.xyz/images/logo.svg"
-    # 缩略图 URL
-    thumbnailUrl = "https://w3er.xyz/images/logo.svg"
+[params.sponsor]
+enable = true
+bio = "如果你觉得这篇文章对你有所帮助，欢迎赞赏~"
+link = "/posts/summary/about-me/#赞赏" # 你的赞赏页面的地址
+custom = ""
 
-	[markup]
+[params.seo]
+# 图片 URL
+image = "https://w3er.xyz/images/logo.svg"
+# 缩略图 URL
+thumbnailUrl = "https://w3er.xyz/images/logo.svg"
 
-		[markup.highlight]
-			codeFences = true
-			guessSyntax = true
-			lineNos = true
-			lineNumbersInTable = true
-			noClasses = false
+[markup]
 
-		[markup.goldmark]
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = true
+lineNumbersInTable = true
+noClasses = false
 
-			[markup.goldmark.extensions]
-				definitionList = true
-				footnote = true
-				linkify = true
-				strikethrough = true
-				table = true
-				taskList = true
-				typographer = true
+[markup.goldmark]
 
-			[markup.goldmark.renderer]
-				unsafe = true
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
 
-	[author]
-		name = "李留白"
-		email = "hicoldcat@foxmail.com"
-		link = "https://hicoldcat.com/"
-		avatar = "https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/avatar.jpg"
-		gravatarEmail = ""
+[markup.goldmark.renderer]
+unsafe = true
+
+[author]
+name = "李留白"
+email = "hicoldcat@foxmail.com"
+link = "https://hicoldcat.com/"
+avatar = "https://hicoldcat.oss-cn-hangzhou.aliyuncs.com/img/avatar.jpg"
+gravatarEmail = ""
 
 
 [menu]
 
-  [[menu.main]]
-		identifier = "posts"
-		pre = ""
-		post = ""
-		name = "文章"
-		url = "/posts/"
-		title = ""
-		weight = 1.0
+[[menu.main]]
+identifier = "posts"
+pre = ""
+post = ""
+name = "文章"
+url = "/posts/"
+title = ""
+weight = 1.0
 
-  [[menu.main]]
-		identifier = "categories"
-		pre = ""
-		post = ""
-		name = "分类"
-		url = "/categories/"
-		title = ""
-		weight = 3.0
+#   [[menu.main]]
+# 		identifier = "categories"
+# 		pre = ""
+# 		post = ""
+# 		name = "分类"
+# 		url = "/categories/"
+# 		title = ""
+# 		weight = 3.0
 
+[outputs]
+home = ["HTML", "RSS", "JSON"]
