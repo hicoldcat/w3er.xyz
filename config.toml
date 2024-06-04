@@ -75,37 +75,39 @@ enable = true
 paginate = 50
 defaultHiddenFromHomePage = false
 
-[params.search]
-enable = true
-# 搜索引擎的类型 ("algolia", "fuse")
-type = "fuse"
-# 文章内容最长索引长度
-contentLength = 4000
-# 搜索框的占位提示语
-placeholder = ""
-#  最大结果数目
-maxResultLength = 10
-#  结果内容片段长度
-snippetLength = 50
-#  搜索结果中高亮部分的 HTML 标签
-highlightTag = "em"
-#  是否在搜索索引中使用基于 baseURL 的绝对路径
-absoluteURL = false
-[params.search.algolia]
-index = ""
-appID = ""
-searchKey = ""
-[params.search.fuse]
-#  https://fusejs.io/api/options.html
-isCaseSensitive = false
-minMatchCharLength = 2
-findAllMatches = false
-location = 0
-threshold = 0.3
-distance = 100
-ignoreLocation = false
-useExtendedSearch = false
-ignoreFieldNorm = false
+	[params.search]
+	enable = true
+	# 搜索引擎的类型 ("algolia", "fuse")
+	type = "algolia"
+	# 文章内容最长索引长度
+	contentLength = 4000
+	# 搜索框的占位提示语
+	placeholder = ""
+	#  最大结果数目
+	maxResultLength = 10
+	#  结果内容片段长度
+	snippetLength = 50
+	#  搜索结果中高亮部分的 HTML 标签
+	highlightTag = "em"
+	#  是否在搜索索引中使用基于 baseURL 的绝对路径
+	absoluteURL = false
+
+	[params.search.algolia]
+	index = "w3er"
+	appID = "Z4ZSJ120FE"
+	searchKey = "aed0df308ff432bafd05c54e176f818c"
+
+	[params.search.fuse]
+	#  https://fusejs.io/api/options.html
+	isCaseSensitive = false
+	minMatchCharLength = 2
+	findAllMatches = false
+	location = 0
+	threshold = 0.3
+	distance = 100
+	ignoreLocation = false
+	useExtendedSearch = false
+	ignoreFieldNorm = false
 
 [params.social]
 
