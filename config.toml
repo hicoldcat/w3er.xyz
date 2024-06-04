@@ -95,7 +95,7 @@ defaultHiddenFromHomePage = false
 	[params.search.algolia]
 	index = "w3er"
 	appID = "Z4ZSJ120FE"
-	searchKey = "aed0df308ff432bafd05c54e176f818c"
+	searchKey = "dc92649d79ce72eebdd816f3af28d323"
 
 	[params.search.fuse]
 	#  https://fusejs.io/api/options.html
